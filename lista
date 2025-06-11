@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>title</title>
+</head>
+<body>
+    <p> Lorem ipsum dolor sit amet </p>
+  <ul>
+    <LI> erat tempor consetetur dolor facer nomolestie kasd</LI>
+    <li>dolores ex ea ipsum labore est</li>
+    <li>et quod sed dolores adipiscing no diam</li>
+
+  </ul>  
+  <p> Lorem ipsum dolor sit amet </p>
+  <ol>
+    <li>erat tempor consetetur dolor facer nomolestie kasd  </li>
+    <li>dolores ex ea ipsum labore est </li>
+    <li>et quod sed dolores adipiscing no diam </li>
+  </ol>
+</body>
+</html>
