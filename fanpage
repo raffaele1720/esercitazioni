@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fanpage.it - Protesta taxi a Napoli</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            
+            padding:0;
+            background-color: #d9dde4;
+            color: #131212;}
+            
+            img{width:100%;
+                height:50%;
+                
+            }
+                   
+          span{text-decoration:underline red;}
+        .c{color:rgb(62, 68, 68)}
+              
+   
+
+         
+</style>
+</head>
+<body>
+
+    <div="header">
+        <span><strong> Fanpage.it, fai rumore con noi</strong></span>
+        </span>
+    </div>
+ <div> A cura di <strong>vincenzo Cimmino</strong></div>
+    <img src="https://www.ansa.it/webimages/img_700/2025/6/25/a8e56adff723a06723b08be95e89a96e.jpg ">
+    <p class="c"> immagine di repertorio</p>
+     
+    
+<p>Via i posteggi, scatta la protesta. Nel cuore di <strong>Napoli</strong>, in uno <br> dei suoi luoghi più turistici.Oggetto della contesa il<br> <strong> per taxi in piazza del Gesù</strong> L'amministrazione a <br>guida <strong>Manfredi</strong>, dopo anni, decide di spostarlo in <strong>Calata<br> Trinità Maggiore</strong> ma i tassisti non ci stanno. La loro <br> contestazione non si è fatta attendere e <strong>25 giugno</strong><br>
+     hanno deciso di manifestare all'ombra della guglia<br> dell'Immacolata, tra la basilica di Santa Chiara e la chiesa del <br> Gesù nuovo. Per i rappresentanti sindacali scesi in strada per<br> rimarcare il disaccordo, la delocalizzazione comporterebbe<br> <strong>Maggiore disagio agli autisti e ai clienti</strong>  e ai clienti.</p> 
+</body>
+</html>
