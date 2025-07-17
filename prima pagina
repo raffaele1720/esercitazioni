@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+body{font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: rgb(196, 199, 202);
+    padding: 3%;
+}
+ .contenitore1 img{width: 50%;
+                height: 150px;border-radius: 12px;} 
+.contenitore1  {background-color: rgb(220, 228, 228); border: 2px solid rgb(189, 178, 178);
+                border-radius: 12px;
+                 padding: 0;
+                 margin: 3%;
+                }
+.contenitore1 p{width: 50%;float:left;
+}
+.contenitore2 {background-color: rgb(220, 228, 228); border: 2px solid rgb(189,178, 178);
+                border-radius: 12px;
+                 padding:0px;
+                 margin: 3%;
+                }
+
+.contenitore2 p{width: 40%; height:50% ; float:right;
+}
+.contenitore2 img{width:60%;height: 150px;border-radius: 12px;
+}
+.contenitore4 {background-color:rgb(220,228%,228%); border: 2px solid rgb(165, 97, 33);
+             border-radius:12px;
+              width: 45%;
+              margin: 3%; 
+              float:left;
+        
+             }
+             
+         
+
+</style>
+</head>
+<body>
+     <title>prima pagina</title>
+<div class="contenitore1">
+     <p><strong>
+        si getta dalla finestra a milano, in casa  trovato il cadavere delle madre:si ipnotizza omicidio-suicidio 
+
+     </strong></p>
+    
+     <img src="https://lh4.googleusercontent.com/proxy/6GYZBPI9o9TaEP3IKHHL9DzfXnt0a2r7Y3knhTkVp-rEv449Jj97LOIqJWUzriPz72_coLOiIDGiCq_h-R8MBq5cUOGusIUIlQVW0tKlQT2nhyRbFpvoNw">
+</div>
+<div class="contenitore2">
+   
+ 
+    
+    <p> <strong>ondatata di attacchi Russi su Kiev:due morti e decine di feriti. Cresce la tensione tra Trump e Putin
+                                                                                
+    </strong></p>
+   <img src="https://static.euronews.com/articles/stories/09/10/16/82/808x608_cmsv2_b2d2ecc8-4d54-5304-9912-7c2bc2f22b8b-9101682.jpg">
+
+    
+</div>
+<div class="contenitore4">
+    
+<p> <b> Il generarale battisti:"La Russia vuole logorare l'ucraina 
+    Zelensky?Gli consiglierei  la ritirata tattica </b></p>
+   
+    
+</div>
+    </body>
+   
+</html>
