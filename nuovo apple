@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+   
+   * {box-sizing: border-box;}
+        
+                            
+
+
+body {font-style:italic;font-size: medium;background-color: rgb(223, 220, 218);
+        margin: 0px;
+        padding: 0px;}
+
+
+li    {list-style-type: none;
+       display: inline;
+        padding: 7px;
+        left: 1px;
+        
+      }
+      
+      
+      li a{  text-decoration: none;
+            text-transform: uppercase;
+        color: black;}   
+           
+     header{ background-color: rgb(120, 120, 117)4 ;
+               width:100%;
+                height:50px;
+                padding: 1px    ;
+                margin:0px;
+                margin-left: 0%;}
+         
+                .d img{position:relative;
+                      overflow: auto;
+                      border-radius: 14px;
+                     width: 100%;
+                                          
+                                      
+                                   }         
+                
+     .contenitore { overflow: hidden;
+                     padding:2px;
+                     overflow:auto;
+                   display: flex;
+                    position:relative;  } 
+                  
+                
+        .contenitore img{width: 50%;            
+                        padding:5px;} 
+                       
+                    
+                   
+    
+
+                     
+              
+                    
+
+                
+    
+                
+                
+                .contenitore1{display: flex;
+                              padding:5px;
+                              position: relative;
+                              gap:5px;
+                              }
+                          
+                             
+            .contenitore1  img{ width: 50%;
+                             padding:3px;
+                             
+                            }
+
+                            
+                            
+             .contenitore3 img{overflow:auto;
+                              width: 100%;                         
+                            
+                            
+                            } 
+            .contenitore3{display:grid;
+                        padding-top:5px;
+                        position:relative;
+                        background-image: url("https://i.ibb.co/RLZYvyH/photo-1510557880182-3d4d3cba35a5.jpg" ); 
+                     
+                       background-position: center;
+                         border-radius: 12px;
+                          height: 370px;width:50%
+                           
+                        ;}
+           
+           
+          
+    
+       
+            .box1 h4{font-size:medium; color: rgb(22, 21, 21);
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+            
+                text-transform: uppercase;
+                            text-transform: none;
+                            text-shadow: 2px 2px #7f7272;;
+                             right:50%;
+                             display:inline
+                            ;}
+                            
+                            
+                            
+              .box1 h3{color: black;
+                       left: 49%;}
+                             
+           .box1 button{color:rgb(29, 27, 27);
+                        border-radius:12px;
+                         padding:10px;
+                         background-color:lightskyblue;
+                         border:none;
+                         margin-left: 5px;
+							           cursor:pointer; }   
+                           
+                        
+              .hover{transition:background-color:orange;
+                                display:inline block;}
+                                 
+                                           
+                 
+               
+                                           
+                                       
+        
+
+                    
+                                    
+                                     
+                                               
+           
+                      
+                     
+                        
+                            
+                            
+              
+                               
+                               
+           
+
+                                   
+                              
+                     
+                
+         
+
+                    
+                  
+                                                                                
+                                     
+                                  
+                </style>
+         
+        
+
+
+</head>
+
+    <body>
+        <header>
+        <ul>
+            <li> <img src="https://media.istockphoto.com/id/938027004/it/vettoriale/simbolo-di-mela-silhouette-nera-isolata-su-bianco-icona-contorno-vettoriale.jpg?s=612x612&w=0&k=20&c=YBmuV4wBXF5Ckbtpnr9IVoHwtzfxMfX1B1HXGZWMr3k=" width="20px"></li>
+            <li><a href="#">store</a></li>
+             <li><a href="#">mac</a></li>
+              <li><a href="#">ipad</a></li>
+               <li><a href="#">iphone</a></li>
+                <li><a href="#">watch</a></li>
+                 <li><a href="#">AirPods</a></li>
+                 <li><a href="#">Tv&casa</a></li>
+                 <li><a href="#">intrattenimento</a></li>
+                 <li><a href="#">accessori</a></li>
+                <li><a href="#">supporto</a></li>
+                <li><a href="#"><button>registrazione</button></a></li>
+                <li><a href="#"><button>login</button></a></li>
+</ul>
+
+         </header>
+         <div class="d"> 
+            <img src="https://i.ibb.co/C5vwv7xm/photo3.jpg" alt="photo3"></div>
+
+<div class="contenitore">
+      <img src="https://i.ibb.co/3YsgL5n0/450-1000.webp" </a>
+      <img src="https://i.ibb.co/wZkjYSQq/modal-packaging-f3bxbn2li3ma-large.jpg" </a>
+</div>
+  
+<div class="contenitore1">
+       <img src="https://i.ibb.co/S4cD2qCm/apple-intelligenza-artificiale.webp" alt="apple-intelligenza-artificiale"</a>
+       <img src="https://i.ibb.co/1GbqKRYL/640x360.jpg" alt="640x360"</a>
+        </div>
+
+
+       
+        
+
+
+</div> 
+
+<div class="contenitore3">
+           
+     
+      
+            
+</div>
+  <div class="box1">
+    <div class="text1">
+    <div class="card-testo" style="margin-top: -10px ;">
+       <h4>AQUISTA</h4> 
+       <h3>ILTUO IPHONE</h3>
+       <a href="#"><button>AQUISTA</button></a>    <a href="#"><button>AQUISTA</button></a>
+  </div>
+    </div>  
+            </div>
+             
+
+
+</body>
+
+
+</html>
