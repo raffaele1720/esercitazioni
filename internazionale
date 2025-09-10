@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>internazionale</title>
+     
+    <style>
+        
+
+           * {box-sizing: border-box;}
+
+
+        body{background:black;
+        margin: 0;
+        padding: 0;
+font-style: normal;
+font-size: medium;
+
+        }
+
+        
+        
+        .contenitore{display: grid;
+            grid-template-columns: 1fr 2fr;
+            overflow: auto;
+           gap: 2px;}
+             
+            
+           
+        .a{
+        background-image: url("https://media.inter.it/mp4/im/Share_Cover.jpg");
+        
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-color:yellow;
+        border-style:solid ;
+        overflow: auto;
+      
+        }
+        
+        .b{
+            background-image:url("https://intermilan.bynder.com/transform/555b8118-03d1-488e-924e-abdea9df3274/8256x4644?quality=60&io=transform:fill,width:1136,height:640&format=webp");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-color: yellow;
+            border-style:solid;
+        overflow: auto;}
+          
+
+            
+            .b h1{color: white;
+            text-align: center;
+            font-weight: bolder;
+            margin-bottom:20px;
+            font-size: xx-large;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px #000000;
+           padding-top: 15%;
+            
+           
+        }
+        
+        .d{
+            background-image:url("https://i.ibb.co/s9vdv4RQ/67bdad8e88f92-r-d-2089-976-3345.jpg");
+            background-size:cover;
+              background-repeat:no-repeat;
+              overflow: auto;
+               border-color: yellow;
+    border-style: solid;
+
+    
+            }
+            
+            .d h1{color:white;
+            text-align: center;
+            font-weight: bolder;
+            text-shadow:2px 2px 4px #000000;
+          font-size: xx-large;
+           margin-top:15%;
+            text-transform: uppercase;}
+
+            
+            .d button{background-color: white;
+                      color: black;
+                     font-weight: bold;
+                     border: none;
+                     border-radius: 12px;
+                      padding: 12px;
+                      cursor: pointer;
+                      margin-left:47%;
+                                    }
+
+            .d button:hover{background-color: lightgray;}
+            
+            
+    .e{
+    background-image: url("https://i.ibb.co/d4qtS1SS/depositphotos-268568986-stock-illustration-champions-league-europe-official-logo.webp");
+/* Alt text: UEFA Champions League logo featuring a stylized football made of white stars above the words UEFA Champions League on a dark blue gradient background, conveying a prestigious and official atmosphere */
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+    border-color: yellow;
+    border-style: solid;
+	margin-bottom:auto;
+   
+    }
+    .e h1{color: white;
+        text-align: center;
+        font-weight: bolder;
+        text-shadow: 2px 2px 4px #000000;
+        font-size: xx-large;
+        text-transform: uppercase;
+        font-style:normal;
+       }
+        
+  
+    
+               .f{background-image: url("https://www.creativefabrica.com/wp-content/uploads/2021/03/04/San-Siro-Stadium-in-Milan-Graphics-9206216-1-1-580x387.png");
+                background-size: cover;
+                background-position: center;
+                height: 500px;
+                width: 100%;
+                overflow: auto;
+                border-color: yellow;
+                border-style: solid;
+                }
+                
+                .f h1{color: white;
+                    text-align: center;
+                    font-weight: bolder;
+                    text-shadow: 2px 2px 4px #000000;
+                    font-size: xx-large;
+                    text-transform: uppercase;
+                    font-style:normal;
+                   }
+
+                   .f button{background-color: white;
+               color:black;
+               padding: 12px;
+               border:none;
+               border-radius:12px;
+               font-style:normal;
+                font-weight:bold;
+                cursor:pointer;
+                margin-left:35%;
+                text-transform:uppercase;
+    }
+
+    .f button:hover{background-color: lightgray;
+                    }
+            
+
+.img{background-image:url("https://i.ibb.co/d47drfg9/inter-store-castello-2.webp") ;
+
+background-size: cover;
+background-repeat:no-repeat;
+width:100%;
+height:650px;
+overflow:auto;
+
+border-color: yellow;
+border-style: solid;
+}
+
+
+
+.img h1{color: white;
+        text-align: center;
+        font-weight: bolder;
+        text-shadow: 2px 2px 4px #000000;
+        font-size: xx-large;
+        text-transform: uppercase;
+        font-style:xx-large;
+       margin-top:3%;
+       }	            
+		 
+       .img button{padding:12px;
+              background-color:rgb(244, 247, 248);
+                border:none;
+                color:black;
+                font-weight:bold;
+                cursor:pointer;
+                text-transform: uppercase;
+                margin-left: 46%;
+                border-radius:12px;
+           
+           }
+         .img button:hover{background-color: lightgray;}
+     
+
+   
+   .contenitore1{display:flex;
+          
+                gap: 3px;
+                padding:0%;
+                 overflow:auto;
+                }
+             
+               
+              
+   
+                .g {
+                    background-image: url("https://i.ibb.co/h1KvGxjJ/inter-chivu-imago-copertina-1-1-1250x703.webp");
+                
+                    background-size: cover;
+                height: 400px;
+                overflow: auto;
+                 width: 100%;}
+                 
+                    
+                .g h1{color:white;
+                    text-align:center;
+                    font-weight:bolder;
+                    text-shadow:2px 2px 4px #000000;
+                    font-size: xx-large;
+                    text-transform: uppercase;
+                    margin-top:45%;
+                   
+                    }
+             
+   
+.h{background-image: url("https://i.ibb.co/fGX5hL7m/081339622-fa2f425c-3d85-4e39-af58-0f14a34b6793.jpg");
+background-repeat: no-repeat;
+   background-size: cover;
+     height: 400px;
+     width: 100%;
+     overflow:auto;}
+
+.h h1{color:white;
+      text-align:center;
+      font-weight:bolder;
+      text-shadow:2px 2px 4px #000000;
+      font-size: xx-large;
+      text-transform: uppercase;
+      margin-top:45%;}
+      
+
+
+   li a{text-transform: uppercase;
+        text-decoration: none;
+    color:white}
+
+    .contenitore2{color:rgb(245, 240, 240);
+                  }
+
+
+
+ @media only screen and (max-width:380px) {
+
+  .contenitore {dispay:grid;
+             grid-template-columns: 1fr;
+            gap: 2px;
+        overflow: auto;}
+
+        .a{  grid-column: 1 / 2;
+             grid-row: 1 / 2;
+                   height: 250px;}
+
+                   .b{grid-column:1/2;
+                       grid-row:2/3;}
+
+
+           .c{grid-column:1/2;
+                       grid-row:3/4;}
+
+                    .d{grid-column:1/2;
+                       grid-row:4/5;}
+
+                       .e{grid-column:1/2;
+                       grid-row:5/6;}
+
+                       .f{grid-column:1/2;
+                       grid-row:6/7;}
+.contenitore1{display: flex;
+ gap: 3px;
+overflow: auto;}
+                      .g {flex-wrap:1/1;
+                       flex-grow:1/1;}
+                       
+
+
+
+                    
+
+
+</style>
+
+
+
+
+
+
+
+<body>
+    <header>
+<div class="contenitore">
+    <div class="a"></div>
+    <div class="b">
+        <h1>calendario internazionale</h1>
+         </div>
+    <div class="c">
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/_EX91WMED0Y?si=1v7Rdg6ldWa-NfDf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ </iframe>
+    </div>
+    <div class="d">
+        <h1>Iscriviti alla nostra societa'</h1>
+        <button>iscriviti ora</button>
+          </div>
+    <div class="e">
+    <h1>compra i biglietti per la prossima partita</h1>
+    
+    
+    
+    </div>
+<div class="f">
+   
+<h1>inter-milan ore 20:45</h1>
+<button>compra ora il tuo biglietto</button>
+</div>
+</div>
+
+<div class="img">
+<h1>compra dallo store dell'Inter</h1>
+<button>vai allo store</button>
+</div>
+
+<div class="contenitore1">
+<div class="g">
+    <h1>ultime notizie</h1>
+</div>
+<div class="h">
+    
+
+</div>
+    </div>
+ <div class="contenitore2">
+<h1>Biglietteria</h1>
+ <li><a href="https://maps.app.goo.gl/77q8WfJUowKh6FAw8">punti vendita</a></li>
+  <li><a href="https://maps.app.goo.gl/97UL123HVeHtujYy6">stadio</a></li>
+   <li><a href="#">abbonamenti</a></li>
+    <li><a href="#">parcheggi</a></li>
+     <li><a href="#">faq</a></li>
+     <li><a href="#">condizioni generali abbonamento</a></li>
+    <li><a href="#">conttataci</a></li>
+
+ </div>
+
+
+
+
+
+    </header>
+</body>
+</html>
