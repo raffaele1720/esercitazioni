@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="bootsrap/bootstrap.css">
+ <link href="custom.css" rel ="stylesheet">
+ 
+ <style>
+    
+    body {
+      background: rgb(240, 237, 237);
+      padding: 0%;
+      margin: 0%;
+      font-size: large; 
+      font-style: italic;
+    }
+    
+    * { box-sizing: border-box; }
+
+    .a {
+      background-image: url("https://i.ibb.co/hFWm61Jd/venezia2-big.jpg");
+      
+      
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 670px;
+      width: 100%;
+    }
+       H1{color:darkgoldenrod;
+        font-size:1500%;
+        font-style:medium;
+        font-weight: bolder;
+        margin-bottom:10%;
+        text-align: center;
+        padding-top:200px;
+        text-shadow: 2px 2px 4px #141313;
+        overflow: hidden;
+      }
+
+
+      .b ul{color: #dcd8d8;
+          margin:3%;
+        } 
+        
+       .b li a {color: rgb(184, 178, 178);
+        text-decoration: none;
+      text-transform:uppercase;
+    font-weight:bolder;}
+    
+   .b li a:hover{color:rgb(249, 242, 242) ;
+    cursor:pointer;
+
+    transition: 0.3s;}
+
+
+    .b li{display: inline;
+          padding: 0%;
+          margin-left: 15%;}
+    
+.b li:hover{background-color: rgb(196, 190, 190);
+    color: rgb(15, 14, 14);
+    padding: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    
+    transition: 0.3s;}
+
+    .c{color:rgb(15, 15, 15);
+                font-size:xx-large;
+                  padding:2px;
+                text-align: center;
+                 font-weight:bolder;}
+                
+             
+
+
+
+.c{background-image: url("https://i.ibb.co/wq7Jznj/landscape-graphic-mountains-vector-quality-260nw-2195444117.webp");
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center;
+              height: 300px;
+              width: 100%;
+              color: rgb(15, 15, 15);
+              font-size: xx-large;
+              padding: 2px;
+              text-align: center;
+              font-weight: bolder;
+              padding-top: 55px;}
+                          
+                
+  
+
+
+
+
+
+
+.d h1{color:#171616;
+        font-size:xxx-large;
+         padding:2%;
+        font-weight: bolder;
+         text-align:center;
+        }
+
+
+     .d button{background-color:white;
+        color:#141313;
+        border-radius: 12px;
+        border: 1px solid transparent;
+        padding: 25px;
+        font-weight:bolder;
+        cursor:pointer;
+        width: 70%;
+        text-align:start;
+        margin-left: 13%;
+       border-color: rgb(12, 223, 223);
+       border: 2px solid rgb(12, 223, 223);
+       font-size: x-large;
+       text-transform: uppercase;
+        box-shadow: 0 3px #999;
+        
+        position:absolute;
+       bottom: -610px;
+        ;
+
+
+
+       }
+
+       .d button:hover{background-color: rgb(223, 227, 227);
+                      }
+
+                                
+        .contenitore1{ 
+   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 6px;
+   
+}
+                        
+
+
+            .ROMA{background-image:url("https://i.ibb.co/hxbhB7Hk/fontana-trevi-roma-uai-1035x828.jpg");
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center;
+              height: 250px;
+               padding-left:3%;
+               border-top-left-radius:12px;
+               border-top-right-radius:12px;
+               
+            
+            
+             
+            }
+            .ROMA h2{color: #141313;
+            padding-top: 249px;}
+            
+            .VENEZIA{background-image:url("https://i.ibb.co/LzZ2vZmD/Venezia-gondola.jpg");
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center;
+            height:250px;
+           border-top-left-radius:12px;
+               border-top-right-radius:12px;
+            
+          }
+
+            .VENEZIA h2{padding-top: 249px;
+              }
+             
+            .FIRENZE{background-image:url("https://i.ibb.co/kv5fXNG/Firenze-piazza-san-giovanni-e-piazza-del-duomo-durante-il-lockdown-2020.jpg");
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center;
+            border-top-left-radius:12px;
+               border-top-right-radius:12px;
+              height: 250px;
+             
+            }
+
+            .FIRENZE h2{padding-top: 249px;
+             }
+            
+            .NAPOLI{background-image:url("https://i.ibb.co/SXLQybMg/Adobe-Stock-167806246-1500x1000.jpg");
+             padding-top :250px;
+              background-size:cover;
+               background-repeat:no-repeat;
+              height: 50px;
+            margin-top:73px ;
+             padding-left:3%;
+              border-top-left-radius:12px;
+               border-top-right-radius:12px;
+     
+          }  
+           
+          .BARI{background-image:url("https://i.ibb.co/jkjvP6HP/Adobe-Stock-263685118.jpg");
+              background-size: cover;
+              background-repeat: no-repeat;
+              padding-top:250px;
+              height:50px;
+              margin-top:73px;
+               border-top-left-radius:12px;
+               border-top-right-radius:12px;
+              
+
+      }      
+          .SICILIA{background-image:url("https://i.ibb.co/LdPpZ39q/1600-X1000-luoghi-insoliti-taormina-5.webp");
+                    background-size: cover;
+                    background-repeat:no-repeat;
+                    padding-top: 250PX;
+                    margin-top:73px;
+                    height: 50px;
+                     border-top-left-radius:12px;
+               border-top-right-radius:12px;
+                    
+                  }
+
+                  
+                  
+                  
+                  .vaticano{background-image:url("https://www.vooila.com/efiles/capitali_europee/citta-del-vaticano-san-pietro.jpg" );
+               border-radius:12px;
+                  background-position:center;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                   
+                  left: 10%;
+                  position:absolute;
+                  bottom: -1700px;
+                  right:10%;
+                  height: 150px;
+                  }
+                  
+                  
+                  
+                  
+                     .vaticano button{background-color:transparent;
+                                 color: rgb(246, 241, 241);
+                                 font-style: italic;
+                                 font-weight:bolder;
+                                 border-radius:12px;
+                                 margin-left:29px;
+                                 cursor:pointer;
+                                 border-color:white;
+                                 }         
+
+                        
+                        
+                            .vaticano h2 {color:rgb(244, 241, 241);
+                                               padding-top:20px;
+                                               text-shadow:2px 2px 4px grey;
+                                               padding-left:5px;
+                                               }
+ 
+
+
+
+                                              
+                        
+                  
+            
+
+
+                                 
+                             
+                                  
+                             
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         </style>
+                           
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+                           
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">ITALIA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label=" navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">DOVE ANDARE</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          COSA FARE
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">PIANIFICA IL TUO VIAGGIO</a></li>
+            <li><a class="dropdown-item" href="#">INFORMAZIONI</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">GUIDA TURISTICA</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">EVENTI</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-secondary" type="submit">RICERCA</button>
+      </form>
+    </div>
+  </div>
+</nav>
+      <div class="a">
+<h1>ITALIA</h1>
+      
+</div>
+<div class="contenitore">
+<div class="b">
+    <ul>
+      <li><a href="#">REGIONI</a></li>
+      <li><a href="#">BORGHI</a></li>
+      <li><a href="#">CULTURA</a></li>
+      <li><a href="#">GIUBILEO</a></li>
+    </ul>
+    <div class="c"> 
+      <p>Paesaggi che tolgono il fiato, una ricca storia e tanto<br> cibo delizioso renderanno indimenticabile il tuo<br> viaggio in Italia.</p>
+     
+    </div>
+  </div>
+
+    <div class="d">
+      <h1>Esplora con noi le migliori soluzioni per il tuo viaggio</h1>
+<button>cerca la tua destinazione</button>
+
+    </div>
+  </div>
+  <div class="contenitore1">
+    <div class="ROMA">
+     
+      <h2>ROMA</h2>
+      <p>Scopri la storia antica e l'arte rinascimentale di Roma, la Città Eterna, con il Colosseo, il Vaticano e le piazze iconiche.</p>
+    </div>
+    <div class="VENEZIA">
+       <h2>VENEZIA</h2>
+      <p>Esplora i canali romantici di Venezia, ammira l'architettura unica e immergiti nell'atmosfera magica di questa città galleggiante.</p>
+    </div>
+    <div class="FIRENZE">
+ 
+      <h2>FIRENZE</h2>
+      <p>Visita Firenze, culla del Rinascimento, con i suoi capolavori artistici, la cattedrale di Santa Maria del Fiore e le gallerie d'arte famose.</p>
+    </div>
+    <div class="NAPOLI">
+      <h2>NAPOLI</h2>
+      <p>Una città viva, multicolore e ricca di sapori, con una storia millenaria che ha visto alternarsi regni e dominazioni, capace di mostrare la sua vera anima anche in soli due giorni.</p>
+    </div>
+    <div class="BARI">
+     <h2>BARI</h2>
+     <P>Luogo per eccellenza in cui le tradizioni e i sapori intensi vivono nella loro espressione più genuina, Bari ha un lungomare da togliere il fiato e una città vecchia a dir poco suggestiva. Culla d'arte e di storia è davvero impossibile non amarla già dal primo incontro, desiderando già il prossimo.</P>
+    </div>
+    <div class="SICILIA">
+      <h2>TAORMINA</h2>
+      <p>Sospesa tra il mare e il Monte Tauro, Taormina è una terrazza naturale a picco sullo Ionio che rappresenta un sogno per qualsiasi turista.
+    </div>
+     </div>
+    <div class="vaticano">
+        <h2>GIUBILEO 2025</h2>
+       <button>Scopri di piu'</button>
+
+     </div>
+    </div>
+    
+ 
+
+ 
+</head>
+<body>
+
+ 
+
+
+
+
+
+<script src="bootsrap/bootstrap.bundle.js"></script>
+
+</body>
+</html>
