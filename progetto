@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+     *{box-sizing: border-box;}
+     
+     body{margin:0%;
+    padding: 0%;
+font-size: medium;
+font-style:normal;}
+
+.prima{background:red;
+width: 100%;
+height: 60px;
+
+
+}
+
+
+
+ul{text-align:center;
+  padding: 10px;
+  position:relative;
+  margin-top:-4%;
+  padding-left: 35px;
+
+  
+
+    } 
+    
+    li{
+    	list-style-type: none;
+	display: inline;
+	
+	margin-left:4%;
+  
+  
+}
+
+
+li a{text-decoration: none;
+text-transform: uppercase;
+color: rgb(243, 235, 235);
+}
+
+
+
+.logo{color: rgb(20, 20, 20);
+font-weight:bolder;
+font-size:xx-large;
+
+}
+
+
+.foto1{background-image:url("https://i.ibb.co/60bnGNn8/Men-Gym-Workout-Hands-606879-1920x1080.jpg");
+      width:100%;
+      height: 669px;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+    
+    
+
+.foto1 p {font-weight:bolder ;
+          font-size: xx-large;
+color: rgb(243, 235, 235);
+padding-top: 500px;
+padding-left:100px;
+letter-spacing:2px ;
+word-spacing: -5px;
+line-height:1. ;
+
+}
+
+
+
+.foto1 button{background-color: transparent;
+               margin-left:75%;
+              margin-top:-65PX;
+                border-radius: 12px;
+                color:white;
+                padding:6px;
+              border-color:rgb(236, 230, 230);
+              font-weight: bold;
+              position:absolute;
+
+
+            }
+    
+            
+            
+            
+         
+            .contenitore { display: grid;
+               grid-template-columns: repeat(2, 1fr);
+               grid-template-rows: repeat(1, 1fr);
+               gap: 15px;
+               background-color: black;
+               margin-bottom: 40px;
+              
+                          }
+    
+
+                          
+                        
+                        .a p {font-size:xx-large;
+                        color: rgb(246, 242, 242);
+                      font-weight: bolder;
+                    text-transform: uppercase;
+                  padding: 10px;
+                margin-top:33px ;
+                }
+
+                
+                .b p {color: white;
+                     padding: 10px;
+                margin-top:40px ;}
+               
+                
+                .c {background-image:url("https://i.ibb./1Jsk0cMw/depositphotos-203568404-stock-photo-man-during-exercises-in-the.webp");
+                  background-repeat: no-repeat;
+                   background-size: cover;
+                 
+                   position: absolute;
+                   padding: 100px; 
+                  width:100%;
+                  height:500px ;}
+    </style>
+    
+   
+
+  </head>
+   <body>
+    
+ 
+      
+      <div class="prima pagina">
+        <div class="logo">
+          <p>Fitness  creation</p>
+
+
+        </div>
+        <ul>
+          <li><a href="#">chi siamo</a></li>
+          <li><a href="#">programma</a></li>
+          <li><a href="#">lavora con noi</a></li>
+          <li><a href="#">consulenza</a></li>
+          <li><a href="#">contatti</a></li>
+          <li><a href="#">corsi e abbonamento</a></li>
+          <li><a href="#">sedi</a></li>
+
+
+
+
+        </ul>
+
+      </div>
+<div class="foto1">
+  
+  
+  <p>ALLENATI<br> QUANDO VUOI<br>TU.</p>
+  <button>Iscriviti alla nostra palestra</button>
+</div>
+<div class="contenitore">
+  <div class="a">
+   <p>SIAMO UNA PALESTRA DI ECCELLENZA, DEDICATA A OFFRIRE SALUTE E BENESSERE A PREZZI ACCESSIBILI.</p> 
+  </div>
+  <div class="b">
+    <p>Klipsan Fitness è una palestra che ti accoglie per come sei e ti spinge a fare del tuo meglio. Il nostro abbonamento offre programmi sia digitali che in-club per aiutarti a raggiungere i tuoi obiettivi di fitness. Scopri tutte le offerte del nostro club qui sotto.</p>
+  </div>
+
+<div class="c">
+
+</div>
+
+
+
+  
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  
+  </body>
+
+
+
+
+
+</html>
