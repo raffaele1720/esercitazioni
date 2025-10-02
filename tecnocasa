@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="bootsrap/bootstrap.css">
+    <link rel="custom.css" rel="stylesheet">
+
+    <style>
+
+           * {box-sizing: border-box;}
+
+
+        body{background:rgb(239, 237, 237);
+        margin: 0;
+        padding: 0;
+font-style: normal;
+font-size: medium;}
+ 
+
+
+
+
+
+
+.a{background-image:url("https://i.ibb.co/B2GkhVCj/Tecnocasa-Group.jpg");
+                        width:100%;
+                        height: 450px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        border:solid;
+                        
+}
+
+h1{padding: 12px;}
+
+
+.b button{border-radius:8px;
+	padding: 8px;
+
+	border:none;
+	color:rgb(240, 239, 245);
+	background-color:rgb(13, 92, 152);
+	text-shadow:gray 1px 1px 2px;
+	left:69%;
+	position:relative;
+	top: 3px;
+  
+	cursor: pointer;}
+
+.c  button{border-radius:8px;
+	padding: 8px;
+
+	border:none;
+	color:rgb(240, 239, 245);
+	background-color:rgb(13, 92, 152);
+	text-shadow:gray 1px 1px 2px;
+	left:69%;
+	position:relative;
+	top: 6px;
+  
+	cursor: pointer;}
+         
+            .d  button{border-radius:8px;
+	              padding: 8px;
+
+	                border:none;
+	                color:rgb(240, 239, 245);
+	                background-color:rgb(13, 92, 152);
+	                text-shadow:gray 1px 1px 2px;
+	                left:69%;
+                    	position:relative;
+                  	top: 73px;
+  
+                  	cursor: pointer;}
+
+                    
+                    
+                   .contenitore{display:flex;
+                               gap:5px;
+                               margin-top:22px ;
+                               
+                   }
+                   
+                  .foto{
+                    background-image:url("https://i.ibb.co/v44HGztj/VENDERE-CASA-SICILIANO-social.png");
+                     background-repeat:no-repeat;
+                   width:100%;
+                  height: 360px;
+                  
+                  background-size: cover; 
+                   margin-left:  5px;
+                 }
+                  
+                   
+                
+                  
+                  
+                  .foto2{background-image:url("https://i.ibb.co/0p6F4RX8/casa-mutuo-agente-immobiliare-750x375.jpg") ;
+                  
+                  
+                 background-size: cover;
+                  background-repeat: no-repeat;
+                  margin-right:5px ;
+                  width:100%;
+                  height: 360px;
+                }
+                  
+                  
+                  
+                  </style>
+                  
+
+
+
+  </head>
+
+  <body>
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Tecnocasa</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Link</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="a">
+
+</div>
+<h1>Immobili visualizzati di recente</h1>
+<!--inserimento card-->
+ <div class="container-fluid">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100"> 
+      
+<img src="https://i.ibb.co/FqNQx026/gallery-media-1.jpg" class="rounded-top" alt="12px">
+      <div class="card-body">
+        <h5 class="card-title">Descrizione</h5>
+        <p class="card-text">Nel comune di Campomarino, frazione di NUOVA CLITERNIA, in Via Madonna Grande, si propone in vendita una villa singola di categoria signorile.
+Questa spaziosa residenza di 300 mq, costruita nel 1970, si sviluppa interamente al piano terra e offre un ambiente accogliente e funzionale.
+La villa comprende dieci locali, tra cui quattro camere da letto, ideali per soddisfare diverse esigenze abitative.
+Sono presenti tre bagni, un balcone e un ampio terrazzo, perfetti per momenti di relax all'aperto.<br>Costo 240.000€</p>
+  
+   <div class="b">
+        <button>scopri di piu'</button>
+        </div>
+</div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://i.ibb.co/MDRzvCDG/gallery-media.jpg"  class="rounded-top" alt="12px">
+      <div class="card-body">
+        <h5 class="card-title">Descrizione</h5>
+        <p class="card-text">Nel centro di Campomarino Lido, in Via Reggio Calabria, proponiamo in vendita villette di una porzione di bifamiliare di nuova costruzione, con consegna prevista per il 2026.
+L'immobile, di 70 mq interni si sviluppa interamente al piano terra, offrendo un ambiente comodo e funzionale.
+La proprietà comprende tre locali, tra cui due camere da letto accoglienti e soggiorno con angolo cottua.
+Un terrazzo aggiunge un tocco di spazio esterno, perfetto per momenti di relax.<br>Costo 220.000€</p>
+    
+      <div class="c">
+        <button>scopri di piu'</button>
+        </div>
+      </div>
+     </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://i.ibb.co/5WByD7dc/download-1.jpg"  class="rounded-top" alt="12px">
+      <div class="card-body">
+        <h5 class="card-title">Descrizione</h5>
+        <p class="card-text">Situata in una zona tranquilla, nella prima periferia del paese, questa splendida villa indipendente si sviluppa con la parte abitativa su un unico livello, offrendo un comfort senza pari e facilitando la vita quotidiana. La casa è circondata da un ampio giardino curato, ideale per momenti di relax all'aria aperta e per le attività all'aperto con la famiglia e gli amici.<br>Costo 220.000€</p>
+
+   <div class="d">
+     <button>scopri di piu'</button>
+        </div>
+ 
+</div>
+    
+    </div>
+  </div>
+
+  </div>
+
+<!--fine inserimento card-->
+
+
+<!--inserimento scrool-->
+
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="p-4"></div>
+    <div class="carousel-item active">
+     
+      <img src="https://i.ibb.co/LXrXyLBH/images.png" class="d-block w-100" alt="..." style="height: 750px;">
+    
+    </div>
+    <div class="carousel-item">
+    <img src="https://i.ibb.co/JwPTPVjY/vario-1274189-610x431.jpg" alt=".." class="d-block w-100" style="height: 750px;">
+    </div>
+    <div class="carousel-item">
+  <img src="https://i.ibb.co/VWr1mdVg/foto-agenzia.jpg"  class="d-block w-100" style="height: 750px;;">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+<!-- fine inserimento scrool-->
+ <div class="contenitore">
+ <div class="foto">
+
+ </div>
+ <div class="foto2">
+
+ </div>
+</div>
+    </body>
+    <script src="bootsrap/bootstrap.bundle.js"></script>
+
+
+
+
+
+</html>
