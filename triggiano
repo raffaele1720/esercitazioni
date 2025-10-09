@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+ <style>
+*{box-sizing: border-box;}
+
+
+body{margin:0%;
+padding:0%;
+font-style: normal;
+font-size: medium;
+background:white;
+}
+
+.titolo h1 {padding-left: 33px;
+margin-top:10px;
+color: rgb(88, 88, 253);
+font-size:50px;}
+
+
+nav{background:rgb(127, 191, 255) ;
+    padding: 0%;
+margin: 0%;
+}
+
+
+.ordinaria ul{display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+	height:70px;
+}
+
+
+li{display:flex;
+	align-items: center;
+	list-style-type: none;
+	 
+   }
+   
+   li a {text-decoration: none;
+text-transform: uppercase;
+color: rgb(7, 7, 234);
+font-style:normal;
+font-weight:bolder;
+}
+
+
+li :hover {cursor: pointer;
+           color: black;
+	 }
+
+ 
+     
+     .primapagina{background-image:url("https://i.ibb.co/dsHkwJLM/Triggiano-borgo-Puglia.jpg") ;
+width: 100%;
+height:600px;
+background-size:cover;
+background-repeat:no-repeat;
+margin-top: -16px;}
+
+
+.primapagina h3 {position: absolute;
+                margin-top:33%;
+                padding-left:55px;
+                color: rgb(7, 7, 234);
+                font-weight: bolder;
+            }
+             .primapagina p{position: absolute;
+            margin-top:37%;
+            padding-left:200px;
+         color: rgb(7, 7, 234);
+       font-size:larger;
+       font-weight: bolder; 
+    text-transform: uppercase;}
+
+	 .contenitorelista{display:flex;}
+     
+     .s li a {color: rgb(7, 138, 239);
+              font-size: small;
+            margin-left: -3%;
+        }
+        
+      
+
+
+        .paragrafo{position: absolute;
+            text-align:start;
+                   margin-top:50px; 
+               font-style: italic;
+               font-size: x-large;
+            letter-spacing:-1px;
+        word-spacing:-1px;
+    margin-left: 15px;}
+
+
+    
+    .paragrafo p{font-size:normal;
+    word-spacing:2px;
+letter-spacing:-1px ;
+margin-top: 5px;
+text-align:start;}
+
+#contact{margin: 0%;
+    padding: 0%;
+    background-color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact .well{
+    margin-top:30px;
+    border-radius:0;
+    margin-left:25%;
+}
+
+#contact .form-control{
+    border-radius: 5PX;
+    border:1px solid #1e1e1e;
+}
+
+#contact button{
+    border-radius:11PX;
+    border:1px solid #1e1e1e;
+    cursor: pointer;
+    color: rgb(17, 17, 17);
+    
+}
+
+#contact .row{
+    margin-bottom:30px;
+}
+
+@media (max-width: 768px) { 
+    #contact iframe {
+        margin-bottom: 15px;
+    }
+    
+}
+
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+  padding: 0%;
+margin: 0%;
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #f6f8f5;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+           
+            
+                   
+                   
+             
+
+
+            </style>
+           
+</head>
+
+
+
+  <body>
+    
+    <div class="titolo">
+    <h1>Puglia</h1>
+</div>
+<nav>
+  <div class="ordinaria">
+     <ul>
+  <li><a href='#'>dove andare</a></li>
+	 <li><a href='#'>cosa fare</a></li>
+      <li><a href='#'>dormire mangiare</a></li>
+        <li><a href='#'>lasciati ispiarare</a></li>
+		 <li><a href='#'>servizio</a>
+    </li>
+  
+      </ul>
+   </div>
+  
+</nav id="menu">
+<div class="primapagina">
+<h3>TRIGGIANO</h3>
+<P>bari e la costa </P>
+</div>
+
+<div class="contenitorelista">
+    <div class="s">
+    <ul>
+    <li><a href='#'>casa</a></li>
+    <li><a href='#'>borghi e citta'</a></li>
+    <li class="lista1"><a href='#'>triggiano</a></li>
+    </ul>
+</div>
+<div class="paragrafo">
+    <h4>Adagiata nella Conca di Bari dove corre la lama di San Giorgio, Triggiano sfoggia chiese e conventi.</h4>
+<p>Poco distante dalla costa adriatica, Triggiano sorge nella Conca di Bari a circa 10 chilometri dal capoluogo.
+ 
+Edificata nel XVI secolo su un preesistente edificio di culto medievale, la Chiesa di Santa Maria Veterana sfoggia una sontuosa facciata su cui spicca il grande rosone e conserva all'interno diversi dipinti settecenteschi.
+ 
+La chiesa barocca di Santa Maria della Croce sorge su un'antica edicola votiva fuori dalle antiche mura di Triggiano, nei pressi dell'odierna piazza.
+ 
+Costruiti nel 1616, il Convento dei cappuccini e la chiesa annessa, dedicata alla Madonna degli Angeli, vantano volte affrescate e tele seicentesche.</p>
+
+<section id="contact">
+  <div class="container">
+    <div class="well well-sm">
+      <h3><strong>MAPS</strong></h3>
+    </div>
+	
+	<div class="row">
+	  <div class="col-md-7">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3736489.7218514383!2d90.21589792292741!3d23.857125486636733!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1506502314230" width="100%" height="315" frameborder="" style="border:0" allowfullscreen></iframe>
+      </div>
+
+      <div class="col-md-5">
+          <h4><strong>conttataci</strong></h4>
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" name="" value="" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" name="" value="" placeholder="E-mail">
+          </div>
+          <div class="form-group">
+            <input type="tel" class="form-control" name="" value="" placeholder="Phone">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="" rows="3" placeholder="Message"></textarea>
+          </div>
+          <button class="btn btn-default" type="submit" name="button">
+              <i class="fa fa-paper-plane-o" aria-hidden="true"></i>invia
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+ <footer class="section footer-classic context-dark bg-image" style="background: #030d4a;">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-md-4 col-xl-5">
+              <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" <a href="https://ibb.co/wrpQNdSG"><img src="https://i.ibb.co/QjYHFJPS/logo-da-modificare-1.jpg" style="width:400px;height: 100px ;"></a>
+                <p><strong>Descrizione</strong><br>
+                 Al fine di ridurre i tempi di attesa per gli utenti , si dispone il nuovo orario di apertura dello sportello CARTE DI IDENTITA’:<br>
+                 <br>
+                 
+                  Giorno	Orario	Orario<br>
+Lunedì	08.00-12.00<br>	
+Martedì	08.00-12.00	15.30-17.30<br>
+Mercoledì	08.00-12.00	<br>
+Giovedì	08.00-12.00	15.30-17.30<br>
+Venerdì	08.00-12.00
+ 
+
+	
+</p>
+                <!-- Rights-->
+                <p class="rights"><span>©  </span><span class="copyright-year">2025</span><span> ITALIA UNIONE EUROPEA</span></p>
+              </div>
+            </div>
+            <div class="col-md-4" style="margin-top:10%">
+              <h5>Conttati</h5>
+              <dl class="contact-list">
+                <dt>INDIRIZZO:</dt>
+                <dd>Piazza Vittorio Veneto, 42</dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>EMAIL:</dt>
+                <dd><a href="mailto:#">comuneditriggiano@gmail.com</a></dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>CELLULARE</dt>
+                <dd><a href="tel:#">3453162000</a>
+                </dd>
+              </dl>
+            </div>
+            <div class="col-md-4 col-xl-3" style="margin-top:10%">
+
+              <h5>Link</h5>
+              <ul class="nav-list">
+                <li><a href="#">amministazione</a></li>
+                <li><a href="#">progetti</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Mobilità e trasporti</a></li>
+                <li><a href="#">prezzi</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row no-gutters social-container">
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+        </div>
+      </footer>
+      
+     <!--insrimento popoap-->
+     <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+      
+     
+       
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
