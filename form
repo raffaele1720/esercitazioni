@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style> 
+        body{
+            padding: 0%;
+            margin: 0%;
+        background-image:url("https://i.ibb.co/MDzKzHtJ/sp-rse-ryanair-sun-boeing-737-8aswl-Planespotters-Net-1430030-9c43018061-o.jpg");
+            background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    height: 900px;
+}
+            
+            
+            *{box-sizing: border-box;}
+
+            
+            .form1{background-color:transparent;
+                border:solid 5px;
+                border-style:double;
+                  margin: auto;
+                width: 45%;
+                 min-height:777px;
+                border-radius: 12px;
+                border-color:yellow;
+                text-shadow: 2px 2px 4px rgba(14, 13, 13, 0.5);
+
+}
+
+
+            .b{color:yellow;
+             
+              padding-top:12px;
+                   margin-left: 30% ;
+        font-style: normal;
+        font-size:large;
+      
+        
+          text-transform:uppercase;}
+           
+             
+             
+      
+
+ 
+        .c{margin-left:30%;
+             width: 40%;
+              padding: 8px;
+           border-radius: 12px;
+           font-size: medium;
+             color:black;
+              
+            } 
+
+        
+      
+             .d{margin-left:30%;
+             width: 40%;
+            color:yellow;
+              font-style: normal;
+               font-size:large;
+           text-transform:uppercase
+          } 
+         
+        
+       
+      
+             .e{margin-left:30%;
+             width: 40%;
+              padding: 8px;
+           border-radius: 12px;
+          color: black;
+           } 
+
+            .f{margin-left:30%;
+             width: 40%;
+            color:yellow;
+            font-style: normal;
+               font-size:15px;
+           text-transform:uppercase;
+         
+          } 
+           
+           
+            .g{margin-left:30%;
+             width: 40%;
+            color: black;
+              padding: 8px;
+              border-radius: 12px;
+         
+          } 
+            
+          
+          
+            .h{margin-left:30%;
+             width: 40%;
+            color:yellow;
+               font-style: normal;
+               font-size:large;
+           text-transform:uppercase;
+         
+          } 
+           
+           
+            .i{margin-left:30%;
+             width: 40%;
+                padding: 8px;
+              border-radius: 12px;
+
+            color: black;
+          } 
+       
+       
+            .l{margin-left:30%;
+             width: 40%;
+               font-style: normal;
+               font-size:large;
+           text-transform:uppercase;
+
+            color:yellow;
+          } 
+           
+           
+            .m{margin-left:30%;
+             width: 40%;
+               padding: 8px;
+              border-radius: 12px;
+
+            color: black;
+          }
+
+            .n{margin-left:30%;
+             width: 40%;
+              font-style: normal;
+               font-size:large;
+           text-transform:uppercase;
+            color:yellow;
+          }
+
+            
+           .o{margin-left:30%;
+             width: 40%;
+            color: black;
+             padding: 8px;
+              border-radius: 12px;
+             
+          }
+
+            
+      .a {margin-left:30%;
+             width: 40%;
+            color:yellow;
+                font-style: normal;
+               font-size:14px;
+           text-transform:uppercase;
+          }
+
+            
+           .q{margin-left:30%;
+             width: 40%;
+            color: black;
+             padding: 8px;
+              border-radius: 12px;
+          
+          }
+
+            .r{margin-left:30%;
+             width: 40%;
+            color: black;
+                 padding: 8px;
+              border-radius: 12px;
+          }
+           
+            .s{margin-left:30%;
+             width: 40%;
+            color:yellow;
+              font-style: normal;
+               font-size:large;
+           text-transform:uppercase;
+        
+          }
+
+            .t{margin-left:30%;
+             width: 40%;
+            color: black;    padding: 8px;
+              border-radius: 12px;
+          }
+
+            .v{margin-left:30%;
+             width: 40%;
+            color:yellow;
+
+              font-style: normal;
+               font-size:large;
+           text-transform:uppercase;
+          }
+
+            .w{margin-left:30%;
+             width: 40%;
+             padding: 8px;
+              border-radius: 12px;
+            color: black;
+          }
+
+            .x{margin-left:30%;
+             width: 40%;
+            color:yellow;
+              font-style: normal;
+               font-size:large;
+           text-transform:uppercase;
+          }
+
+            .y{margin-left:30%;
+             width: 40%;
+               padding: 8px;
+                 border-radius: 12px;
+            color: black;
+          }
+
+            .z{margin-left:30%;
+             width: 40%;
+                   font-style: normal;
+               font-size:medium;
+           text-transform:uppercase;
+
+
+            color: yellow;}
+
+            .aa{margin-left:30%;
+             width: 40%;
+            color: black;
+          text-transform:uppercase;
+             padding: 8px;
+              border-radius: 12px;
+        }
+
+            .pulsante1{margin-left:60px;
+              border-radius:12px;
+             width: 40%;
+            color: black;
+           font-size: medium;
+           text-transform: capitalize;
+            }
+            .pulsante1:hover{background-color:lightgrey;
+                          cursor:pointer;}
+
+            .pulsante2{margin-left:12px;
+              border-radius:12px;
+             width: 40%;
+            color: black;
+           font-size: medium;
+           text-transform: capitalize;
+            }
+            
+           .pulsante2:hover{background-color:lightgrey;
+                          cursor:pointer;}
+            .rg{color:black;
+              text-align: center;
+              font-size: x-large;
+              font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+              text-transform: uppercase;
+
+            }
+
+       </style>
+
+
+      
+       </head>
+         
+        <body>
+            <header> 
+              <div class="rg">
+              <h1>registrazione</h1></div>  
+            </header>
+          <div class="form1">
+        <form action="inviomailto.php" method="post">
+<br>
+        <!--nome-->
+        <label class="b" for="nome">inserisci il tuo nome</label><br>
+        <input class="c" type="text" name="nome" placeholder="inserisci il tuo nome" required></input>
+       <br><br>
+       <!-- FINE nome-->
+       <!--cognome-->
+       <label class ="d"for="cognome">inserisci il tuo cognome</label>
+       <input class="e" type="text" name ="cognome" placeholder="inserisci il tuo cognome" required></input>
+       <br><br>
+       <!--FINE cognome-->
+       <!--data DI NASCITA-->
+       <label class="f" for ="data">ineserisci la tua data di nascita</label><br>
+       <input class="g" type="date" name="data di nascita" required></input>
+       <br><br>
+       <!-- FINE DATA DI NASCITA-->
+       <!--EMAIL-->
+       <label class="h" for="email">inserisci la tua email</label><br>
+       <input class="i" type="email" name="email" placeholder="inserisci la tua email" required></input>
+       <br><br>
+       <!-- FINE EMAIL-->
+       <!--PASSWORD-->
+       <label class="l" for="password">inserisci la tua password</label><br>
+       <input class="m" type="password" name="password" placeholder="inserisci password" required></input>
+       <br><!--FINE PASSWORD--><br>
+       <!--conferma password-->
+       <label class="n" for="conferma password">conferma la tu password </label>
+       <br>
+      
+       <input class="o" type="password" name="conferma password" placeholder="conferma la tua password" required></input><br>
+       <!--FINE CONFERMA PASSWORD--><br>
+       <!--TELEFONO-->
+       <label class="a for="telefono">inserisci il tuo numero di telefono</label>
+       <input class="r" type="number" name ="telefono" placeholder="inserisci il tuo numero di telefono" required minlength="8" maxlength="8"></input><br>
+       <br>
+       <!--FINE TELEFONO-->
+       <!--ETA'-->
+       <label  class="s" for="eta">inserisci la tua eta'</label>
+       <br>
+       <input class="t" type="number" name ="eta" placeholder="inserisci la tua eta'" required></input><br>
+       <!--FINE ETA'--><br>
+       <!--CITTA'-->
+       <label class="a for="citta">inserisci la tua citta'</label>
+       <br>
+       <input class="q" type="text" name ="citta" placeholder="inserisci la tua citta'" required></input><br>
+        <!--FINE CITTA'--><br>
+        <!--INDIRIZZO-->
+       <label class="v" for="text">inserisci il tuo indirizzo </label>
+       <br>
+       <input class="w" type="text" name="indirizzo" placeholder="inserisci il tuo indirizzo"required></input><br>
+         <!--FINE INDIRIZZO--><br>
+           <!--CAP-->
+       <label class="x" for ="cap">inserisci il tuo cap </label>
+       <br>
+    <input class="y" type="text" name ="cap" placeholder="inserisci il tuo cap" required minlength="5" maxlength="5"></input><br>
+      <!--FINE CAP--><br>
+        <!--CODICE FISCALE-->
+      <label class="z" for="codice fiscale">inserisci il tuo codice fiscale</label>   
+      <br>
+      <input class="aa" type="text" name="codice fiscale" placeholder="inserisci il tuo codice fiscale" required minlength="16" maxlength="16"></input><br><br>
+        <!--FINE CODICE FISCALE-->
+        <!--PULSANTI-->
+        
+        <input class="pulsante1"type="submit" value="invia"></input>
+        <input class="pulsante2"type ="reset" value="annulla"></input>
+
+
+    
+
+
+
+
+
+
+
+        </form>
+
+       
+        
+
+          </div>
+        </body>
+    
+</html>
