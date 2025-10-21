@@ -142,25 +142,50 @@ line-height:1. ;
       
     .c{margin-top:-12% ; }
 
+    .btn button  {background-color: rgb(7, 7, 7);
+               margin-left:22%;
+              margin-top:-43PX;
+                border-radius: 10px;
+                color:white;
+                padding:9px;
+            
+              border:none;
+              font-weight: bold;
+              
+              position:absolute}
 
+              .btn button:hover {cursor:pointer;
+                background-color: rgb(117, 114, 114);
+              }
+              
+.bottone button  {background-color: rgb(7, 7, 7);
+               margin-left:22%;
+              margin-top:3PX;
+                border-radius: 10px;
+                color:white;
+                padding:9px;
+            
+              border:none;
+              font-weight: bold;
+              
+              position:absolute;}
 
+              .bottone button:hover {cursor:pointer;
+                
+                background-color: rgb(117, 114, 114);}
 
-
-
-
-  
-
-
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
+                
+                
+                .bottonea button {background-color: rgb(7, 7, 7);
+                border-radius: 10px;
+                padding: 9px;
+              color: white;
+            border: none;
+          font-weight: bold;}
+          .bottonea button:hover {cursor: pointer;
+            
+            background-color:rgb(117, 114, 114);}
+             
                   
                   
                   
@@ -213,7 +238,7 @@ line-height:1. ;
 </div>
 <div class="contenitore1">
 <div class="c">
-<video width="1480" height="900" controls autoplay>
+<video width="1479" height="900" controls autoplay>
   <source src="palestra.mp4" type="video/mp4">
 </div>
 </div>
@@ -225,11 +250,14 @@ line-height:1. ;
 <div class="row row-cols-1 row-cols-md-3 g-3">
   <div class="col">
     <div class="card h-100">
-      <img src="https://i.ibb.co/20ZgLDc2/istockphoto-503416862-612x612.jpg" class="card-img-top" alt="100">
-      <div class="card-body">
+      <img src="https://i.ibb.co/20ZgLDc2/istockphoto-503416862-612x612.jpg" class="card-img-top" alt="50">
+      <div class="card-body"style="text-align: center;">
         <h5 class="card-title">ABBONAMENTO<br>MENSILE</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-  
+        <p class="card-text"><p><strong>Descrizione:</strong><br>
+L’abbonamento mensile ti dà accesso completo alla palestra per 30 giorni, senza vincoli a lungo termine. È perfetto per chi desidera provare la struttura o per chi ha bisogno di flessibilità negli allenamenti.
+</p>
+    <div class="bottone"><button>scopri di piu</button> 
+</div> 
 
         
       </div>
@@ -244,11 +272,14 @@ line-height:1. ;
 
     <div class="card h-100">
 <img src="https://i.ibb.co/0g8BVJN/istockphoto-601902710-612x612.jpg" class="card-img-top" alt="100">
-      <div class="card-body">
+      <div class="card-body" style="text-align: center;">
         <h5 class="card-title">ABBONAMENTO <br>TRIMESTRALE</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><p><strong>Descrizione:</strong><br>Con l’abbonamento trimestrale hai accesso illimitato alla palestra per 3 mesi consecutivi, con tutti i vantaggi inclusi nel piano premium. È la formula ideale per chi desidera allenarsi con costanza e ottenere risultati, risparmiando rispetto al mensile.</p>
       </div>
-      
+    <div class="btn"><button>scopri di piu</button> 
+</div> 
+
+
     </div>
   </div>
     <!--fine seconda card-->
@@ -258,13 +289,23 @@ line-height:1. ;
     <div class="card h-100">
   
      <img src="https://i.ibb.co/bMVmZpJD/istockphoto-615883260-612x612.jpg"  class="card-img-top" alt="100">
- 
-     <div class="card-body">
-        <h5 class="card-title">ABBONAMENTO <br>SEMESTRALE</h5>
+  <div class="card-body" style="text-align: center;">
+        <h5 class="card-title">ABBONAMENTO <br>SEMESTRALE</h5> 
      
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><p><strong>Descrizione</strong><br>L’abbonamento semestrale è pensato per chi vuole impegnarsi seriamente nel proprio percorso di benessere e ottenere risultati duraturi. Con 6 mesi di accesso completo alla palestra, risparmi rispetto al piano mensile e ti garantisci continuità e motivazione.</p>
       </div>
-     
+<div class="btn"><button>scopri di piu</button> 
+</div>
+
+
+    </div>
+  </div>
+</div>
+</div>
+
+     <!--inizio fine terza  card-->
+
+    </div>
   </div>
 </div>
 </div>
@@ -272,8 +313,18 @@ line-height:1. ;
      <!--inizio fine terza  card-->
 
 <!--fine card-->
+<div class="container-fluid"style="padding-top:10px; border-radius:14px;">
+<div class="card mb-3">
+  <img src="https://i.ibb.co/Wpy6H1R5/pexels-yaroslav-shuraev-8692269-1024x683.jpg" alt="pexels-yaroslav-shuraev-8692269-1024x683"  class="card-img-top" alt="100" style="width:100%;" height="600px">
+  <div class="card-body"  style="text-align: center;"> 
+    <h5 class="card-title">ABBONAMENTO ANNUALE</h5> 
+    <p class="card-text"> <strong>Descrizione:</strong><br>Questo abbonamento offre accesso illimitato alla palestra per un anno intero, con tutti i vantaggi inclusi nel piano premium. È la scelta ideale per chi desidera impegnarsi seriamente nel proprio percorso di fitness e ottenere risultati duraturi.</p>
+ <div class="bottonea"><button>scopri di piu</button> 
+  </div>
+</div>
+</div>
 
-  
+
              
 
 
@@ -291,3 +342,4 @@ line-height:1. ;
 
 
 </html>
+
