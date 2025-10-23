@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+     *{box-sizing: border-box;}
+ 
+     body{background-image:url("https://i.ibb.co/6cctWMtN/a744da857d797315f97de55df387866b9c3db39add49a948.jpg");
+        background-size:cover;
+        padding:0%;
+        margin:0%;
+        height:550px;
+        width:100%;
+        background-repeat:no-repeat;
+        overflow: auto;
+        
+        
+    }
+
+     
+
+
+.form{background-color:transparent;
+                border:solid 5px;
+                border-style:double;
+                  margin: auto;
+                  margin-top:5%;
+                width: 45%;
+                 min-height:00px;
+                border-radius: 12px;
+                border-color:yellow;
+                text-shadow: 2px 2px 4px rgba(14, 13, 13, 0.5);
+padding-top:30px;}
+
+.reg h3{text-align:center;
+ 
+        font-size:xx-large;
+        font-weight:bolder;
+        color:rgb(14, 13, 13);
+        margin-bottom:20px;
+        text-transform:uppercase;
+        }
+
+        
+        .bt h2{text-align: center;
+        font-size:50px;
+    font-weight: bolder;
+color:black;
+text-shadow: 2px 2px 4px rgba(14, 13, 13, 0.5);
+margin-top:-2%;
+margin-left:39%;
+text-transform: uppercase;
+position:absolute;}
+
+
+
+   .a{font-size:large;
+    font-weight:bolder;
+    color:white;
+margin-left:42%;
+text-shadow: 2px 2px 4px rgba(15, 14, 14, 0.5);
+text-transform: uppercase;
+    }
+    .b{width:40%;
+        height:35px;
+        border-radius:8px;
+        border: solid 2px;
+        margin-left:30%;
+        }
+    .c{font-size:large;
+        font-weight:bolder;
+        color:rgb(243, 244, 248);
+        margin-left:42%;
+
+        text-transform: uppercase;
+        text-shadow: 2px 2px 4px rgba(23, 22, 22, 0.5);
+        }
+    .d{width:40%;
+        height:35px;
+        border-radius:8px;
+        border: solid 2px;
+        margin-left:30%;
+        }
+    .e{font-size:large;
+        font-weight:bolder;
+        color:rgb(245, 235, 235);
+        margin-left:42%;
+        text-shadow: 2px 2px 4px rgba(23, 22, 22, 0.5);
+        text-transform: uppercase;
+        }
+    .f{width:40%;
+        height:35px;
+        border-radius:8px;
+        border: solid 2px;
+        margin-left:30%;
+        
+        }
+    .g{font-size:large;
+        font-weight:bolder;
+        color:rgb(243, 234, 234);
+        margin-left:42%;
+        text-shadow: 2px 2px 4px rgba(23, 22, 22, 0.5);
+        text-transform: uppercase;
+        }
+    .h{width:40%;
+        height:35px;
+        border-radius:8px;
+        border: solid 2px;
+        margin-left:30%;
+
+        }
+    .g{font-size:large;
+        font-weight:bolder;
+        color:rgb(243, 235, 235);
+        margin-left:40%;
+        text-shadow: 2px 2px 4px rgba(23, 22, 22, 0.5);
+        text-transform: uppercase;
+        }
+    .h{width:40%;
+        height:35px;
+        border-radius:8px;
+        border: solid 2px;
+        margin-left:30%;
+
+        }
+    .g{font-size:large;
+        font-weight:bolder;
+        color:rgb(244, 238, 238);
+        margin-left:42% ;
+        text-shadow: 2px 2px 4px rgba(23, 22, 22, 0.5);
+        text-transform: uppercase;
+        }
+    .h{width:40%;
+        height:35px;
+        border-radius:8px;
+        border: solid 2px;
+        margin-left:30%;
+ }
+ 
+ .i{
+         color: black;
+         background-color:rgb(243, 239, 239);
+         border:none;
+         border-radius:12px;
+         padding:10px;
+         margin-left:33%;
+         font-weight:bolder;
+         cursor:pointer;
+         text-transform: uppercase;
+         font-size:medium;
+         box-shadow: 2px 2px 4px rgba(14, 13, 13, 0.5);
+     }
+     .i:hover{
+        background-color:rgb(192, 184, 184);
+     }
+
+     .l{
+         color: black;
+         background-color:rgb(243, 239, 239);
+         border:none;
+         border-radius:12px;
+         padding:10px;
+         margin-left:10px;
+         font-weight:bolder;
+         cursor:pointer;
+         text-transform: uppercase;
+         font-size:medium;
+         box-shadow: 2px 2px 4px rgba(14, 13, 13, 0.5);
+         
+     }
+
+.l:hover{
+        background-color:rgb(192, 184, 184);
+     }
+
+     
+     .ab{color: white;
+    text-align:center;
+    margin-top: 10px;
+
+}
+.contenitore1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 2px;
+}
+    
+.ba {
+    grid-column: span 3 / span 3;
+    
+    background-image: url("https://i.ibb.co/MDPP5McY/151515-solid-color-background-icolorpalette-e1600115067681.png");
+width: 100%;
+height: 130px;
+margin-top:9%;
+}
+
+.ba h3{margin-left:36%;
+    margin-top:3%;
+color: rgb(249, 246, 246);
+        font-size:40px;
+    font-weight: bolder;
+    }
+
+
+
+.contenitore{
+     display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap:6px;
+
+    margin-top:0%;
+    background:orange;
+
+    
+    
+}
+    
+.div1 {
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+
+    background-image: url("https://i.ibb.co/LzFGcwjj/battlefield-6-game-m-width-1000-bgcolor-000-format-webp.webp");
+    background-size:cover;
+    background-repeat: no-repeat;
+   width: 100%;
+   height: 300px;
+margin-top:0%;
+transition-property: width, height;
+  transition-duration: 2s;
+
+}
+.div1:hover {
+    width: 105%;
+    height: 310px;
+
+}
+
+.div1 p {
+    color: rgb(249, 246, 246);
+    font-size: 24px;
+    position: absolute;
+    margin-top:15%;
+    text-shadow: 2px 2px 4px rgba(23,
+     22, 22, 0.5);
+     margin-left:2%;
+}
+
+.div2 {
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    background-image:url("https://i.ibb.co/B0B6XpQ/bf6-screen-23.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    margin-top:0%;
+     transition-property: width, height;
+  transition-duration: 2s;
+   
+   
+  
+}
+.div2:hover {
+    width: 105%;
+    height: 310px;
+}
+
+ .div2 p{ position: absolute; 
+    color: rgb(249, 246, 246);
+    font-size: 24px;
+    margin-top:12.5%;
+    text-shadow: 2px 2px 4px rgba(23,
+     22, 22, 0.5);
+     margin-left:2%;}    
+  
+
+
+
+.div3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-row-start: 3;
+    background-image:url("https://i.ibb.co/nNnbRrkD/102003619-12241310-4a8e-4789-8a5f-7ff3604679bd.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 320px;
+    margin-top: -16%;
+transition-property: width, height;
+  transition-duration: 2s;}
+.div3:hover {
+    width: 105%;
+    height: 330px;
+}
+
+.div3 p{ position: absolute; 
+    color: rgb(249, 246, 246);
+    font-size: 24px;
+    margin-top:19%;
+    text-shadow: 2px 2px 4px rgba(23,
+     22, 22, 0.5);
+     margin-left:2%;
+
+}
+
+.div4 {
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    background-image:url("https://i.ibb.co/LhRSsmJj/Battlefield-6-1600x900.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 319px;
+    margin-top: -10.5%;
+    transition-property: width, height;
+  transition-duration: 2s;
+}
+.div4:hover:hover {
+    width: 105%;
+    height: 330px;
+}
+
+.div4 p{ position: absolute; 
+    color: rgb(249, 246, 246);
+    font-size: 24px;
+    margin-top:19%;
+    text-shadow: 2px 2px 4px rgba(23,
+     22, 22, 0.5);
+     margin-left:2%;
+    
+
+}
+
+.div5 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 6;
+    grid-row-start: 3;
+    background-image: url("https://i.ibb.co/0yKnWFk3/1291951-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 318px;
+    margin-top: -32%;
+    transition-property: width, height;
+  transition-duration: 2s;
+}
+.div6:hover {
+    width: 105%;
+    height: 330px;
+}
+
+.div5 p{ position: absolute; 
+    color: rgb(249, 246, 246);
+    font-size: 24px;
+    margin-top:14%;
+    text-shadow: 2px 2px 4px rgba(23,
+     22, 22, 0.5);
+     margin-left:2%;
+   
+}
+
+.div6 {
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    grid-row-start:5;
+    background-image: url("https://i.ibb.co/xSVt1jXs/battlefield-6-soldato-533x300.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  background-position: center;
+    height: 320px;
+    margin-top:-17.5%;
+     transition-property: width, height;
+  transition-duration: 2s;
+  
+}
+.div6:hover {
+    width: 105%;
+    height: 330px;
+}
+.div6 p{ position: absolute; 
+    color: rgb(249, 246, 246);
+    font-size: 24px;
+    margin-top:17%;
+    text-shadow: 2px 2px 4px rgba(23,
+     22, 22, 0.5);
+     margin-left:2%;}
+
+.div7 {
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 5;
+    background-image: url("https://i.ibb.co/bRjnQxWM/Battlefield-6-Ge-Force-Now-scaled.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 320px;
+    margin-top: -17.5%;
+    transition-property: width, height;
+  transition-duration: 2s;
+}
+.div7:hover {
+    width: 105%;
+    height: 330px;
+}
+.div7 p{ position: absolute; 
+    color: rgb(249, 246, 246);
+    font-size: 24px;
+    margin-top:16.5%;
+    text-shadow: 2px 2px 4px rgba(23,
+     22, 22, 0.5);
+     margin-left:2%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">BATTLEFIELD</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           BATTLEFIELD COLLEZIONI
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">BATTLEFIELD 1</a></li>
+            <li><a class="dropdown-item" href="#">BATTLEFIELD 2</a></li>
+            <li><a class="dropdown-item" href="#">BATTLEFIELD 3</a></li>
+            <li><a class="dropdown-item" href="#">BATTLEFIELD 4</a></li>
+            <li><a class="dropdown-item" href="#">BATTLEFIELD 5</a></li>
+          </ul>
+        
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">USATO BTF</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            PREZZI
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Prezzo Standard</a></li>
+            <li><a class="dropdown-item" href="#">Prezzo Premium</a></li>
+            <li><a class="dropdown-item" href="#">Prezzo Deluxe</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="bt">
+        <h2>Battlefield 6</h2>
+    </div>
+<div class="form">
+    <div class="reg">
+        <h3>Registrazione</h3>
+        <form action="reg.php" method="post">
+            <label class="a" for="text">Nome</label><br>
+            <input class="b" type="text" name="nome" placeholder="inserisci nome" required><br>
+            <label class="c" for="text">Cognome</label><br>
+            <input class="d" type="text" name="cognome" placeholder="inserisci cognome" required><br>
+            <label class="e" for="text">Email</label><br>
+            <input class="f" type="email" name="email" placeholder="inserisci Email" required><br>
+            <label class="g" for="text">Password</label><br>
+            <input class="h" type="password" name="password" placeholder="inserisci password" required><br>
+           <br>
+            <button class="i" type="submit" value="registrati">Registrati</button>
+            <button class="l" type="reset" value="annulla">Annulla</button>
+
+            <p class="ab">Hai già un account? <a href="login.html">Accedi qui</a></p>
+        </form>
+    </div>
+</div> 
+
+<div class="contenitore1">
+    <div class="ba">
+        <h3>PHANTOM EDITION</h3>
+    </div>
+</div>
+    
+<div class="contenitore">
+    <div class="div1">
+        
+        <p>Squadra Phantom: 4 skin soldato: Teschio irata,<br> Miraggio, Spettro, Fantasma</p>
+    </div>
+    <div class="div2">
+        <p>Gettone riscattabile nella stagione di prima giocata<br>
+Include il Battle Pass della stagione, 25 Tier Skip, ricompense esclusive e molto altro ancora</p>
+
+    </div>
+    <div class="div3">
+        <p>Pacchetto armi M433 protetto</p>
+    </div>
+    <div class="div4">
+        <p>Pacchetto armi Drop Shadow MS2010 ESR</p>
+    </div>
+    <div class="div5">
+        <p>Skin per veicoli Chimera M1A2 SEPv3</p>
+
+    </div>
+    <div class="div6">
+        <p>Adesivo per arma Testa di Morto</p>
+    </div>
+
+    <div class="div7">
+        <p>Amuleto dell'arma criptica</p>
+    </div>
+
+ </div>
+    
+
+
+
+
+
+
+
+ 
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
