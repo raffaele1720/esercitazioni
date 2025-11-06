@@ -13,47 +13,17 @@
 font-size: medium;
 font-style:normal;}
 
-.prima{background:red;
-width: 100%;
-height: 60px;
 
 
-}
-
-
-
-ul{text-align:center;
-  padding: 10px;
-  position:relative;
-  margin-top:-4%;
-  padding-left: 35px;
 
   
 
-    } 
-    
-    li{
-    	list-style-type: none;
-	display: inline;
-	
-	margin-left:4%;
+   
   
-  
-}
-
-
-li a{text-decoration: none;
-text-transform: uppercase;
-color: rgb(243, 235, 235);
-}
 
 
 
-.logo{color: rgb(20, 20, 20);
-font-weight:bolder;
-font-size:xx-large;
 
-}
 
 
 .foto1{background-image:url("https://i.ibb.co/60bnGNn8/Men-Gym-Workout-Hands-606879-1920x1080.jpg");
@@ -186,9 +156,191 @@ line-height:1. ;
             
             background-color:rgb(117, 114, 114);}
              
+                  .btna{margin-left: 78.5%;
+                  border-radius: 10px;
+                margin-top: -35.5%;
+              position:absolute;
+              padding: 6px;
+              font-size:medium;
+         }
+                   
+              .btnb{margin-left: 92%;
+                  border-radius: 10px;
+                margin-top: -35.5%;
+                 padding: 6px;
+              font-size:medium;
+              position:absolute;}
                   
-                  
-                  
+              .map{width:1460px; 
+              height:550px;
+              padding-top: 12px;
+              border-radius:23px;
+             
+            }
+            
+            .rs{background-image:url("https://i.ibb.co/7tDDxTyN/64591d6e4f8fdf72deafcf1e-6410ea94e20aa1abcb3cabbf-Title-20-Page-20-11.webp") ;
+          background-repeat: no-repeat;
+        background-size:cover;
+        width: 100%;
+        height: 600px;
+        margin-top: 10px;
+        border-radius:12px;
+      }
+
+      .rs p{font-size:large;
+            margin-top: 31%;
+          position: absolute;
+        color: white;
+        margin-left: 10%;
+        line-height: 1.3;
+          text-shadow: 3px 3px 2px rgb(12, 12, 12);
+      }
+      .rs h1 {color: white;
+             position: absolute;
+             margin-left: 68%;
+             margin-top: 10%;
+             font-size: 50px;
+            font-weight: bolder;
+           text-shadow: 3px 3px 2px rgb(12, 12, 12);
+    }
+    
+   .mc{background-image:url("https://i.ibb.co/JwvChVH1/manubri-palestra.jpg");
+  width:100%;
+height: 500px;
+background-repeat: no-repeat;
+background-size:100% 500px;
+margin-top: 12px;
+border-radius: 12px;}
+
+.mc p {font-size:large;
+            margin-top: 24%;
+          position: absolute;
+        color: white;
+        margin-left: 55%;
+        line-height: 1.3;
+          text-shadow: 3px 3px 2px rgb(13, 13, 13);}
+
+          .mc h1 {color: white;
+             position: absolute;
+             margin-left: 10%;
+             margin-top: 4%;
+             font-size: 50px;
+            font-weight: bolder;
+           text-shadow: 3px 3px 2px rgb(12, 12, 12);}
+
+
+            .footer .footer-socila-icon a {
+     width: 30px;
+     height: 30px;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     background: #F84E77;
+     color: #ffffff;
+     border-radius: 50%;
+     margin-right: 8px;
+     font-size: 15px;
+ }
+
+ .footer .footer-socila-icon a:hover {
+     background: #1baaa0;
+ }
+
+ .footer .footer-links {
+     margin: 0;
+ }
+
+ .footer .footer-links li+li {
+     padding-top: 10px;
+ }
+
+ .footer .footer-links li a {
+     position: relative;
+ }
+
+ .footer .footer-links li a:after {
+     content: "";
+     position: absolute;
+     width: 0px;
+     left: auto;
+     right: 0;
+     bottom: 0;
+     height: 1px;
+     transition: ease all 0.35s;
+     background: #F84E77;
+ }
+
+ .footer .footer-links li a:hover:after {
+     width: 100%;
+     left: 0;
+     right: auto;
+ }
+
+ .footer .footer-top {
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+ }
+
+ .footer .footer-top h5,
+ .footer .footer-top .h5 {
+     position: relative;
+     font-size: 1.2rem;
+     text-transform: uppercase;
+ }
+
+ @media (min-width: 768px) {
+     .footer .footer-top {
+         padding-top: 2rem;
+         padding-bottom: 1rem;
+     }
+ }
+
+ @media (min-width: 992px) {
+     .footer .footer-top {
+         padding-top: 3rem;
+         padding-bottom: 2rem;
+     }
+ }
+
+ .footer .footer-border-top {
+     border-top: 1px solid rgba(255, 255, 255, 0.1);
+ }
+
+ .footer .footer-border-top.dark {
+     border-top: 1px solid rgba(16, 16, 16, 0.1);
+ }
+
+ .footer .footer-border-bottom {
+     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+ }
+
+ .footer .footer-border-bottom.dark {
+     border-bottom: 1px solid rgba(16, 16, 16, 0.1);
+ }
+
+ .bg-dark-gradient {
+     background: linear-gradient( 180deg, #101010 50%, black 100%) repeat-x !important;
+ }
+
+ .white-link a {
+     color: rgba(255, 255, 255, 0.65);
+ }
+
+ a {
+     text-decoration: none
+ }
+ 
+ .avatar-lg img {
+    width:90px;
+    height:90px;
+}
+
+.text-white{
+color:#fff !important;
+}
+
+
+                          
                   
                   </style>
                 
@@ -197,30 +349,49 @@ line-height:1. ;
 
   </head>
    <body>
+    <nav class="navbar navbar-expand-lg bg-warning">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">FITNESS CREATION</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">PIANO ALIMENTARE</a>
+        </li>
+        <li class="nav-item">
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ CONTTATI
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">EMAIL</a></li>
+            <li><a class="dropdown-item" href="#">CELLULARE</a></li>
+         
+          </ul>
+  
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">PERSONAL TRAINER</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ SEDI 
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">TRIGGIANO</a></li>
+            <li><a class="dropdown-item" href="#">MODUGNO</a></li>
+            <li><a class="dropdown-item" href="#">RUTIGLIANO</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     
  
-      
-      <div class="prima pagina">
-        <div class="logo">
-          <p>Fitness  creation</p>
-
-
-        </div>
-        <ul>
-          <li><a href="#">chi siamo</a></li>
-          <li><a href="#">programma</a></li>
-          <li><a href="#">lavora con noi</a></li>
-          <li><a href="#">consulenza</a></li>
-          <li><a href="#">contatti</a></li>
-          <li><a href="#">corsi e abbonamento</a></li>
-          <li><a href="#">sedi</a></li>
-
-
-
-
-        </ul>
-
-      </div>
+    
 <div class="foto1">
   
   
@@ -313,7 +484,7 @@ L’abbonamento mensile ti dà accesso completo alla palestra per 30 giorni, sen
      <!--inizio fine terza  card-->
 
 <!--fine card-->
-<div class="container-fluid"style="padding-top:10px; border-radius:14px;">
+<div class="container-fluid"style="padding-top:20px; border-radius:14px;">
 <div class="card mb-3">
   <img src="https://i.ibb.co/Wpy6H1R5/pexels-yaroslav-shuraev-8692269-1024x683.jpg" alt="pexels-yaroslav-shuraev-8692269-1024x683"  class="card-img-top" alt="100" style="width:100%;" height="600px">
   <div class="card-body"  style="text-align: center;"> 
@@ -323,9 +494,174 @@ L’abbonamento mensile ti dà accesso completo alla palestra per 30 giorni, sen
   </div>
 </div>
 </div>
+<div class="contenitoremap">
+<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.0570769018627!2d16.9329948!3d41.067744999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1347c38439293ac5%3A0xdd93708bba46b169!2sFitness%20Creation!5e0!3m2!1sit!2sit!4v1761526412606!5m2!1sit!2sit"></iframe>
+ <form action="inviomailto.php" method="post">
+        <input class="btna" type="search" placeholder="Trova la tua palestra">
+        <button class="btnb" type="submit">RICERCA</button>
+      </form>
+
+<div class="rs">
+  <p>Durante l’allenamento di resistenza rinforzi il tuo <br>
+     cardiovascolare e bruci molte calorie. Tapis roulant, stepper,<br>
+      vogatori, ellittiche, cicloergometri e tairmaster delle marche Ergo-Fit<br>
+       e Concept2 apportano varietà al tuo allenamento.<br> 
+       E portano te a tornare in forma. Grasso? Quale grasso?!</p>
+       <h1>RESISTENZA</h1>
+</div>
 
 
-             
+<div class="mc">
+<h1>MACCCHINARI</h1>
+<P>Addome, gambe, glutei, braccia, schiena, petto.
+  E molto altro!<br> Definisci tutti i gruppi muscolari durante l’allenamento sui macchinari<br>
+   e migliora le tue prestazioni.I nostri macchinari?<br>
+   
+    Le attrezzature più potenti al mondo di gym80, tutto made in Italy.<br>
+    Vieni e diventa tu stesso una macchina.</P>
+
+</div>
+
+
+<footer class="bg-dark-gradient footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="footer-border-bottom pb-6 mb-5">
+                <div class="row">
+                    <div class="col-lg-4 col-xl-3">
+                        <h4 class="text-white">
+                            Sign up to Get Latest Updates
+                        </h4>
+                    </div>
+                    <div class="col-lg-4 col-xl-6">
+                        <form class="d-flex flex-row mb-2 p-1 bg-white input-group">
+                            <input type="email" class="form-control rounded-0 border-0" placeholder="you@yoursite.com">
+                            <button class="btn btn-secondary rounded-0 flex-shrink-0" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-4 col-xl-3">
+                        <div class="text-lg-end text-white">
+                            <span class="h6">Call Us On</span><br>
+                            <span class="h3">1-800-222-000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-3 my-4">
+                    <div class="mb-4">
+                        <img src="static/img/logo-light.svg" title="" alt="">
+                    </div>
+                    <div class="text-white-65 mb-4 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
+                    <div class="nav footer-socila-icon">
+                        <a href="#">
+<i class="fab fa-facebook-f"></i>
+</a>
+                        <a href="#">
+<i class="fab fa-twitter"></i>
+</a>
+                        <a href="#">
+<i class="fab fa-instagram"></i>
+</a>
+                        <a href="#">
+<i class="fab fa-linkedin-in"></i>
+</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-2 my-4">
+                    <h5 class="text-white h6 mb-4">Customer</h5>
+                    <ul class="list-unstyled white-link footer-links">
+                        <li>
+                            <a href="#">Get Corpo</a>
+                        </li>
+                        <li>
+                            <a href="#">Documentation</a>
+                        </li>
+                        <li>
+                            <a href="#">Help center</a>
+                        </li>
+                        <li>
+                            <a href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-2 my-4">
+                    <h5 class="text-white h6 mb-4">Product</h5>
+                    <ul class="list-unstyled white-link footer-links">
+                        <li>
+                            <a href="#">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Join our team</a>
+                        </li>
+                        <li>
+                            <a href="#">Elements</a>
+                        </li>
+                        <li>
+                            <a href="#">Products</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-2 my-4">
+                    <h5 class="text-white h6 mb-4">Company</h5>
+                    <ul class="list-unstyled white-link footer-links">
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#">Legal &amp; Security</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms of use</a>
+                        </li>
+                        <li>
+                            <a href="#">We're hiring!</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-3 my-4">
+                    <h5 class="text-white h6 mb-4">Company</h5>
+                    <div class="white-link">
+                        <div class="d-flex pb-3">
+                            <div class="avatar avatar-lg rounded">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" title="" alt="">
+                            </div>
+                            <div class="col ps-3">
+                                <small class="text-white-65">29 March 2021</small>
+                                <h6 class="font-w-500 h6 m-0"><a class="text-white" href="#">Markdown Language Sample Blog Post Styling</a></h6>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="avatar avatar-lg rounded">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar2.png" title="" alt="">
+                            </div>
+                            <div class="col ps-3">
+                                <small class="text-white-65">29 March 2021</small>
+                                <h6 class="font-w-500 h6 m-0"><a class="text-white" href="#">Markdown Language Sample Blog Post Styling</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom footer-border-top light py-3">
+        <div class="container text-center">
+            <p class="m-0">© 2021 copyright <a href="#" class="text-reset text-white">Bootdey.com</a></p>
+        </div>
+    </div>
+</footer>
+		
+			
 
 
 
@@ -333,7 +669,8 @@ L’abbonamento mensile ti dà accesso completo alla palestra per 30 giorni, sen
 
 
 
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   
   </body>
 
@@ -342,4 +679,5 @@ L’abbonamento mensile ti dà accesso completo alla palestra per 30 giorni, sen
 
 
 </html>
+
 
