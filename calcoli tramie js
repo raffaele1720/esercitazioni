@@ -1,0 +1,112 @@
+<html>
+<head>
+    <title>Sample HTML Document</title>
+    <style>
+        
+      * {
+  box-sizing: border-box;
+}
+table, th, td {
+  
+  border: 1px solid rgb(250, 251, 246);
+  border-collapse: collapse;
+margin-left: 29%;
+  margin-top: 2%;
+  padding: 10px;
+  text-align: center;
+ background-color: black;
+  color: white;
+  font-size: medium;
+  font-weight: bolder;
+
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  font-size: medium;
+  font-style: normal;
+  
+  background: rgb(223, 220, 218);}
+.a{ font-weight: bolder;
+   font-size: large;
+   color: rgb(15, 15, 15);
+   margin-left: 50%;
+
+ 
+  }
+  </style>
+</head>
+
+<body>
+<p>calcola area rettangolo <span id="arearettangolo"></span></p>
+<p>calcola il perimetro del rettangolo <span id="perimetrorettangolo"></span></p>
+
+<p>calcola perimetro del cerchio <span id ="perimetrocerchio1"></span></p>
+<p>calcola area del cerchio <span id="areacerchio1"></span></p>
+ 
+
+<p class="a">calcola triangolo <span id="areatriangolo1"></span></p>
+ <p>calcola perimetro del triangolo <span id="perimetrotriangolo1"></span></p>
+
+<table>
+  <tr> 
+    <th>codice prodotto</th> <th>nome prodotto</th> <th>prezzo</th> <th>sconto</th>
+    </tr>
+    <td id="a"></td>
+    <td id="b"></td>
+    <td id="c"></td>
+    <td id="d"></td>
+</table>
+
+
+
+
+</body>
+<script>
+  var base=prompt("Inserisci la base del rettangolo","");
+  var altezza=prompt("Inserisci l'altezza del rettangolo","");
+  
+  var area=base*altezza;
+  var perimetro=2*(base+altezza);
+
+  arearettangolo.innerHTML=area;
+  perimetrorettangolo.innerHTML=perimetro;
+//calcolo cerchio//
+  var raggio=prompt("Inserisci il raggio del cerchio","");
+  var pigreco=3.14;
+
+  var perimetrocerchio=2*pigreco*raggio;
+  var areacerchio=pigreco*raggio*raggio;
+
+  perimetrocerchio1.innerHTML=perimetrocerchio;
+  areacerchio1.innerHTML=areacerchio;
+//calcolo triangolo//
+ var basetriangolo=prompt("Inserisci la base del triangolo","");
+  var altezzatriangolo=prompt("Inserisci l'altezza del triangolo","");
+
+ var areatriangolo=(basetriangolo*altezzatriangolo)/2;
+ var perimetrotriangolo=3*basetriangolo;
+
+
+ areatriangolo1.innerHTML=areatriangolo;
+ perimetrotriangolo1.innerHTML=perimetrotriangolo;
+
+//tabella//
+
+ 
+ var scheda={codiceprodotto:prompt("Inserisci il codice prodotto",""),
+              nomeprodotto:prompt("Inserisci il nome del prodotto",""),
+              prezzo:prompt("Inserisci il prezzo del prodotto",""),
+              sconto:prompt("Inserisci lo sconto in percentuale","")};
+
+          
+              a.innerHTML=scheda.codiceprodotto;
+              b.innerHTML=scheda.nomeprodotto;
+              c.innerHTML=scheda.prezzo+"€";
+              d.innerHTML=scheda.sconto+"%";
+   
+   
+   
+   </script>
+    
+</html>
