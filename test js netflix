@@ -1,0 +1,453 @@
+<!DOCTYPE html >
+ <html lang="en" > 
+<head > 
+<meta charset="UTF-8" > <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<title > Document</title >
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" >
+<style >
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  font-size: medium;
+  font-style: normal;
+  background: rgb(59, 57, 57);
+  background-image:url("https://i.ibb.co/ds711KWv/WWE-John-Cena-Final-Match.webp");
+  background-size:100% 730px;
+  background-repeat: no-repeat;
+ 
+
+}
+
+
+nav {
+  background-color: rgb(19, 19, 19);
+  width: 100%;
+  height: 50px;
+  padding: 1px;
+  margin: 0px;
+
+}
+
+nav ul {
+  margin: 15px;
+  padding: 0;
+
+  background-color: rgb(234, 229, 229);
+}
+
+
+
+
+li {
+  display: inline;
+  margin-left: 12%;
+  margin-top: -12px;
+  position: absolute;
+  list-style-type: none;
+ 
+
+
+}
+
+li {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(15, 15, 15);
+  font-style: normal;
+  font-size: x-large;
+  font-weight: bolder;
+  color: white;
+
+}
+
+
+
+
+
+
+li:hover {
+  cursor: pointer;
+  color: red;
+}
+
+
+
+.list {
+  display: inline;
+  margin-left: 17%;
+  margin-top: -12px;
+  position: absolute;
+  list-style-type: none;
+}
+
+
+
+.fr {
+  position: absolute;
+  margin-left: 25%;
+  margin-top: -0.4%;
+}
+
+
+
+
+.ntf {
+  position: absolute;
+  background-image: url("https://i.ibb.co/G4yD4ByF/netflix-mobile-application-logo-free-png.webp");
+  margin-left: 90%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1.4%;
+
+  margin-top: -0.8%;
+}
+
+.ricerca {
+  border-radius: 10px;
+  margin-left:52%;
+  margin-top: -2px;
+  
+  
+
+}
+.jon{
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-left:3%;
+  margin-top:8%;
+  position: absolute;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.storico{
+  color: rgb(244, 237, 237);
+  font-size:30px;
+  
+  font-weight: bolder;
+  text-transform:none;
+  margin-left:3%;
+  margin-top:20%;
+  position: absolute;
+
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  margin-top:50%;
+  margin-left:100px;
+
+
+
+
+
+
+}
+.card-netflix {
+  background-image: url("https://i.ibb.co/N6z4ffGb/grem6-RLn-IVMwx-Mwg5j-AZFNh-B5y7.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-width: 200px;
+  height: 300px;
+  border-radius: 12px;
+  position: relative;
+  margin-top: 5%;
+
+}
+.card-netflix:hover {
+  transform: scale(1.05);
+}
+
+
+.card-netflix2 {
+  width: 200px;
+  height: 300px;
+  background-color: azure;
+  background-image: url("https://i.ibb.co/wNf2c5dL/incastrati-poster-691x1024.jpg");
+  border-radius: 12px;
+  background-size: cover;
+  margin-top: 5%;
+  position: relative;
+
+}
+
+.card-netflix2:hover {
+  transform: scale(1.05);
+}
+
+.card-netflix3 {
+  width: 200px;
+  height: 300px;
+  background-size: cover;
+  background-image: url("https://i.ibb.co/tT2GWVDB/Nessuno-ne-uscira-vivo-film-netflix-2021-poster.jpg");
+  position: relative;
+  border-radius: 12px;
+
+  margin-top: 5%;
+}
+
+.card-netflix3:hover {
+  transform: scale(1.05);
+}
+
+.card-netflix4 {
+  width: 200px;
+  height: 300px;
+  background-size: cover;
+  background-image: url("https://i.ibb.co/TxKdqB1x/pio.avif");
+  position: relative;
+  border-radius: 12px;
+
+  margin-top: 5%;
+}
+.card-netflix4:hover {
+  transform: scale(1.05);
+}
+
+.pulsante {
+  position: absolute;
+
+  text-transform: uppercase;
+  background-color: red;
+  margin-top: 135%;
+  margin-left: 77%;
+  border-radius: 13px;
+  color: white;
+}
+
+.pulsante:hover {
+  cursor: pointer;
+  background-color: rgb(117, 118, 118);
+}
+
+.pulsante1 {
+  position: absolute;
+
+  text-transform: uppercase;
+  background-color: red;
+  margin-top: 135%;
+  margin-left: 77%;
+  border-radius: 13px;
+  color: white;
+}
+
+.pulsante1:hover {
+  cursor: pointer;
+  background-color: rgb(117, 118, 118);
+}
+
+
+.pulsante2 {
+  position: absolute;
+
+  text-transform: uppercase;
+  background-color: red;
+  margin-top: 135%;
+  margin-left: 77%;
+  border-radius: 13px;
+  color: white;
+}
+
+.pulsante2:hover {
+  cursor: pointer;
+  background-color: rgb(117, 118, 118);
+}
+        
+
+
+.pulsante3{      
+  position: absolute;
+
+  text-transform: uppercase;
+  background-color: red;
+  margin-top: 135%;
+  margin-left: 77%;
+  border-radius: 13px;
+  color: white;
+}
+
+.pulsante3:hover {
+  cursor: pointer;
+  background-color: rgb(117, 118, 118);
+}
+
+.pulsante4{position: absolute;
+ margin-left:14%;
+ margin-top:35%;
+  padding:10px;
+  text-transform: uppercase;
+  background-color:red;
+  border-radius:4px;
+  border: none;
+  color: rgb(241, 234, 234);}
+
+.pulsante4:hover{
+  cursor: pointer;
+  background-color: rgb(117, 118, 118);
+}
+.avv{
+  position: absolute;
+  margin-left:30%;
+  margin-top: 0%;
+
+}
+</style>
+
+
+  </head>
+<body>
+    
+
+<nav>
+
+
+<ul>
+ <li>serie</li>
+ <li class="list">film
+ </li>
+  
+
+</ul>
+<div class="fr">
+ <label></label>
+<select id="film">
+
+ <option value="commedia">commedia</option>
+<option value="serie Tv">serie tv</option>
+<option value="storico">storico</option>
+ </nav>
+<input class="avv" type="submit" onclick="avvia()" value="AVVIA FILM">
+<p id ="demo"></p>
+</select>
+
+</div>
+<div class="ntf">
+</div>
+
+<h1 class="jon">JOHN CENA<br>THE FINAL MATCH</h1>
+<p class="storico">Non perdere lo storico incontro di John Cena contro Roman Reigns.<br>
+   Pura adrenalina e spettacolo nel ring.</p>
+  
+<div class="container">
+     <div class="card-netflix">
+     <button class="pulsante" onclick="document.write('inizio film')" id="play">play</button>
+     </div>
+     
+<div class="card-netflix2">
+    <button class="pulsante1" onclick="document.write('inizio film1')" id="play1">play</button>
+</div>
+<div class="card-netflix3">
+  <button class="pulsante2" onclick="document.write('inizio film2')" id="play2">play</button>
+
+</div>
+<div class="card-netflix4">
+  <button class="pulsante3" onclick="document.write('inizio film3')" id="play3">play</button>
+
+</div>
+      </div>
+      <div class="ricerca">
+        <input type="text" class="ricerca" placeholder="Ricerca">
+      </div>
+   
+<button class="pulsante4" onclick="document.write('riproduci match')" id="play4">riproduci match</button>
+
+
+ <p id="risposta"></p>
+
+    
+
+
+<script>
+document .write("");
+// alert("benvenuto in netflix") attivazione pop-up//
+document.getElementById("play").onclick = function iniziofilm() {
+    alert("Il film sta per iniziare");
+    
+    
+  }
+  document.getElementById("play1").onclick = function iniziofilm1() {
+    alert("Il film1 sta per iniziare");
+    
+    
+  }
+    document.getElementById("play2").onclick =function iniziofilm2() {
+    alert ("il film sta per  iniziare");
+
+  }
+
+
+
+  document.getElementById("play3").onclick= function iniziofilm3()
+   {alert("il film sta per iniziare");}
+ document.getElementById("play4").onclick= function riproducimatch()
+   {alert("il match sta per iniziare");}
+   document.getElementById("play4").onclick= function riproducimatch()
+   {alert("il match sta per iniziare");}
+   //verifica eta' per vedere il match//
+    document.getElementById("play4").onclick= function riproducimatch()
+    {
+      var eta=prompt("verifica la tua eta' per vedere  il match");
+      if (eta>=18) 
+      {
+        risposta.innerHTML="<span style='color:green; font-size:300%; font-weight:bolder; margin-left:30%; margin-top:6%; position:absolute; text-transform:uppercase; text-shadow: 2px 2px 4px #000000;'>puoi vedere il match ✅</span>";
+      }
+
+      else 
+      {
+        risposta.innerHTML="<span style='color:red; font-size:300%; font-weight:bolder; margin-left:30%; margin-top:6%; position:absolute; text-transform:uppercase; text-shadow: 2px 2px 4px #000000;'>non puoi vedere il match ❌</span>";
+      }
+   
+    }
+   //fine verifica eta' per vedere il match//
+
+    //funzione avvia film in base alla categoria selezionata//
+   
+   
+   
+    function avvia(){
+     
+
+  var iniziofilm = film.value
+ 
+  if (iniziofilm=="storico")
+  
+  { demo.innerHTML="<span style=position:absolute;margin-top:25%;color:red;font-weight:bolder;text-transform:uppercase; text-shadow:2px 2px 2px rgba(206,89,55,0);'>avvio film storico in corso</span>";}
+  else if (iniziofilm=="commedia")
+  { demo.innerHTML="<span style=position:absolute;margin-top:25%;color:red;font-weight:bolder;text-transform:uppercase; text-shadow:0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 40px 40px 20px rgba(206,89,55,0);'>avvio film commedia in corso</span>";}
+ 
+  else 
+  { demo.innerHTML="<span style=position:absolute;margin-top:25%;color:red;font-weight:bolder;text-transform:uppercase; text-shadow:2px 2px 2px rgba(206,89,55,0);'>avvio serie tv in corso</span>";}
+  
+
+
+
+}
+ 
+
+//fine funzione avvia film in base alla categoria selezionata//
+  
+   
+
+   
+
+</script>
+
+
+
+
+  
+
+
+</body>
+</html>
