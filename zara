@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>sito zara</title>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<style>
+* {
+     box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0%;
+ 
+  
+  
+  
+}
+.topnav {
+  background-color:#0f0f0f;
+  width: 100%;
+  height: 80px;
+  padding:0px;
+ 
+}
+ul {
+  list-style-type: none;
+  margin-left: 1%;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: rgb(244, 236, 236);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: none;
+  text-transform: uppercase;
+}
+
+.a {
+  margin-left: 45%;
+  margin-top:25px;
+}
+ .ngz{margin-top:25px;}
+
+ 
+ .chisiamo0{margin-top:25px;}
+
+ 
+ .faq{margin-top:25px;}
+ 
+ .contatti{margin-top:25px;}
+
+
+
+ .topnav-bottone {
+
+ 
+  background-color: rgb(230, 122, 14);
+  border: none;
+  color: rgb(14, 13, 13);
+  border-radius: 6px;
+  padding: 7px;
+  position: absolute;
+  margin-top:27px;
+  margin-left: 15px;
+}
+.topnav-bottone:hover {
+  background-color: rgb(242, 237, 237);
+}
+.topnav-bottone a {
+  text-decoration: none;
+  color: rgb(14, 13, 13);
+  font-weight: bold;
+}
+.zara {
+  font-weight: bolder;
+  font-size:xx-large;
+  text-transform: uppercase;
+  color: rgb(240, 236, 236);
+  margin-left: 2%;
+  margin-top:6px;
+  
+}
+
+.sfondozara{ background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+width:100%;
+height: 550px;
+
+background-repeat:no-repeat;
+background-size:100% 550px;
+}
+
+ .sfondozara p{font-size: large;
+        text-transform: uppercase;
+      font-weight:bolder;
+      color: #fbf8f8;
+      margin-left:13%;
+      margin-top:24%;
+      position:absolute;
+      font-size:20px;
+ 
+  }
+   .sfondozara button {color:white;
+                       background-color:orange;
+                       border: none;
+                        margin-left:20%;
+                        margin-top:31%;
+                        position:absolute;
+                        font-weight: bolder;
+                        color: white;
+                        padding:5px;
+
+
+                 }   
+                  .sfondozara button:hover{background-color:white;
+                      transform: scale(1.05);
+  transition: transform 0.3s;
+                  }
+
+  .sfondozara h2 {color: #eeeeee;
+     margin-left:13%;
+     margin-top:10%;
+     font-size:40px;
+
+      position:absolute;
+   }
+
+
+
+                  .contenitore {
+                 
+ 
+ 
+  
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 8px;
+}
+.div1 {
+  background-image: url("https://i.ibb.co/Ld1Np56z/jeans-uomo-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  margin-top: 25%;
+  margin-left: 50%;
+}
+.div1 button {
+  background-color:black;
+  border:none;
+  color:white;
+  
+  padding: 3px;
+  position: center;
+  margin-top: 260px;
+  margin-left: 27%;
+}
+.div1 button:hover {
+  background-color:orange;
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+.div2 {
+  background-image: url("https://i.ibb.co/qLpLdxkc/jeans-uomo-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  margin-top: 25%;
+  margin-left: 50%;
+}
+.div2 button {
+  background-color:black;
+  border:none;
+  color:white;
+  
+  padding: 3px;
+  position: center;
+  margin-top: 260px;
+  margin-left: 27%;
+}
+.div2 button:hover {
+  background-color:orange;
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+.div3 {
+  background-image: url("https://i.ibb.co/8q3387Q/21922.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  margin-top: 25%;
+  margin-left: 50%;
+}
+.div3 button {
+  background-color:#070707;
+  border:none;
+  color:white;
+ 
+  padding: 3px;
+  position: center;
+  margin-top: 260px;
+  margin-left: 27%;
+}
+.div3 button:hover {
+  background-color:orange;
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+.div4 {
+  background-image: url("https://i.ibb.co/NdhbLHRb/6901-1-2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  margin-top: 25%;
+  margin-left: 50%;
+  ;
+}
+.div4 button {
+  background-color:black;
+  border:none;
+  color:white;
+  
+  padding: 3px;
+  position: center;
+  margin-top: 260px;
+  margin-left: 27%;
+}
+.div4 button:hover {
+  background-color:orange;
+}
+.div1:hover,
+.div2:hover,
+.div3:hover,
+.div4:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+.div5 {
+  background-image: url("https://i.ibb.co/qYfST9KJ/71sl-RDew7-WL-AC-UY350.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  margin-top: 25%;
+  margin-left: 50%;
+  background-position: center;
+}
+.div5 button {
+  background-color:black;
+  border:none;
+  color:white;
+  
+  padding: 3px;
+  position: center;
+  margin-top: 260px;
+  margin-left: 27%;
+}
+.div5 button:hover {
+  background-color:orange;
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+.div6 {
+  background-image: url("https://i.ibb.co/6cSLWn19/683676526.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  margin-top: 25%;
+  margin-left: 50%;
+  margin-left: 50%;
+  background-position: center;
+}
+.div6 button {
+  background-color:black;
+  border:none;
+  color:white;
+  ;
+  padding: 3px;
+  position: center;
+  margin-top: 260px;
+  margin-left: 27%;
+}
+.div6 button:hover {
+  background-color:orange;
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+.div7 {
+  background-image: url("https://i.ibb.co/pGKmbQY/714f-PPr043-L-AC-UY1000.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  margin-top: 25%;
+  margin-left: 50%;
+  margin-left: 50%;
+  background-position: center;
+}
+.div7 button {
+  background-color:black;
+  border:none;
+  color:white;
+  
+  padding: 3px;
+  position: center;
+  margin-top: 260px;
+  margin-left: 27%;
+}
+.div7 button:hover {
+  background-color:orange;
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+.div8 {
+  background-image: url("https://i.ibb.co/gLYrfBBN/61-Oj-ALf-RML-AC-UY1000.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  margin-top: 25%;
+  margin-left: 50%;
+  margin-left: 50%;
+  background-position: center;
+}
+.div5:hover,
+.div6:hover,
+.div7:hover,
+.div8:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+.div8 button {
+  background-color:black;
+  border:none;
+  color:white;
+ 
+  padding: 3px;
+  position: center;
+  margin-top: 260px;
+  margin-left: 27%;
+}
+.div8 button:hover {
+  background-color:orange;
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+.chisiamo {
+ 
+  text-align: center;
+  color: black;
+  margin-top: 3%;
+} 
+
+.presentazione {
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: medium;
+  color: black;
+  margin-top: 2%;
+}
+.contenitore1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 8px;
+}
+.div9 {
+  background-image: url("https://i.ibb.co/gMJs7y29/71-TF1-BB7m-OL-AC-UY1000.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  margin-top: 25%;
+  margin-left: 50%;
+}
+.div9:hover,
+.div10:hover,
+.div11:hover,
+.div12:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+.div9 button:hover,
+.div10 button:hover,
+.div11 button:hover,
+.div12 button:hover {
+  background-color:orange;
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+.div9 button,
+.div10 button,
+.div11 button,
+.div12 button {
+  background-color:black;
+  border:none;
+  color:white;
+  
+  padding: 3px;
+  position: center;
+  margin-top: 260px;
+  margin-left: 27%;
+}
+.div10 {
+  background-image: url("https://i.ibb.co/67M8tvwM/pull-femme-chic-chaud-pas-cher-raye-mode-pullover.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  margin-top: 25%;
+  margin-left: 50%;
+}
+
+.div11 {
+  background-image: url("https://i.ibb.co/V0SWYwRR/615-Xm-Nk-KJj-L-AC-UY1000.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  margin-top: 25%;
+  margin-left: 50%;
+}
+
+
+.div12 {
+  background-image: url("https://i.ibb.co/wxBSZPh/81-Xcs-Zz-Tm4-L-AC-UY1000.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  margin-top: 25%;
+  margin-left: 50%;
+}
+
+
+.div13 {
+  background-image: url("https://i.ibb.co/2mF3VRT/10522-frieda.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  margin-top: 25%;
+  margin-left: 50%
+}
+
+.div13:hover,
+.div14:hover,
+.div15:hover,
+.div16:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+.div13 button:hover,
+.div14 button:hover,
+.div15 button:hover,
+.div16 button:hover {
+  background-color:orange;
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+.div13 button,
+.div14 button,
+.div15 button,
+.div16 button {
+  background-color:black;
+  border:none;
+color:white;
+  
+  padding: 3px;
+  position: center;
+  margin-top: 260px;
+  margin-left: 27%;
+}
+
+.div14 {
+  background-image: url("https://i.ibb.co/cMMLyWY/19158-11241-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  margin-top: 25%;
+  margin-left: 50%
+}
+
+
+.div15 {
+  background-image: url("https://i.ibb.co/gZphS129/bb056739a5f338118299bab904eac0b1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  margin-top: 25%;
+  margin-left: 50%
+}
+
+.div16 {
+  background-image: url("https://i.ibb.co/yn9j3C3J/Y-Project-m-clp-F22-096.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  margin-top: 25%;
+  margin-left: 50%
+}
+
+section {
+  background: #070707 !important;
+  color: #ffffff;
+  padding: 40px 20 0px 0;
+}
+
+#footer {
+  background: #070707 !important;
+  color: #ffffff;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+#footer h5 {
+  font-size: 16px;
+  color: #f0f0f0 !important;
+  text-transform: uppercase;
+  margin-top: 10px;
+
+
+  border-left: 3px solid #eeeeee;
+
+  cursor: pointer;
+  color: #ffffff;
+}
+
+
+
+
+
+ul.social li {
+  margin-left: 55px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: rgb(252, 249, 249);
+  cursor: pointer;
+
+
+}
+
+ul.social li:hover {
+
+  transform: scale(1.05);
+  transition: transform 0.3s;
+
+}
+
+ul.lista li {
+  margin-left: 55px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: rgb(252, 249, 249);
+  text-decoration: underline;
+  cursor: pointer;
+
+
+}
+
+ul.cellulare {
+  margin-left: 110px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: rgb(252, 249, 249);
+  cursor: pointer;
+
+
+}
+
+ul.lista li:hover {
+
+  transform: scale(1.05);
+
+  transition: transform 0.3s;
+}
+
+ul.cellulare li:hover {
+  transform: scale(1.05);
+
+  transition: transform 0.3s;
+}
+
+.fine {
+  color: #fcfbfb;
+  margin-top: 30px;
+}
+
+.h6 .politica.aziendale li:hover {
+  transform: scale(1.05);
+}
+
+ul.politica.aziendale li {
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: rgb(252, 249, 249);
+  margin-left: 159px;
+
+
+
+
+
+}
+
+.politica.aziendale li.testo {
+  margin-left: -39px;
+  position: absolute;
+  color: rgb(250, 252, 252);
+}
+
+
+
+
+.datiriservati {
+  padding: 30px;
+}
+
+
+ 
+
+  
+  
+</style >
+            </head>
+   
+    
+    <body onload="eta()">
+   
+         <nav class="topnav"> 
+            <ul>
+             <li class="zara"><a href="#">𝐳𝐚𝐫𝐚</a></li>
+             
+              <li class="a"><a href="#">Scopri di più</a></li>
+<button class="topnav-bottone"><a href="#">Inizia Ora</a></button>
+
+
+   
+           
+<li class="ngz"><a href="#">negozio</a></li>
+<li class="chisiamo0"><a href="#">chi siamo</a></li>
+<li class="faq"> <a href="#">Faq</a></li>
+<li class="contatti"><a href="#">contatti</a></li>
+
+           
+        </ul>
+
+         </nav> 
+<div class="sfondozara">
+
+<h2>Nuova Collezione<br> Primavera/Estate 2026</h2>
+<p>Scopri l'ultima collezione di abbigliamento,<br> 
+  calzature e accessori. Stile, qualità e sostenibilità si incontrano in ogni<br> 
+  capo.</p>
+<button>Scopri la Collezione</button></div>         
+<div class="contenitore">
+ 
+  
+    <div class="div1"><button>Aggiungi al Carrelo</button></div>
+    <div class="div2"><button>Aggiungi al Carrelo</button></div>
+    <div class="div3"><button>Aggiungi al Carrelo</button></div>
+    <div class="div4"><button>Aggiungi al Carrelo</button></div>
+<div>
+</div>
+
+
+    <div class="div5"><button>Aggiungi al Carrelo</button></div>
+    <div class="div6"><button>Aggiungi al Carrelo</button></div>
+    <div class="div7"><button>Aggiungi al Carrelo</button></div>
+    <div class="div8"><button>Aggiungi al Carrelo</button></div>
+</div>
+
+    
+<hr class="separarore" style="margin-top:50px;">
+
+<h1 class="chisiamo">CHI SIAMO</h1>
+<p class="presentazione">Zara è più di un marchio di abbigliamento. 
+È un sistema intelligente che ha democratizzato la moda, rendendola veloce,
+ desiderabile e accessibile. La sua forza non sta nel prevedere la tendenza, 
+ ma nel reagire ad essa più rapidamente di chiunque altro,
+  ponendo il cliente e i suoi desideri al centro di ogni processo. 
+  Oggi evolve la sua identità affrontando la grande sfida del nostro tempo: 
+  conciliare velocità e desiderio con responsabilità ambientale e sociale.</p>
+  <hr class="separarore" style="margin-top:50px;"> 
+<div class="contenitore1">
+    <div class="div9"><button>Aggiungi al Carrelo</button></div>
+    <div class="div10"><button>Aggiungi al Carrelo</button></div>
+    <div class="div11"><button>Aggiungi al Carrelo</button></div>
+    <div class="div12"><button>Aggiungi al Carrelo</button></div>
+<div>
+</div>
+
+
+    <div class="div13"><button>Aggiungi al Carrelo</button></div>
+    <div class="div14"><button>Aggiungi al Carrelo</button></div>
+    <div class="div15"><button>Aggiungi al Carrelo</button></div>
+    <div class="div16"><button>Aggiungi al Carrelo</button></div>
+</div>
+
+
+	<section id="footer">
+		<div class="container" >
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5 class="sp">spedizione e resi</h5>
+					<ul class="politica aziendale">
+						<li class="testo" >POLITICA E NEGOZIO</li>
+						<li class="metodo">METODO DI PAGAMENTO</li>
+					
+					</ul>
+				
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5 class="ct">contatti</h5>
+					<ul class="cellulare">
+						<li>tel:345324546</li>
+				
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Facebook</h5>
+					<ul class="lista social">
+						<li>istagram</li> 
+						<li>Twitter</li>
+						
+					</ul>
+				</div>
+	   
+				<hr class="separatore1"style="margin-top:50px;">
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col--12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p class="fine"><a href="https://maps.app.goo.gl/K2CgLDSgtWnLjyhq6">Centrale del gruppo (Inditex): Arteixo, Galizia, Spagna.</a>Sede operativa italiana Zara: Via Grosotto, 7, Milano.</p>
+					<p class="datiriservati">© 2026 ZARA. Tutti i diritti riservati.<a class="text-green ml-2" href="https://www.zara.com/it/it/z-azienda-corp1391.html" target="black">copyright</a></p>
+				</div>
+				
+	
+		</div> 
+    
+	</section>
+<p id="risposta"></p>
+	<!-- ./Footer -->
+
+	
+
+
+
+    
+    
+    
+    
+    
+    
+     
+     
+     
+        
+        
+        <script>
+          
+          
+             
+          
+          
+          function eta(){
+            var etautente =prompt("inserisci eta'","")
+
+            if( etautente>= 18)
+            
+          {risposta.innerHTML="sei maggiorene ✅";
+           risposta.style.color="green";
+          risposta.style.marginTop="-180%";
+          risposta.style.marginLeft="35%";
+         risposta.style.fontSize="300%";
+          risposta.style.fontWeight="bolder";
+            risposta.style.textTransform="uppercase"
+           
+          
+          }
+
+        
+      
+        
+        
+        else
+        {risposta.innerHTML="sei minorenne ❌";
+           risposta.style.marginTop="-180%";
+          risposta.style.marginLeft="36%";
+         risposta.style.fontSize="300%";
+          risposta.style.fontWeight="bolder";
+           risposta.style.textTransform="uppercase"
+          risposta.style.color="red";
+          
+        }
+  }
+     
+  
+
+        </script>
+       </body>
+  
+</html>
