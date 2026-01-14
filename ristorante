@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ristorante</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+      <style>
+    *{
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin:0%;
+	padding: 0%;
+}
+.topnav {
+	background-color: #0bd3ed;
+	overflow: hidden;
+	padding:5px;
+}
+/* Style the links inside the navigation bar */
+.topnav li {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size:17px;
+	cursor: pointer;
+	font-weight: bolder;
+}
+li a {
+	text-decoration:none;
+	text-transform: uppercase;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+}
+/* Change the color of links on hover */
+.active{
+	margin-left:50%;
+	cursor: pointer;
+}
+.ristorante{
+	margin-left:2%;
+	font-size:large;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.d {
+	background:linear-gradient(rgba(20, 20, 20, 0.795), rgba(28, 27, 27, 0.263)), url("https://i.ibb.co/0yrKLRfh/Whats-App-Image-2026-01-13-at-00-50-04.jpg");
+	width: 100%;
+	height: 690px;
+	background-size:100% 690px;
+	background-repeat:no-repeat;
+	background-position: center;
+	overflow: auto;
+}
+.a{
+	position: absolute;
+	margin-top:-30%;
+	margin-left: 16%;
+	font-size:50px;
+	color:white;
+	text-shadow: 2px 2px 4px #000000;
+	text-align: center;
+	letter-spacing: 1.5px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bolder;
+}
+.b{
+	position: absolute;
+	margin-top:-17%;
+	margin-left: 9%;
+	font-size:30px;
+	color:white;
+	text-shadow: 2px 2px 4px #000000;
+	text-align:center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bolder;
+}
+.pulsante button{
+	position: absolute;
+	margin-top: -8%;
+	margin-left:30%;
+	border-radius:12px;
+	background:orange;
+	color:rgb(249, 246, 246);
+	border:none;
+	cursor: pointer;
+	padding:12px;
+	font-size: large;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.pulsante2 button{
+	position: absolute;
+	margin-top: -8%;
+	margin-left:51%;
+	border-radius:12px;
+	background:orangered;
+	color:rgb(249, 246, 246);
+	cursor: pointer;
+	padding:12px;
+	font-size: large;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.pulsante button:hover{
+	background-color:orangered;
+}
+.pulsante2 button:hover{
+	background-color:transparent;
+}
+.chisiamo{
+	position:absolute;
+	margin-left:40%;
+	margin-top:5%;
+	color: #000000;
+	font-size:40px;
+	text-transform: uppercase;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-shadow:2px 2px 4px black;
+}
+.testo{
+	position:absolute;
+	margin-left:10%;
+	margin-top:10%;
+	color: #000000;
+	font-size:20px;
+	width:80%;
+	text-align: center;
+}
+.contenitore1{
+	height:500px;
+	width:100%;
+	background-color:rgb(240, 240, 240);
+	margin-top:-1%;
+}
+.menu{
+	position: absolute;
+	margin-left:40%;
+	margin-top:7%;
+	text-align: center;
+	color: #000000;
+	font-size:40px;
+	text-transform:uppercase;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bottone button{
+	position: absolute;
+	margin-top:15%;
+	margin-left:20%;
+	border-radius:12px;
+	background:rgb(5, 81, 85);
+	color:rgb(249, 246, 246);
+	border:none;
+	cursor: pointer;
+	text-transform: uppercase;
+	padding: 12px;
+}
+.antipasti button{
+	position: absolute;
+	margin-top:15%;
+	margin-left:32%;
+	border-radius:12px;
+	background:rgb(248, 250, 250);
+	color:rgb(2, 2, 2);
+	border:solid 2px black;
+	cursor: pointer;
+	text-transform: uppercase;
+	padding: 12px;
+}
+.primi button{
+	position: absolute;
+	margin-top:15%;
+	margin-left:43%;
+	border-radius:12px;
+	background:rgb(248, 250, 250);
+	color:rgb(2, 2, 2);
+	border:solid 2px black;
+	cursor: pointer;
+	text-transform: uppercase;
+	padding: 12px;
+}
+.secondi button{
+	position: absolute;
+	margin-top:15%;
+	margin-left:55%;
+	border-radius:12px;
+	background:rgb(248, 250, 250);
+	color:rgb(2, 2, 2);
+	border:solid 2px black;
+	cursor: pointer;
+	text-transform: uppercase;
+	padding: 12px;
+}
+.dessert button {
+	position: absolute;
+	margin-top:15%;
+	margin-left:69%;
+	border-radius:12px;
+	background:rgb(248, 250, 250);
+	color:rgb(2, 2, 2);
+	border:solid 2px black;
+	cursor: pointer;
+	text-transform: uppercase;
+	padding: 12px;
+}
+.card-img-top {
+	background-image:url("https://i.ibb.co/MYrYGch/antipasti.avif");
+	width: 60%;
+	height: 450px;
+	background-repeat: no-repeat;
+	background-size:100% 450px;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	margin-left:20%;
+	margin-top: 20%;
+}
+.card:hover{
+	transform: scale(1.05);
+}
+.card-body{
+	margin-left:35%;
+	margin-top:5%;
+	border-bottom-left-radius:12px;
+	border-bottom-right-radius:12px;
+	width: 60%;
+	height: 200px;
+	background-color: #f0eaea;
+	padding: 6%;
+	position: absolute;
+	border: solid 1px rgb(199, 196, 196);
+	margin-top:-1%;
+	padding-left:30%;
+	padding-right:20%;
+	color:white;
+	margin-left:20% ;
+}
+.card-title{
+	color:black;
+	font-size:30px;
+	font-weight:bolder;
+	text-transform: uppercase;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	position: absolute;
+	margin-left:37%;
+	text-align: center;
+}
+.card-p{
+	color: rgb(15, 15, 15);
+	font-size:20px;
+	font-weight:normal;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	position: absolute;
+	margin-left:23%;
+	text-align: center;
+	margin-top:5%;
+}
+.card-body1{
+	margin-left:35%;
+	margin-top:5%;
+	border-bottom-left-radius:12px;
+	border-bottom-right-radius:12px;
+	width: 60%;
+	height: 200px;
+	background-color: #f0eaea;
+	padding: 6%;
+	position: absolute;
+	border: solid 1px rgb(199, 196, 196);
+	margin-top:-1%;
+	padding-left:30%;
+	padding-right:20%;
+	color:white;
+	margin-left:20% ;
+}
+.card-title1{
+	color:black;
+	font-size:30px;
+	font-weight:bolder;
+	text-transform: uppercase;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	position: absolute;
+	margin-left:40%;
+	text-align: center;
+}
+.card-p1{
+	color: rgb(15, 15, 15);
+	font-size:20px;
+	font-weight:normal;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	position: absolute;
+	margin-left:35%;
+	text-align: center;
+	margin-top:5%;
+}
+.card-img-top1{
+	background-image:url("https://i.ibb.co/SXpsTL7s/Paccheri-alla-crema-di-scampi-e-gamberi-650x433-wm.jpg");
+	width: 60%;
+	height: 450px;
+	background-repeat: no-repeat;
+	background-size:100% 450px;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	margin-left:20%;
+	margin-top: 15%;
+}
+.card-body2{
+	margin-left:35%;
+	margin-top:5%;
+	border-bottom-left-radius:12px;
+	border-bottom-right-radius:12px;
+	width: 60%;
+	height: 200px;
+	background-color: #f0eaea;
+	padding: 6%;
+	position: absolute;
+	border: solid 1px rgb(199, 196, 196);
+	margin-top:-1%;
+	padding-left:30%;
+	padding-right:20%;
+	color:white;
+	margin-left:20% ;
+}
+.card-title2{
+	color: #000000;
+	font-size:30px;
+	font-weight:bolder;
+	text-transform: uppercase;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	position: absolute;
+	margin-left:39%;
+	text-align: center;
+}
+.card-p2{
+	color: rgb(15, 15, 15);
+	font-size:20px;
+	font-weight:normal;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	position: absolute;
+	margin-left:37%;
+	text-align: center;
+	margin-top:5%;
+}
+.card-img-top2{
+	background-image:url("https://i.ibb.co/N2xQGKYc/POLPO-Header.avif");
+	width: 60%;
+	height: 450px;
+	background-repeat: no-repeat;
+	background-size:100% 450px;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	margin-left:20%;
+	margin-top: 15%;
+}
+.card-body3{
+	margin-left:35%;
+	margin-top:5%;
+	border-bottom-left-radius:12px;
+	border-bottom-right-radius:12px;
+	width: 60%;
+	height: 200px;
+	background-color: #f0eaea;
+	padding: 6%;
+	position: absolute;
+	border: solid 1px rgb(199, 196, 196);
+	margin-top:-1%;
+	padding-left:30%;
+	padding-right:20%;
+	color:white;
+	margin-left:20% ;
+}
+.card-p3{
+	color: rgb(15, 15, 15);
+	font-size:20px;
+	font-weight:normal;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	position: absolute;
+	margin-left:37%;
+	text-align: center;
+	margin-top:5%;
+}
+.card-title3{
+	color: #000000;
+	font-size:30px;
+	font-weight:bolder;
+	text-transform: uppercase;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	position: absolute;
+	margin-left:39%;
+	text-align: center;
+	color: #000000;
+	font-size:30px;
+	font-weight:bolder;
+	text-transform: uppercase;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	position: absolute;
+	margin-left:45%;
+	text-align: center;
+}
+.card-img-top3{
+	background-image:url("https://i.ibb.co/YwCKXr1/tortino.jpg");
+	width: 60%;
+	height: 450px;
+	background-repeat: no-repeat;
+	background-size:100% 450px;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	margin-left:20%;
+	margin-top: 15%;
+}
+.parent {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	gap: 8px;
+	margin-top:30%;
+}
+.div3 {
+	grid-row-start: 2;
+}
+.div4 {
+	grid-row-start: 2;
+}
+
+</style>
+
+
+
+
+
+
+</head>
+<body>
+<div class="topnav">
+    <li class="ristorante" href="ristorante">Ristorante ai due sapori</li>
+  <li href="#Menu'" class="active">Menu'</li>
+  <li href="#Ordine">Ordine online</li>
+  <li href="#contatti">Contatti</li>
+  <li href="#login">Login</li>
+</div>
+<div class="contenitore">
+    <div class="d"></div>
+<div class="a">
+    <p>Benvenuti al ristorante ai due sapori</p></div>
+ <div class="b">  
+    <p>Da oltre 20 anni portiamo sulle vostre tavole il sapore autentico del mare</p>
+</div> 
+
+<div class="pulsante">
+  <button>prenota il tuo tavolo</button>
+
+</div>
+<div class="pulsante2">
+  <button>scopri il nostro menu'</button>
+</div>
+</div>
+<div class="contenitore1">
+<div class="chisiamo">
+  <p>chi siamo</p></div>
+<div class="testo">
+  <p>Il Ristorante Ai Due Sapori è un luogo dove la tradizione culinaria incontra l'innovazione, offrendo ai nostri ospiti un'esperienza gastronomica unica. Situato nel cuore della città, il nostro ristorante vanta un ambiente accogliente e raffinato, ideale per cene romantiche, incontri di lavoro o celebrazioni speciali. La nostra cucina si ispira ai sapori autentici del Mediterraneo, con un'attenzione particolare alla freschezza degli ingredienti e alla presentazione dei piatti. Il nostro team di chef esperti lavora con passione per creare menù stagionali che esaltano i gusti naturali degli alimenti, combinando tecniche tradizionali con tocchi moderni. Inoltre, la nostra selezione di vini pregiati completa l'esperienza culinaria, offrendo abbinamenti perfetti per ogni portata. Al Ristorante Ai Due Sapori, ci impegniamo a garantire un servizio impeccabile e un'atmosfera calorosa, facendo sentire ogni ospite come a casa propria. Vi invitiamo a scoprire il nostro mondo di sapori e a vivere momenti indimenticabili con noi.</p>
+</div>
+</div>
+    
+
+<div class="menu">
+  <p>il nostro menu'</p>
+</div>
+<div class="bottone">
+  <button>tutti i piatti</button>
+</div>
+  <div class="antipasti">
+    <button>antipasti</button>
+  </div>
+  <div class="primi">
+    <button>primi piatti</button>
+  </div>
+  <div class="secondi">
+    <button>secondi piatti</button>
+  </div>
+  <div class="dessert">
+    <button>dessert</button>
+  </div>
+</div>
+<!!--card uno--!!>
+
+<div class="card" style="width: 18rem; margin-left:10%; margin-top:5%;"></div>
+  <div class="card-img-top"> 
+
+  </div>
+  <div class="card-body"> </div>
+    <h5 class="card-title">Antipasto di Mare</h5>
+    <p class="card-p">Una selezione di crudità di mare: ostriche, gamberi, polpo e tartare di tonno. 18€</p>
+
+</div>
+<!!-- fine card uno--!!>
+
+
+<!!--inizio card due--!!>
+
+<div class="card" style="width: 18rem; margin-left:10%; margin-top:5%;"></div>
+  <div class="card-img-top1"> 
+
+  </div>
+  <div class="card-body1"> </div>
+    <h5 class="card-title1">Primi piatti</h5>
+    <p class="card-p1">Paccheri alla crema di scampi e gamberi 13€</p>
+
+</div>
+
+<!!-- fine card due--!!>
+
+<div class="card" style="width: 18rem; margin-left:10%; margin-top:5%;"></div>
+  <div class="card-img-top2"> 
+
+  </div>
+  <div class="card-body2"> </div>
+    <h5 class="card-title2">secondi piatti</h5>
+    <p class="card-p2">Insalata di polpo prezzemolata 13€</p>
+
+</div>
+
+<div class="card" style="width: 18rem; margin-left:10%; margin-top:5%;"></div>
+  <div class="card-img-top3"> 
+
+  </div>
+  <div class="card-body3"> </div>
+    <h5 class="card-title3">dessert</h5>
+    <p class="card-p3">Tortino al cioccolato dal cuore tenero 7€</p>
+
+</div>
+
+
+<div class="parent">
+    <div class="div1">1</div>
+    <div class="div2">2</div>
+    <div class="div3">3</div>
+    <div class="div4">4</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+
+
+
+
+    </script>
+</body>
+</html>
