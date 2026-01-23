@@ -30,6 +30,7 @@ body {
 	font-size:17px;
 	cursor: pointer;
 	font-weight: bolder;
+	
 }
 li a {
 	text-decoration:none;
@@ -47,20 +48,26 @@ ul {
 	cursor: pointer;
 }
 .ristorante{
-	margin-left:2%;
+
 	font-size:large;
 	text-transform: uppercase;
 	cursor: pointer;
 }
 .d {
-	background:linear-gradient(rgba(20, 20, 20, 0.795), rgba(28, 27, 27, 0.263)), url("https://i.ibb.co/0yrKLRfh/Whats-App-Image-2026-01-13-at-00-50-04.jpg");
-	width: 100%;
-	height: 690px;
-	background-size:100% 690px;
-	background-repeat:no-repeat;
-	background-position: center;
-	overflow: auto;
-}
+	
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url("https://i.ibb.co/0yrKLRfh/Whats-App-Image-2026-01-13-at-00-50-04.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
 .a{
 	position: absolute;
 	margin-top:-30%;
@@ -176,6 +183,10 @@ ul {
 	text-transform: uppercase;
 	padding: 12px;
 }
+.antipasti button:hover{
+	background-color:rgb(5, 81, 85);
+	color:white;
+}
 .primi button{
 	position: absolute;
 	margin-top:15%;
@@ -187,6 +198,10 @@ ul {
 	cursor: pointer;
 	text-transform: uppercase;
 	padding: 12px;
+}
+.primi button:hover{
+	background-color:rgb(5, 81, 85);
+	color:white;
 }
 .secondi button{
 	position: absolute;
@@ -200,6 +215,10 @@ ul {
 	text-transform: uppercase;
 	padding: 12px;
 }
+.secondi button:hover{
+	background-color:rgb(5, 81, 85);
+	color:white;
+}
 .dessert button {
 	position: absolute;
 	margin-top:15%;
@@ -211,6 +230,10 @@ ul {
 	cursor: pointer;
 	text-transform: uppercase;
 	padding: 12px;
+}
+.dessert button:hover{
+	background-color:rgb(5, 81, 85);
+	color:white;
 }
 .card-img-top {
 	background-image:url("https://i.ibb.co/MYrYGch/antipasti.avif");
@@ -415,20 +438,124 @@ ul {
 	margin-left:20%;
 	margin-top: 15%;
 }
-.parent {
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: repeat(5, 1fr);
+.parent { display:flex;
+	   
+         width:70%;
+		 height:400px;
 	gap: 8px;
-	margin-top:30%;
+	margin-top:20%;
+	margin-left:15%;
+	
 }
-.div3 {
-	grid-row-start: 2;
+.div1 {flex:1;
+	
+	background-image:url("https://i.ibb.co/PZM7N4b1/Whats-App-Image-2026-01-13-at-00-50-02-2.jpg");
+	background-size:100% 400px;
+	background-repeat: no-repeat;
+	border-radius:12px;
+	
+	
 }
-.div4 {
-	grid-row-start: 2;
+.div2 {flex:1; 
+	background-image:url("https://i.ibb.co/DD0gJLLB/Whats-App-Image-2026-01-13-at-00-50-02-1.jpg");
+	
+	background-size:100% 400px;
+	background-repeat: no-repeat;
+	border-radius:12px;
+
 }
 
+
+ 
+.parent1 { display:flex;
+	  
+         width:70%;
+		 height:400px;
+	gap: 8px;
+	margin-top:1%;
+
+	margin-left:15%;}
+
+	
+	.div3{flex:2;
+	background-image:url("https://i.ibb.co/HDpjPDMt/image.png");
+	background-size:100% 400px;
+	border-radius:12px;
+	background-repeat: no-repeat;}
+
+
+.div4{flex:2;
+	background-image:url("https://i.ibb.co/0yMP99Q6/Whats-App-Image-2026-01-13-at-00-50-01.jpg");
+	background-size:100% 400px;
+	border-radius:12px;
+	background-repeat: no-repeat;}
+
+
+
+
+.footer-content {
+	background-color: #040404;
+	padding: 50px;
+text-align: center;
+	margin-top:5%;
+}
+
+ul.s {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: #040404;
+}
+
+li{ 
+	margin-bottom: 10px;
+	text-decoration: none;
+	color:white;
+	text-transform: uppercase;
+	list-style: none;
+	cursor: pointer;
+}
+
+
+.social p{color:white;
+	
+text-transform:uppercase;
+cursor: pointer;}
+ul.a{background-color: #040404;
+	 color: rgb(247, 247, 247);
+	 display: flex;
+	 justify-content: center;
+	 margin-top:4.2%;
+	 margin-left:33% ;
+	
+	
+	
+	
+
+}
+
+
+
+ul.lista{background-color: #040404;
+display: flex;
+justify-content: center}
+
+
+
+ul.lista li{
+	margin-right:20px;
+	color:white;
+	text-transform: uppercase;}
+
+	
+	
+	ul.lista li a{color: white;
+	text-decoration: none;
+cursor: pointer;
+}
+	.copyright p{color:white;
+		cursor:pointer;}
+		
 </style>
 
 
@@ -436,8 +563,12 @@ ul {
 
 
 
+
 </head>
-<body>
+<body onload="popup()">
+	<div id="layer">
+		
+		
 <div class="topnav">
     <li class="ristorante" href="ristorante">Ristorante ai due sapori</li>
   <li href="#Menu'" class="active">Menu'</li>
@@ -473,11 +604,13 @@ ul {
 <div class="menu">
   <p>il nostro menu'</p>
 </div>
+
 <div class="bottone">
   <button>tutti i piatti</button>
 </div>
   <div class="antipasti">
     <button>antipasti</button>
+ 
   </div>
   <div class="primi">
     <button>primi piatti</button>
@@ -539,11 +672,135 @@ ul {
 
 
 <div class="parent">
-    <div class="div1">1</div>
-    <div class="div2">2</div>
-    <div class="div3">3</div>
-    <div class="div4">4</div>
+    <div class="div1"></div>
+    <div class="div2"></div>
 </div>
+
+<div class="parent1">
+	<div class="div3"></div>
+	<div class="div4"></div>
+</div>
+
+
+ 
+
+	<div class="footer-content">
+
+ <ul class="s">
+	
+	<li class="li" href="#home">Home</a></li>
+	<li class="li" href="#via">indirizzo via lungomare cristoforo colombo 33 BA italia'</a></li>
+	<li class="li" href="#prenota">prenota tavolo</li>
+	<li class="li" href="#contatti">Contatti 0805301973</a></li>
+ 	<li class="li" href="#orari ">orari lunedi'chiuso 
+		                       martedi-domenica
+		                       12:00-15:00 19:00-23:00</a></li>
+	
+	</ul> 
+ <div>
+<div>
+	 <ul class="lista">
+<li><a href="#">privacy</a>
+	<li><a href="#">termine e condizioni</a></li>
+	<li><a href="#">cookies</a>
+		</ul>
+</div>
+
+
+
+
+
+ <div class="social">
+  <p>seuici sui social</p>
+</div>
+
+<div class="copyright">
+	  <p>copyright © 2024 Ristorante ai due sapori. Tutti i diritti riservati.</p>
+
+
+</div>
+
+
+
+<div><button onclick="bottone()">bottone</button></div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p id="risposta"></p>
+</div>
+	
+
+    <script>
+
+		
+		
+		function popup(){
+		layer.style.filter="blur(20px)";
+		popup.style.display="block";
+	
+	}
+
+	
+
+	 function popup(){
+            var etautente =prompt("inserisci eta'","");
+			
+		
+
+            if( etautente>= 18)
+            
+          {layer.style.filter="blur(0px)";
+		   popup.style.display="none";
+		   close.style.display="block";
+   }
+           
+          
+       
+
+         else
+        {	layer.style.filter="blur(20px)";
+		    popup.style.display="block";
+ 		   
+      }    
+        
+       
+ }
+
+ function bottone(){
+	let a = window.innerWidth;
+     let b = window.innerHeight;
+
+	 document.write("Larghezza: " + a + "<br> Altezza: " + b);
+	 document.body.style.backgroundColor="lightblue";
+	
+     
+    }
+
+
+
+    </script>
+	
+
+</body>
+</html>
+
 
 
 
