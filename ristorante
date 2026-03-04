@@ -13,6 +13,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	margin:0%;
 	padding: 0%;
+	filter:blur(20px);
 }
 .topnav {
 	background-color: #0bd3ed;
@@ -23,18 +24,20 @@ body {
 .topnav li {
 	float: left;
 	display: block;
-	color: #f2f2f2;
+	
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size:17px;
 	cursor: pointer;
 	font-weight: bolder;
+
 	
 }
 li a {
 	text-decoration:none;
 	text-transform: uppercase;
+	color: white;
 }
 ul {
 	list-style-type: none;
@@ -42,16 +45,17 @@ ul {
 	padding: 0;
 	background-color: #333;
 }
-/* Change the color of links on hover */
-.active{
-	margin-left:50%;
-	cursor: pointer;
-}
+/*.ac Change the color of links on hover */
+.active{margin-left:68%;
+        }
+
+
 .ristorante{
 
 	font-size:large;
 	text-transform: uppercase;
 	cursor: pointer;
+	
 }
 .d {
 	
@@ -510,11 +514,12 @@ ul.s {
 li{ 
 	margin-bottom: 10px;
 	text-decoration: none;
-	color:white;
 	text-transform: uppercase;
 	list-style: none;
 	cursor: pointer;
 }
+
+ul.s li a{color: white;}
 
 
 .social p{color:white;
@@ -522,7 +527,7 @@ li{
 text-transform:uppercase;
 cursor: pointer;}
 ul.a{background-color: #040404;
-	 color: rgb(247, 247, 247);
+	
 	 display: flex;
 	 justify-content: center;
 	 margin-top:4.2%;
@@ -544,15 +549,16 @@ justify-content: center}
 
 ul.lista li{
 	margin-right:20px;
-	color:white;
-	text-transform: uppercase;}
+    text-transform: uppercase;}
 
 	
 	
-	ul.lista li a{color: white;
+	ul.lista li a{color:white;
 	text-decoration: none;
 cursor: pointer;
+
 }
+
 	.copyright p{color:white;
 		cursor:pointer;}
 		
@@ -566,15 +572,17 @@ cursor: pointer;
 
 </head>
 <body onload="popup()">
-	<div id="layer">
+	<main id="layer">
 		
 		
 <div class="topnav">
-    <li class="ristorante" href="ristorante">Ristorante ai due sapori</li>
-  <li href="#Menu'" class="active">Menu'</li>
-  <li href="#Ordine">Ordine online</li>
-  <li href="#contatti">Contatti</li>
-  <li href="#login">Login</li>
+    <li><a class="ristorante" href="ristorante">Ristorante ai due sapori</a></li>
+  <div class="active">
+	<li><a href="#Menu">Menu'</a></li>
+  <li><a href="#antipasti">Ordine online</a></li>
+  <li><a href="#contatti">Contatti</a></li>
+  <li><a href="#login">Login</a></li>
+</div>
 </div>
 <div class="contenitore">
     <div class="d"></div>
@@ -601,14 +609,14 @@ cursor: pointer;
 </div>
     
 
-<div class="menu">
+<div class="menu" id="menu">
   <p>il nostro menu'</p>
 </div>
 
 <div class="bottone">
   <button>tutti i piatti</button>
 </div>
-  <div class="antipasti">
+  <div class="antipasti" id="Antipasti">
     <button>antipasti</button>
  
   </div>
@@ -619,9 +627,10 @@ cursor: pointer;
     <button>secondi piatti</button>
   </div>
   <div class="dessert">
-    <button>dessert</button>
+
+    <button id="bottonex" value="DESSERT" onclick="nuovodocument()";>dessert</button>
   </div>
-</div>
+
 <!!--card uno--!!>
 
 <div class="card" style="width: 18rem; margin-left:10%; margin-top:5%;"></div>
@@ -688,11 +697,11 @@ cursor: pointer;
 
  <ul class="s">
 	
-	<li class="li" href="#home">Home</a></li>
-	<li class="li" href="#via">indirizzo via lungomare cristoforo colombo 33 BA italia'</a></li>
-	<li class="li" href="#prenota">prenota tavolo</li>
-	<li class="li" href="#contatti">Contatti 0805301973</a></li>
- 	<li class="li" href="#orari ">orari lunedi'chiuso 
+	<li> <a class="li" href="#home">Home</a></li>
+	<li> <a class="li" href="#via">indirizzo via lungomare cristoforo colombo 33 BA italia'</a></li>
+	<li> <a href="#prenota">prenota tavolo</a></li>
+	<li> <a class="li" href="#contatti">Contatti 0805301973</a></li>
+ 	<li> <a class="li" href="#orari ">  lunedi'chiuso 
 		                       martedi-domenica
 		                       12:00-15:00 19:00-23:00</a></li>
 	
@@ -752,35 +761,62 @@ cursor: pointer;
 		
 		
 		function popup(){
-		layer.style.filter="blur(20px)";
-		popup.style.display="block";
+			  var eta=Number(prompt("inserisci eta'",""));
+		
+		//popup.style.display="block";
+		  
+			
+		
+
+            if(eta>=18){
+			  document.body.style.filter="blur(0px)";
+			 
+		   //popup.style.display="none";
+		   close.style.display="block";
+		   
+			}
+
+		     else{  
+        	 document.body.style.filter="blur(20px)";
+			
+		   
+
 	
 	}
 
 	
+		}
 
-	 function popup(){
-            var etautente =prompt("inserisci eta'","");
 			
 		
 
-            if( etautente>= 18)
-            
-          {layer.style.filter="blur(0px)";
-		   popup.style.display="none";
-		   close.style.display="block";
-   }
+         
+ 
            
           
        
 
-         else
-        {	layer.style.filter="blur(20px)";
-		    popup.style.display="block";
- 		   
-      }    
+   
         
        
+ 
+
+ function nuovodocument()
+ {window.location.assign("zara.html");
+ bottonex.style.backgroundColor="rgb(248, 250, 250);";
+ bottonex.style.padding="12px";
+ bottonex.style.borderRadius="12px";
+ bottonex.style.marginTop="15%";
+ bottonex.style.marginLeft="69%";
+ bottonex.style.positionAbsolute="";
+
+bottonex.style.hover="rgb(5, 81, 85);";
+ bottonex.style.border="solid 3px black;";
+ bottonex.style.color="black";
+ bottonex.style.cursor="pointer";
+ bottonex.style.textTransform="uppercase";
+
+
  }
 
  function bottone(){
@@ -796,7 +832,7 @@ cursor: pointer;
 
 
     </script>
-	
+	</main>
 
 </body>
 </html>
