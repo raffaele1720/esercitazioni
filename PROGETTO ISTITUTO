@@ -86,7 +86,53 @@ font-size: 30px;
     margin-left:7%;
     FONT-WEIGHT: BOLDER;
     margin-top:-1.1%;}
+       
+    
+    
+.contenitore {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 3px;
+}
+    
+
+
+        
+    
+
+    .img{background-image:url("https://i.ibb.co/NnJCtRjZ/Programmazione-allenamento-001.jpg");
+
+         background-size:113% 640px;
+         background-repeat:no-repeat;
+         width:113%;
+         height:640px;
+         margin-top:8.1%;
+         margin-left:-10%;
+       
+}
+    .img2{background-image:url("https://i.ibb.co/V0ddzZfp/full-body-workout-orig.jpg");
+         background-size:105% 640px;
+         background-repeat:no-repeat;
+         width:105%;
+         height:640px;
+         margin-top:8.1%;
+         margin-left:-7%;
+          }
+     .img3{background-image:url(
+          "https://i.ibb.co/9HNbwxYD/Come-scegliere-il-giusto-programma-di-allenamento-in-base-ai-tuoi-obiettivi-min-800x0-c-default.jpg");
+          background-size:103% 640px;
+         background-repeat:no-repeat;
+         width:103%;
+         height:640px;
+         margin-top:8.1%;
+         margin-left:-3%;
+          }
+
+
 </style>
+
+
   
    
 <body>
@@ -112,7 +158,17 @@ font-size: 30px;
           <div CLASS="SCRIVERE">
             <p>STUDIO</p>
          </div>
-         
+
+         <div>contenitore</div>
+       
+<div class="contenitore">
+    <div class="img"></div>
+    <div class="img2"></div>
+    <div class="img3"></div>
+</div>
+    
+
 </body>
 
 </html>
+
