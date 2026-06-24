@@ -101,36 +101,152 @@ font-size: 30px;
         
     
 
-    .img{background-image:url("https://i.ibb.co/NnJCtRjZ/Programmazione-allenamento-001.jpg");
-
-         background-size:113% 640px;
+    .img{
+   background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(122, 121, 121, 0.5)), 
+                    url("https://i.ibb.co/NnJCtRjZ/Programmazione-allenamento-001.jpg");
+        background-size: cover;
+         background-size:120% 627px;
          background-repeat:no-repeat;
-         width:113%;
-         height:640px;
+         width:120%;
+         height:627px;
          margin-top:8.1%;
-         margin-left:-10%;
+         margin-left:-13%;
        
 }
-    .img2{background-image:url("https://i.ibb.co/V0ddzZfp/full-body-workout-orig.jpg");
-         background-size:105% 640px;
+    .img2{ background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(48, 48, 48, 0.5)),
+        url("https://i.ibb.co/V0ddzZfp/full-body-workout-orig.jpg");
+         background-size:105% 627px;
          background-repeat:no-repeat;
          width:105%;
-         height:640px;
+         height:627px;
          margin-top:8.1%;
          margin-left:-7%;
           }
-     .img3{background-image:url(
-          "https://i.ibb.co/9HNbwxYD/Come-scegliere-il-giusto-programma-di-allenamento-in-base-ai-tuoi-obiettivi-min-800x0-c-default.jpg");
-          background-size:103% 640px;
+     .img3{background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(122, 121, 121, 0.5)),
+          url("https://i.ibb.co/9HNbwxYD/Come-scegliere-il-giusto-programma-di-allenamento-in-base-ai-tuoi-obiettivi-min-800x0-c-default.jpg");
+          background-size:103% 627px;
          background-repeat:no-repeat;
          width:103%;
-         height:640px;
+         height:627px;
          margin-top:8.1%;
          margin-left:-3%;
           }
 
+          
+        .paragrafo{ 
+            position:absolute;
+            margin-top:-30%;
+           margin-left: 20%;
+            color:white;
+            font-size: 40px;
+            font-weight:bolder;
+            text-transform:uppercase;}
+            
+            
+            .p{position:absolute;
+            margin-top:-20%;
+            text-transform:capitalize;
+          
+          margin-left:17%;
+        color:white;
+        font-size:25px;
+    font-weight:bolder;}
 
-</style>
+
+    .bottone button{
+        position:absolute;
+        margin-top:-10%;
+        margin-left:35.5%;
+        width: 177px;
+        height: 50px;
+        background-color: rgb(247, 246, 246);
+        color:rgb(9, 9, 9);
+        font-size:20px;
+       cursor:pointer;
+       border-style:black;
+    }
+
+    .bottone button:hover{
+        background-color: rgb(5, 5, 5);
+        color:rgb(255, 254, 254);
+        font-size:20px;
+        border-style:black;
+        box-shadow: 0 0 10px #fff;
+    }
+
+    .bottone2 button{
+        position:absolute;
+        margin-top:-10%;
+        margin-left:50%;
+        width: 180px;
+        height: 50px;
+        background-color: rgb(13, 13, 13);
+        color:white;
+        font-size:20px;
+        cursor:pointer;
+       
+       border-style:black;
+    }
+                   
+    
+    .bottone2 button:hover{
+        color:rgb(14, 14, 14);
+        background-color:rgb(249, 245, 245);
+        font-size:20px;
+        border-style:rgb(245, 239, 239);
+    }
+
+
+.paragrafo1{ position:absolute;
+            margin-top:2%;
+            text-transform:capitalize;
+          text-align:center;
+          text-transform:uppercase;
+          margin-left: 33%;
+          color:rgb(5, 5, 5);
+          font-size:45px;
+          font-weight:bolder;
+        }
+
+    .paragrafo2{
+                 position:absolute;
+                 color:rgb(7, 7, 7);
+                 margin-top:12%;
+                  text-transform:capitalize;
+          text-align:center;
+          text-transform:uppercase;
+          margin-left:43%;
+          font-size:20px;
+          }
+    
+       .bottone3 button{position: absolute;
+                         border-style:black;
+                         font-size:20px;
+                         width: 200px;
+                         height:50px;
+
+                      background-color:white;
+                 color:black; 
+                 cursor:pointer;
+                 text-transform:capitalize;
+                 margin-top:17%;                        
+margin-left:45%;
+
+       }
+
+       .bottone3 button:hover{background-color:rgb(5, 5, 5);
+                         color:white;
+                         box-shadow: 0 0 10px #fff;
+                         font-size:20px;    
+                         border-style:black;}
+   
+                         
+                         
+                         
+                         
+                         </style>
+                     
+    
 
 
   
@@ -166,7 +282,38 @@ font-size: 30px;
     <div class="img2"></div>
     <div class="img3"></div>
 </div>
-    
+    <div class="paragrafo"> 
+        <h1>verso i tuoi obiettivi</h1>
+          </div>
+        <div class="p">
+          <p>Il nostro obiettivo è quello di aiutarti a raggiungere i tuoi obiettivi di fitness.e benessere
+        </p>
+       </div>
+  <div class="bottone">
+    <button>Iscriviti</button>
+  </div>
+<div class="bottone2">
+    <button>Prenota</button>
+  </div>
+
+  <div class="paragrafo1">
+       <p>"Niente è impossibile<br>perchi prova."<p>
+ </div>
+   
+   
+    <div class="paragrafo2">
+        <p>Alexander the Great </p>
+    </div>
+
+     <div class="bottone3">
+        <button>allenati con noi</button> 
+
+        </div>
+     </div>
+
+
+
+
 
 </body>
 
