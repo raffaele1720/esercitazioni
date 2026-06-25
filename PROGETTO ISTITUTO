@@ -1,250 +1,277 @@
 <!DOCTYPE html >
-<html lang="en">
+<html lang="it en de fr es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
-
-
 body {
-      font-family: arial, sans-serif;  
-      margin:0;
-      padding:0;
-
-
-}
-
-    .color{
-        background-color: rgb(7, 7, 7);
-        height:120px;
-        width: 20%;
-        position:absolute;
-        z-index: -1;
-        margin:-60px;
-        padding:0px;
-       
+	font-family: arial, sans-serif;
+	margin:0;
+	padding:0;
     }
-
-    ul{margin-left:50%;
-       
-     
-          
+.color{
+	    background-color: rgb(7, 7, 7);
+	    height:120px;
+	    width: 20%;
+	    position:absolute;
+	    z-index: -1;
+	    margin:-60px;
+	    padding:0px;
     }
-
-li {list-style-type: none;
-       display: inline;
-       position:relative;
-       top: 20px;
-      
+ul{
+	margin-left:50%;
 }
-
-li a {text-decoration: none;
-            text-transform:Capitalize;
-
-                color:black;
-               margin: 10px;  
-             
-
-}
-
-li a:hover {color:orange;
-           
-                }
-
- 
-.logo p{ 
-font-size: 30px;
- 
- 
-    color: rgb(240, 235, 235);
-    position:absolute;
-    margin-left:2%;
-    margin-top:-2%;
-    border:2px solid rgb(240, 235, 235);
-    width: 50px;
-    height: 50px;
-  
-}
- .b{font-size: 30px;
- 
- 
-    color: rgb(240, 235, 235);
-    position:absolute;
-    margin-left:3%;
-    margin-top:-3.4%;
-}
-
-.SCRIVERE p{font-size: 30px;
- 
- 
-    color: rgb(240, 235, 235);
-    position:absolute;
-    margin-left:7%;
-    FONT-WEIGHT: BOLDER;
-    margin-top:-1.1%;}
-       
-    
-    
+li {
+	list-style-type: none;
+	display: inline;
+	position:relative;
+	top: 20px;
+    }
+li a {
+	text-decoration: none;
+	text-transform:Capitalize;
+	color:black;
+	margin: 10px;
+    }
+li a:hover {
+	color:orange;
+    }
+.logo p{
+	font-size: 30px;
+	color: rgb(240, 235, 235);
+	position:absolute;
+	margin-left:2%;
+	margin-top:-2%;
+	border:2px solid rgb(240, 235, 235);
+	width: 50px;
+	height: 50px;
+    }
+.b{
+	font-size: 30px;
+	color: rgb(240, 235, 235);
+	position:absolute;
+	margin-left:3%;
+	margin-top:-3.4%;
+    }
+.SCRIVERE p{
+	font-size: 30px;
+	color: rgb(240, 235, 235);
+	position:absolute;
+	margin-left:7%;
+	FONT-WEIGHT: BOLDER;
+	margin-top:-1.1%;
+    }
 .contenitore {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 3px;
-}
-    
+	        display: grid;
+	        grid-template-columns: repeat(3, 1fr);
+	        grid-template-rows: repeat(1, 1fr);
+	        gap: 3px;
+            }
+.img{
+    background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(122, 121, 121, 0.5)),url("https://i.ibb.co/NnJCtRjZ/Programmazione-allenamento-001.jpg");
+    background-size: cover;
+    background-size:120% 627px;
+    background-repeat:no-repeat;
+    width:120%;
+    height:627px;
+    margin-top:8.1%;
+    margin-left:-13%;
+    }
 
+.img2{
+	background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(48, 48, 48, 0.5)),url("https://i.ibb.co/V0ddzZfp/full-body-workout-orig.jpg");
+	background-size:105% 627px;
+	background-repeat:no-repeat;
+	width:105%;
+	height:627px;
+	margin-top:8.1%;
+	margin-left:-7%;
+    }
 
-        
-    
-
-    .img{
-   background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(122, 121, 121, 0.5)), 
-                    url("https://i.ibb.co/NnJCtRjZ/Programmazione-allenamento-001.jpg");
-        background-size: cover;
-         background-size:120% 627px;
-         background-repeat:no-repeat;
-         width:120%;
-         height:627px;
-         margin-top:8.1%;
-         margin-left:-13%;
-       
-}
-    .img2{ background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(48, 48, 48, 0.5)),
-        url("https://i.ibb.co/V0ddzZfp/full-body-workout-orig.jpg");
-         background-size:105% 627px;
-         background-repeat:no-repeat;
-         width:105%;
-         height:627px;
-         margin-top:8.1%;
-         margin-left:-7%;
-          }
-     .img3{background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(122, 121, 121, 0.5)),
-          url("https://i.ibb.co/9HNbwxYD/Come-scegliere-il-giusto-programma-di-allenamento-in-base-ai-tuoi-obiettivi-min-800x0-c-default.jpg");
-          background-size:103% 627px;
-         background-repeat:no-repeat;
-         width:103%;
-         height:627px;
-         margin-top:8.1%;
-         margin-left:-3%;
-          }
-
-          
-        .paragrafo{ 
+.img3{
+	background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(122, 121, 121, 0.5)),url("https://i.ibb.co/9HNbwxYD/Come-scegliere-il-giusto-programma-di-allenamento-in-base-ai-tuoi-obiettivi-min-800x0-c-default.jpg");
+	background-size:103% 627px;
+	background-repeat:no-repeat;
+	width:103%;
+	height:627px;
+	margin-top:8.1%;
+	margin-left:-3%;
+    }
+.paragrafo{
             position:absolute;
             margin-top:-30%;
-           margin-left: 20%;
+            margin-left: 20%;
             color:white;
             font-size: 40px;
             font-weight:bolder;
-            text-transform:uppercase;}
-            
-            
-            .p{position:absolute;
-            margin-top:-20%;
-            text-transform:capitalize;
-          
-          margin-left:17%;
-        color:white;
-        font-size:25px;
-    font-weight:bolder;}
-
-
-    .bottone button{
-        position:absolute;
-        margin-top:-10%;
-        margin-left:35.5%;
-        width: 177px;
-        height: 50px;
-        background-color: rgb(247, 246, 246);
-        color:rgb(9, 9, 9);
-        font-size:20px;
-       cursor:pointer;
-       border-style:black;
+            text-transform:uppercase;
+            }
+.p{
+	position:absolute;
+	margin-top:-20%;
+	text-transform:capitalize;
+	margin-left:17%;
+	color:white;
+	font-size:25px;
+	font-weight:bolder;
     }
-
-    .bottone button:hover{
-        background-color: rgb(5, 5, 5);
-        color:rgb(255, 254, 254);
-        font-size:20px;
-        border-style:black;
-        box-shadow: 0 0 10px #fff;
-    }
-
-    .bottone2 button{
-        position:absolute;
-        margin-top:-10%;
-        margin-left:50%;
-        width: 180px;
-        height: 50px;
-        background-color: rgb(13, 13, 13);
-        color:white;
-        font-size:20px;
-        cursor:pointer;
-       
-       border-style:black;
-    }
-                   
-    
-    .bottone2 button:hover{
-        color:rgb(14, 14, 14);
-        background-color:rgb(249, 245, 245);
-        font-size:20px;
-        border-style:rgb(245, 239, 239);
-    }
-
-
-.paragrafo1{ position:absolute;
+.bottone button{
+                position:absolute;
+                margin-top:-10%;
+                margin-left:35.5%;
+                width: 177px;
+                height: 50px;
+                background-color: rgb(247, 246, 246);
+                color:rgb(9, 9, 9);
+                font-size:20px;
+                cursor:pointer;
+                border-style:black;    
+                }
+.bottone button:hover{
+                    background-color: rgb(5, 5, 5);
+                    color:rgb(255, 254, 254);
+                    font-size:20px;
+                    border-style:black;
+                    box-shadow: 0 0 10px #fff;
+                    }
+.bottone2 button{
+                position:absolute;
+                margin-top:-10%;
+                margin-left:50%;
+                width: 180px;
+                height: 50px;
+                background-color: rgb(13, 13, 13);
+                color:white;
+                font-size:20px;
+                cursor:pointer;
+                border-style:black;
+                }
+.bottone2 button:hover{
+                    color:rgb(14, 14, 14);
+                    background-color:rgb(249, 245, 245);
+                    font-size:20px;
+                    border-style:rgb(245, 239, 239);
+                        }
+.paragrafo1{
+            position:absolute;
             margin-top:2%;
             text-transform:capitalize;
-          text-align:center;
-          text-transform:uppercase;
-          margin-left: 33%;
-          color:rgb(5, 5, 5);
-          font-size:45px;
-          font-weight:bolder;
-        }
+            text-align:center;
+            text-transform:uppercase;
+            margin-left: 33%;
+            color:rgb(5, 5, 5);
+            font-size:45px;
+            font-weight:bolder;
+            }
+ .paragrafo2{
+            position:absolute;
+            color:rgb(7, 7, 7);
+            margin-top:12%;
+            text-transform:capitalize;
+            text-align:center;
+            text-transform:uppercase;
+            margin-left:43%;
+            font-size:20px;
+            }
+.bottone3 button{
+                position: absolute;
+                border-style:black;
+                font-size:20px;
+                width: 200px;
+                height:50px;
+                background-color:white;
+                color:black;
+                cursor:pointer;
+                text-transform:capitalize;
+                margin-top:17%;
+                margin-left:45%;
+                }
+.bottone3 button:hover{
+                    background-color:rgb(5, 5, 5);
+                    color:white;
+                    box-shadow: 0 0 10px #fff;
+                    font-size:20px;
+                    border-style:black;
+                    }
+.imgarancione{
+                background-image:url("https://i.ibb.co/cVgWJHs/arancione.jpg");
+                background-size:cover;
+                background-repeat:no-repeat;
+                position:absolute;
+                margin-top:27%;
+                margin-left:45%;
+                width:40%;
+                height:570px;
+                }
+.imgdonna{
+            background-image:url("https://i.ibb.co/Qjf1gp03/2102-AA-PROJECT21-1054-960x540.jpg");
+            background-size:75% 500px;
+            background-repeat:no-repeat;
+            position:absolute;
+            margin-top:32%;
+            margin-left:20%;
+            width:75%;
+            height:450px;
+            }
+.imgrigio{
+            background-image:url("https://i.ibb.co/rK8B5ds1/556807.jpg");
+            position: absolute;
+            margin-top:50%;
+            margin-left:8%;
+            width:50%;
+            height:500px;
+            background-repeat:no-repeat;
+            background-size:75% 500px;
+            }
+.risultati p {
+                font-size:50px;
+                color:orange;
+                position:absolute;
+                margin-top:53%;
+                margin-left:16%;
+                font-weight:bolder;
+                text-transform:capitalize;
+                text-align:center;
+                }
+.descrizione p{
+                font-size:20px;
+                color:rgb(255, 254, 251);
+                position:absolute;
+                margin-top:65%;
+                margin-left:10.5%;
+                text-align:center;
+                    }
+.bottone4 button {
+                    background-color:transparent;
+                    color:white;
+                    border-color:white;
+                    margin-top:75%;
+                    margin-left:20.9%;
+                    border-style:solid;
+                    width:200px;
+                    height:50px;
+                    font-size:20px;
+                    position: absolute;
+                    cursor: pointer;
+                    }
+.bottone4 :hover{
+                color:black;
+                background-color: white;
+                    }
 
-    .paragrafo2{
-                 position:absolute;
-                 color:rgb(7, 7, 7);
-                 margin-top:12%;
-                  text-transform:capitalize;
-          text-align:center;
-          text-transform:uppercase;
-          margin-left:43%;
-          font-size:20px;
-          }
-    
-       .bottone3 button{position: absolute;
-                         border-style:black;
-                         font-size:20px;
-                         width: 200px;
-                         height:50px;
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            </style>
 
-                      background-color:white;
-                 color:black; 
-                 cursor:pointer;
-                 text-transform:capitalize;
-                 margin-top:17%;                        
-margin-left:45%;
-
-       }
-
-       .bottone3 button:hover{background-color:rgb(5, 5, 5);
-                         color:white;
-                         box-shadow: 0 0 10px #fff;
-                         font-size:20px;    
-                         border-style:black;}
-   
-                         
-                         
-                         
-                         
-                         </style>
+                                            
+                        
                      
     
 
@@ -263,7 +290,9 @@ margin-left:45%;
                         <li><a href="#">accedi</a></li>
           </ul> 
 
-         <div class="color"></div>       
+         <div class="color">
+
+         </div>       
          <div class="logo">
             <p></p>
          </div>
@@ -275,7 +304,9 @@ margin-left:45%;
             <p>STUDIO</p>
          </div>
 
-         <div>contenitore</div>
+         <div>
+            
+         </div>
        
 <div class="contenitore">
     <div class="img"></div>
@@ -290,14 +321,14 @@ margin-left:45%;
         </p>
        </div>
   <div class="bottone">
-    <button>Iscriviti</button>
+    <button id="btn1"onclick="primobutton()">Iscriviti</button>
   </div>
 <div class="bottone2">
-    <button>Prenota</button>
+    <button id="btn2" onclick="secondobutton()">Prenota</button>
   </div>
 
   <div class="paragrafo1">
-       <p>"Niente è impossibile<br>perchi prova."<p>
+       <p>"Niente è impossibile<br>per chi ci prova."<p>
  </div>
    
    
@@ -306,16 +337,70 @@ margin-left:45%;
     </div>
 
      <div class="bottone3">
-        <button>allenati con noi</button> 
+        <button id="btn3"onclick="terzobutton()">allenati con noi</button> 
 
         </div>
+   
+
+     <div class="imgarancione">
+
      </div>
+        
+    <div class="imgdonna">
+
+    </div>
+     
+   <div class="imgrigio">
+
+   </div>
+
+  
+    <div class="risultati">
+        <p class="">100% Risultati<br>
+garantiti</p>
+</div>
+<div class="descrizione">
+    <p>Offriamo una comunità semplice e orientata ai risultati,<br>
+         che investe nei tuoi obiettivi e nel tuo successo.<br>
+          Metti il tuo ego alla porta e preparati a sudare!</p>
+</div>
+
+<div class="bottone4">
+    <button id="btn4"onclick="quartobutton()">scopri di piu'</button>
+</div>
 
 
 
+<script>
+    
+    
+    function primobutton() 
+      
+ {
+      
+        } 
+       
+        
+       function secondobutton(){
 
+}
+    
+    
 
+ function terzobutton(){
+
+ }
+    
+    </script>
+   
+    
 </body>
+      
 
 </html>
+
+
+
+
+
 
