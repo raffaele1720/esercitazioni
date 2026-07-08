@@ -263,7 +263,181 @@ li a:hover {
                 background-color: white;
                     }
 
+                    
+.impianto{color:black;
+          position:absolute;
+            margin-top:95%;
+            margin-left:28%;
+            text-transform:uppercase;
+              font-size:50px;
+              font-weight:bolder;
+              text-align:center;
+
+                    }     
+                    
+                    
+.contenitore1{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap:3px;
+}
+ .img4{   
+ grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    background-image:url("https://i.ibb.co/PsVQnz5B/palestra-genova-centro.jpg");
+    background-size:100% 400px;
+    background-repeat:no-repeat;
+    width:70%;
+    margin-top:255%;
+    height:400px;
+margin-left:22%;
+transition-property: width, height;
+  transition-duration: 2s;
+}
+.img5{
+  grid-column: span 3 / span 3;
+    grid-row: span 4 / span 4;
+    grid-column-start: 3;
+   
+     background-image:url("https://i.ibb.co/d4kLrNMQ/articolo.webp");
+    background-size:100% 400px;
+    background-repeat:no-repeat;
+    width:90%;
+    margin-top:169.8%;
+    height:400px;
+    gap:3px;
+    margin-left:-5%;
+  transition-property: width, height;
+  transition-duration: 2s;
+     
+    }
+    
+     
+    
+
+.img4:hover{opacity: 0.9;}
+.img5:hover{opacity: 0.9;}
+    
+  
+    
+.contenitore2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap:8px;
+}
+    
+.img6 {
+    grid-column: span 3 / span 3;
+    grid-row: span 4 / span 4;
+    background-repeat:no-repeat;
+    background-size:100% 400px;
+    width:70%;
+    margin-top:-53.5%;
+    height:400px;
+margin-left:14.8%;
+background-image:url("https://i.ibb.co/20jrSbX7/iniziare-palestra-900x760.jpg");
+
+
+     
+}
+
+
+.img7 {
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start: 4;
+    background-repeat:no-repeat;
+    background-image:url("https://i.ibb.co/Ldf17fqT/allenamenti-in-palestra-per-dimagrire.jpg");
+  background-size:100% 400px;
+    width:100%;
+    margin-top:-80.5%;
+    height:400px;
+    margin-left:-23%;
+
+    
+}
+
+
+    
+
+.img7:hover{opacity: 0.9;}
+.img6:hover{opacity: 0.9;}       
+
+
+ .metodo{align-items:center;
+    font-size:37px;
+    text-transform:uppercase;
+    margin-left:32%;
+
+}
+
+
+
+.imaggine{background:rgb(42, 41, 41);
+          width:80%;
+          height:300px;}
                                             
+ 
+.contenitore3{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 8px;
+}
+    
+.img8 {
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    background-image: url("https://i.ibb.co/S4Crg5zX/norbert-buduczki-t-M-AOYw-CK-Y-unsplash-scaled.jpg");
+     background-size:100% 300px;
+      background-repeat:no-repeat;
+      width:90%;
+      height:300px;
+      margin-top:-65%;
+margin-left:25%;
+}
+
+.img9 {
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+     background-image: url("https://i.ibb.co/HL9BLBBm/Whats-App-Image-2026-02-02-at-20-08-14.jpg");
+    grid-column-start: 3;
+     background-size:100% 330px;
+      background-repeat:no-repeat;
+      width:90%;
+      height:300px;
+      margin-top:-65%;
+margin-left:15%;
+}
+
+.img10 {
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start: 5;
+     background-size:100% 330px;
+      background-repeat:no-repeat;
+      width:90%;
+      height:300px;
+      margin-top:-65%;
+margin-left:5%;
+  background-image: url("https://i.ibb.co/1Gnxdt3c/fisico-perfetto-in-5-mosse.jpg");
+}
+
+.img11{
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start: 7;
+      background-size:100% 330px;
+      background-repeat:no-repeat;
+      width:90%;
+      height:300px;
+      margin-top:-65%;
+margin-left:-5%;
+  background-image: url("https://i.ibb.co/tTkkWD0Z/72523657-young-fitness-woman-in-gym-on-brick-background-vertical-photo.jpg");
+}
+                                                   
                                             
                                             
                                             
@@ -368,6 +542,34 @@ garantiti</p>
 <div class="bottone4">
     <button id="btn4"onclick="quartobutton()">scopri di piu'</button>
 </div>
+
+<h2 class="impianto">impianto di allenamennto</h2>
+
+<div class="contenitore1">
+    <div class="img4"></div>
+    <div class="img5"></div>
+</div>
+   
+<div class="contenitore2">
+    <div class="img6"></div>
+    <div class="img7"></div>
+</div>
+
+<div class="metodo">
+    <h2>il nostro metodo</h2>
+</div>
+
+<div class="imaggine">
+
+</div>
+
+<div class="contenitore3">
+    <div class="img8"></div>
+    <div class="img9"></div>
+    <div class="img10"></div>
+    <div class="img11"></div>
+</div>
+    
 
 
 
