@@ -34,11 +34,13 @@ li {
 li a {
 	text-decoration: none;
 	text-transform:Capitalize;
+   
 	color:black;
 	margin: 10px;
     }
 li a:hover {
 	color:orange;
+   text-decoration: underline;
     }
 .logo p{
 	font-size: 30px;
@@ -359,12 +361,16 @@ background-image:url("https://i.ibb.co/20jrSbX7/iniziare-palestra-900x760.jpg");
     
 }
 
-
+ 
     
-
 .img7:hover{opacity: 0.9;}
-.img6:hover{opacity: 0.9;}       
+.img6:hover{opacity: 0.9;}
+      
 
+
+
+
+.img8, .img9, .img10, .img11 { position: relative; }
 
  .metodo{align-items:center;
     font-size:37px;
@@ -438,25 +444,518 @@ margin-left:-5%;
   background-image: url("https://i.ibb.co/tTkkWD0Z/72523657-young-fitness-woman-in-gym-on-brick-background-vertical-photo.jpg");
 }
                                                    
-                                            
-                                            
-                                            
-                                            
-                                            </style>
-
-                                            
-                        
-                     
+.contenitore4{ display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 8px;
     
+}  
+
+
+.paragrafo3{grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start: 7;
+    color:rgb(5, 5, 5);
+font-size:30px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-top:1%;
+margin-left:14%;
+text-transform:capitalize;
+}
+                                            
+                                            
+.paragrafo4{grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start: 5;
+color:rgb(5, 5, 5);
+font-size:30px;
+text-transform:capitalize;
+margin-top:-16%;
+margin-left:37%;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }          
+    
+.paragrafo5{grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start: 3;
+color:rgb(5, 5, 5);
+font-size:30px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-transform:capitalize;
+margin-top:-33%;
+margin-left:33%;
+}
+
+    .paragrafo6{grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start:7;
+    color:rgb(5, 5, 5);
+     font-size:30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin-top:-66%;
+     margin-left:-246%;
+     text-transform:capitalize;
+     }
+
+            .paragrafo3 .brucia{
+                font-size:20px;
+                color:rgb(5, 5, 5);
+             
+                margin-top:-10px;
+                margin-left:-19%;
+                  text-align:center;
+                
+            }                                  
+                        
+            
+            
+            .estremo{ 
+                font-size:20px;
+                color:rgb(5, 5, 5);
+                margin-top:-9px;
+                margin-left:-47%;
+     text-align:center;
+    
+            }  
+             .tonico{
+                font-size:20px;
+                color:rgb(5, 5, 5);
+                margin-top:-8px;
+                margin-left:-27%;
+                  text-align:center;
+             } 
+
+              
+
+
+              .hiit{ 
+                font-size:20px;
+                color:rgb(5, 5, 5);
+                margin-top:-8px;
+                margin-left:-95%;
+                  text-align:center;
+
+              }
+
+              .bottone5 button{
+                position: absolute;
+                border-style:black;
+                font-size:20px;
+                width: 200px;
+                height:50px;
+                background-color:white;
+                color:black;
+                cursor:pointer;
+                text-transform:capitalize;
+                margin-top:5%;
+                margin-left:45%;
+                }
+.bottone5 button:hover{
+                    background-color:rgb(5, 5, 5);
+                    color:white;
+                    box-shadow: 0 0 10px #fff;
+                    font-size:20px;
+                    border-style:black;
+                    }
+                    
+            .scrittura1 p{ 
+                font-size:50px;
+                color:rgba(6, 6, 6, 0.911);
+                margin-top:20%;
+                margin-left:34%;
+                font-weight:bolder;
+                text-transform:capitalize;
+             
+                
+
+            }
+  
+             .form{background-color:rgb(17, 17, 17);
+                     width:40%;
+                    height:700px;
+      border-radius: 12px;
+      border-color:orangered;
+      border-style: solid;
+      margin-left:50%;
+
+                       }       
+
+
+
+
 
 
   
+
+.AB{ 
+    color:rgb(246, 241, 241);
+    font-size:20px;
+    margin-left:7%;
+    margin-top:7%;
+font-style:italic;
+position:absolute;
+
+}
+    
+    
+    .AC{ 
+    margin-left:70%;
+    position:absolute;
+    margin-top:9%;
+    margin-left:1%;
+    width: 250px;
+    height: 40px;
+   border-bottom: 2px solid orange;
+   border-top: 2px solid transparent;
+   border-left: 2px solid transparent;
+   border-right: 2px solid transparent;
+   color:white;
+   background-color:transparent;
+    
+    
+}
+
+
+
+.AD{ color:rgb(244, 244, 247);
+    font-size:20px;
+    margin-left:27%;
+    margin-top:7%;
+font-style:italic;
+position:absolute;
+ 
+  
+}
+
+.AF{
+    margin-left:70%;
+    position:absolute;
+    margin-top:9%;
+    margin-left:21%;
+    width: 250px;
+    
+    background-color:transparent;
+    color:white;
+    border-bottom: 2px solid orange;
+   border-top: 2px solid transparent;
+   border-left: 2px solid transparent;
+   border-right: 2px solid transparent;
+    height: 40px;}
+
+
+
+.AH{ color:rgb(249, 249, 251);
+    font-size:20px;
+    margin-left:7%;
+    POSITION:absolute;
+    margin-top:15%;
+    }
+
+    
+    .AL{
+    position:absolute;
+    margin-top:17%;
+    margin-left:1%;
+    width: 250px;
+    
+    background-color:TRANSPARENT;
+    color:white;
+    border-bottom: 2px solid orange;
+   border-top: 2px solid transparent;
+   border-left: 2px solid transparent;
+   border-right: 2px solid transparent;
+    height: 40px;
+
+    }
+
+    
+    
+    .AI { color:white;
+        font-size:20px;
+        position:absolute;
+        margin-top:15%;
+        margin-left:27%;
+
+    } 
+
+    
+    .AM{
+    position:absolute;
+        margin-top:17%;
+        margin-left:21%;
+        width: 250px;
+        border-bottom: 2px solid orange;
+   border-top: 2px solid transparent;
+   border-left: 2px solid transparent;
+   border-right: 2px solid transparent;
+        background-color:transparent;
+        color:white;
+       
+        height: 40px;
+    }
+    
+
+    .AN{ color:white;
+        font-size:20px;
+        position:absolute;
+        margin-top:23%;
+        margin-left:17%;
+    }
+
+    .AO{
+        position:absolute;
+        margin-top:25%;
+        margin-left:6.6%;
+        width: 400px;
+         border-radius:10px;
+        background-color:transparent;
+        color:white;
+       
+        height: 200px;
+    }
+
+
+
+.bottone6{
+    position:absolute;
+    margin-top:41%;
+    margin-left:3%;
+    width: 500px;
+    height:50px;
+    background-color:transparent;
+    color:rgb(247, 241, 241);
+    font-size:20px;
+    cursor:pointer;
+    
+    
+    
+    border-style:rgb(242, 239, 239);}
+
+
+
+   .bottone6:hover{
+    background-color:rgb(247, 241, 241);
+    color:rgb(5, 5, 5);
+    font-size:20px;
+    cursor:pointer;
+    border-style:rgb(242, 239, 239);
+    }
+
+
+.conttatti2 h3{
+    position:absolute;
+    margin-top:3%;
+    margin-left:63%;
+    color:rgb(243, 241, 241);
+    font-size:30px;
+    text-transform:uppercase;
+    
+    }
+
+
+.imgpalestra{
+    background-image:url("https://i.ibb.co/DP16QXTx/depositphotos-271488802-stock-photo-sporty-sexy-couple-showing-muscle.webp");
+    background-size:100% 500px;
+    background-repeat:no-repeat;
+    position:absolute;
+    margin-top:-40%;
+    margin-left:3%;
+    width:40%;
+    
+    height:500px;
+
+    }
+
+
+.imgpalestra:hover{opacity: 0.9;}
    
+/* Stile base e reset interno per il footer */
+.site-footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 70px 0 0 0;
+  font-family: sans-serif;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+/* Griglia flessibile responsive per PC e Tablet */
+.footer-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 0 20px 50px 20px;
+  box-sizing: border-box;
+}
+
+/* Layout singole colonne */
+.footer-column {
+  flex: 1;
+  min-width: 220px;
+  box-sizing: border-box;
+}
+
+/* Intestazioni delle sezioni */
+.footer-column h3 {
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-bottom: 2px solid orange;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Paragrafi di testo */
+.footer-column p {
+  margin: 0 0 10px 0;
+  line-height: 1.6;
+  color: #dddddd;
+}
+
+/* Link di testo */
+.footer-column a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+/* Contenitore bottoni per App Store / Google Play */
+.download-badges {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-column .badge {
+  display: block;
+  max-width: 200px;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 12px 16px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  text-align: center;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-column .badge:hover {
+  background-color: #ff6600;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+/* Canali Social */
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-links a {
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+}
+
+.social-links a::before {
+  display: inline-block;
+  width: 20px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.social-links a.facebook::before { content: "ƒ"; font-weight: bold; color: #1877f2; }
+.social-links a.instagram::before { content: "◉"; color: #e1306c; }
+.social-links a.youtube::before { content: "▶"; color: #ff0000; }
+
+/* Blocco inferiore nero */
+.footer-bottom {
+  border-top: 1px solid #333333;
+  background-color: #111111;
+  width: 100%;
+  padding: 30px ;
+  box-sizing: border-box;
+}
+
+/* Layout interno del blocco legale */
+.footer-bottom-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+/* Sezione dei link legali */
+.footer-legal-menu h4 {
+  margin: 0 0 12px 0;
+  font-size: 0.95rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.footer-legal-menu ul {
+  list-style: none;
+ margin:0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-legal-menu li a {
+  color: #aaaaaa;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.3s ease;
+}
+
+.footer-legal-menu li a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+/* Testo copyright a destra */
+.copyright-text {
+  margin: 0;
+  color: #777777;
+  font-size: 0.85rem;
+   margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+    </style> 
+
+
 <body>
    
       
       <ul>
                 <li><a href="#">Impianto</a></li>
+  
                 <li><a href="#">metodi</a></li>
                 <li><a href="#">programmi</a></li>
                    <li><a href="#">abbonamenti</a></li>
@@ -554,7 +1053,7 @@ garantiti</p>
     <div class="img6"></div>
     <div class="img7"></div>
 </div>
-
+<div>
 <div class="metodo">
     <h2>il nostro metodo</h2>
 </div>
@@ -569,14 +1068,149 @@ garantiti</p>
     <div class="img10"></div>
     <div class="img11"></div>
 </div>
+<div class="contenitore4">
+    <div class="paragrafo3">
+        <p>brucia calorie</p>
+        <p class="brucia">
+            Allenamento brucia calorie unisce esercizi dinamici e intensi,
+             aumentando consumo energetico, resistenza e forma fisica generale.
+</p>
+           
+    </div>
+    <div class="paragrafo4">
+        <p>Extreme</p>
+        <p class="estremo">Allenamento estremo combina esercizi ad alta intensità, 
+            sfidando forza, resistenza, velocità, determinazione e limiti personali.</p>
+    </div>
+    <div class="paragrafo5">
+        <p>Corpo tonico</p>
+        <p class="tonico">Allenamento tonico migliora forza resistenza postura definizione
+             muscolare equilibrio flessibilità attraverso esercizi costanti
+              progressivi funzionali.
+
+        </p>
+    </div>
+    <div class="paragrafo6">
+        <p>Hiit</p>
+        <p class="hiit">Allenamento HIIT alternai<br> intervall ad alta intensità<br> e recupero,
+             migliorando<br> resistenza, potenza,<br> metabolismo e forma fisica.
+
+</p>
+        
+</div>    
+</div>
+<div class="bottone5">
+    <button id="btn5"onclick="quintobutton()">le lezioni</button>
+</div>
+
+    <div class="scrittura1">
+        <p>Noi siamo pronti, e tu?</p>
+     </div>
+
+<div class="conttatti2">
+    <h3>Contattaci</h3>
+  </div>
+
+</div>
+ <form class="form" action="palestra.php"method="post">
+     <label class="AB" for="name">nome</label>
+     <input class="AC" type="text" name="name" id="name1" value="" placeholder="inserisci il tuo nome" required>
+     <label class="AD" for="cognome">cognome</label>
+     <input class="AF" type="text" name="cognome" id="cognome1" value="" placeholder="inserisci il tuo cognome" required>
+     <label class="AH" for="email">email</label>
+    <input class="AL" type="email" name="email" id="email1" value="" placeholder="mariorossi@gmail.com" required>
+    <label class="AI" for="telefono">telefono</label>
+    <input class="AM" type="tel" name="telefono" id="telefono1" value="" placeholder="inserisci il tuo numero di telefono" required>
+     <label class="AN" for="textarea">messaggio</label>
+    <textarea class="AO" name="textarea" id="textarea1" cols="30" rows="10" placeholder="inserisci il tuo messaggio"></textarea>
+    <button class="bottone6" type="submit" value="invia">invia</button>
+</form>
+
+<div class="imgpalestra">
+
+</div>
+
+  <footer class="site-footer">
+  <div class="footer-container">
+
+    <!-- Colonna 1: Contattaci -->
+    <div class="footer-column">
+      <h3>Contattaci</h3>
+      <p>Via Genova<br>7100 Bari (BA)</p>
+      <p>Email: <a href="mailto:info@ilmiosito.com">info@ilmiosito.com</a></p>
+      <p>Tel: <a href="tel:243456798">243 456798</a></p>
+    </div>
+
+    <!-- Colonna 2: Download -->
+    <div class="footer-column">
+      <h3>Download</h3>
+      <div class="download-badges">
+        <a class="badge" href="#" target="_blank">Download on the App Store</a>
+        <a class="badge" href="#" target="_blank">Get it on Google Play</a>
+      </div>
+    </div>
+
+    <!-- Colonna 3: Orari di apertura -->
+    <div class="footer-column">
+      <h3>Orari di apertura</h3>
+      <p>lun - ven: 9:00 - 22:00</p>
+      <p>sabato: 10:00 - 23:00</p>
+    </div>
+
+    <!-- Colonna 4: Seguici (Social) -->
+    <div class="footer-column">
+      <h3>Seguici</h3>
+      <div class="social-links">
+        <a class="facebook" href="#">Facebook</a>
+        <a class="instagram" href="#">Instagram</a>
+        <a class="youtube" href="#">YouTube</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Barra inferiore: Pagine legali e Copyright -->
+  <div class="footer-bottom">
+    <div class="footer-bottom-inner">
+      <div class="footer-legal-menu">
+       
+        <ul>
+          <li><a href="#privacy">Informativa sulla privacy</a></li>
+          <li><a href="#termini">Termini e Condizioni</a></li>
+          <li><a href="#cookie">Informativa sui cookie</a></li>
+          <li><a href="#accessibilita">Dichiarazione di accessibilità</a></li>
+        </ul>
+      </div>
+      <p class="copyright-text">&copy; 2026 Il Mio Sito. Tutti i diritti riservati.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+      
+     
+
     
+    
+ 
+
+
+
+
+  
+
 
 
 
 <script>
     
     
-    function primobutton() 
+    function primobutton(
+
+                          
+    ) 
       
  {
       
@@ -584,6 +1218,7 @@ garantiti</p>
        
         
        function secondobutton(){
+                               
 
 }
     
