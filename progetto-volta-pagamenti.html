@@ -1,0 +1,482 @@
+
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pagamento</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 17px;
+            padding: 20px;
+            margin: 0;
+            background-color: #fdfdff;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -10px;
+        }
+
+        .col-50,
+        .col-25,
+        .col-75 {
+            padding: 0 10px;
+        }
+
+        .col-50 {
+            flex: 50%;
+        }
+
+        .col-75 {
+            flex: 75%;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .col-25 {
+            flex: 25%;
+        }
+
+        .container {
+            background-color: #efeeee;
+            padding: 20px;
+            border: 2px solid lightgrey;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        label {
+            margin-bottom: 8px;
+            display: block;
+            font-weight: bold;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"] {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: white;
+        }
+
+        input:focus {
+            outline: none;
+            border-color:green;
+            box-shadow: 0 0 0 2px rgba(4, 170, 109, 0.15);
+        }
+
+        /* QUOTA DA PAGARE */
+
+        .quota-box {
+            background-color: white;
+            border: 2px solid #0b0b0b;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .quota-box label {
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .quota-input {
+            font-size: 22px !important;
+            font-weight: bold;
+            color: #0e0e0e;
+            margin-bottom: 0 !important;
+        }
+
+        .icon-container {
+            margin-bottom: 20px;
+            padding: 10px 0;
+            font-size: 30px;
+        }
+
+        .icon-container i {
+            margin-right: 8px;
+        }
+
+        .btn {
+            display: block;
+            background-color: #04AA6D;
+            color: white;
+            padding: 14px;
+            margin: 20px auto 0;
+            border: none;
+            width: 100%;
+            max-width: 400px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 17px;
+            font-weight: bold;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        /* Linea divisoria */
+
+        .payment-section {
+            border-left: 1px solid #ddd;
+        }
+
+        /* Responsive */
+
+        @media screen and (max-width: 800px) {
+
+            body {
+                padding: 10px;
+            }
+
+            .col-50,
+            .col-75,
+            .col-25 {
+                flex: 100%;
+                max-width: 100%;
+            }
+
+            .payment-section {
+                border-left: none;
+                border-top: 1px solid #ddd;
+                margin-top: 20px;
+                padding-top: 20px;
+            }
+
+            .btn {
+                max-width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+
+            body {
+                font-size: 15px;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            input[type="text"],
+            input[type="email"],
+            input[type="number"] {
+                padding: 11px;
+            }
+
+            .icon-container {
+                font-size: 25px;
+            }
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+<div class="row">
+
+    <div class="col-75">
+
+        <div class="container">
+
+            <form action="/action_page.php" method="post">
+
+                <div class="row">
+
+                    <!-- DATI PERSONALI -->
+
+                    <div class="col-50">
+
+                        <h3>
+                            <i class="fa fa-user"></i>
+                            Dati personali
+                        </h3>
+
+                        <label for="fname">
+                            <i class="fa fa-user"></i>
+                            Nome e Cognome
+                        </label>
+
+                        <input
+                            type="text"
+                            id="fname"
+                            name="firstname"
+                            placeholder="Mario Rossi"
+                            required
+                        >
+
+
+                        <label for="email">
+                            <i class="fa fa-envelope"></i>
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="mariorossi@gmail.com"
+                            required
+                        >
+
+
+                        <label for="adr">
+                            <i class="fa fa-address-card-o"></i>
+                            Indirizzo
+                        </label>
+
+                        <input
+                            type="text"
+                            id="adr"
+                            name="address"
+                            placeholder="Via Roma 10"
+                            required
+                        >
+
+
+                        <label for="city">
+                            <i class="fa fa-institution"></i>
+                            Città
+                        </label>
+
+                        <input
+                            type="text"
+                            id="city"
+                            name="city"
+                            placeholder="Roma"
+                            required
+                        >
+
+
+                        <div class="row">
+
+                            <div class="col-50">
+
+                                <label for="state">
+                                    Provincia
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="state"
+                                    name="state"
+                                    placeholder="RM"
+                                >
+
+                            </div>
+
+
+                            <div class="col-50">
+
+                                <label for="zip">
+                                    CAP
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="zip"
+                                    name="cap"
+                                    placeholder="00100"
+                                >
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PAGAMENTO -->
+
+                    <div class="col-50 payment-section">
+
+                        <h3>
+                            <i class="fa fa-credit-card"></i>
+                            Pagamenti online
+                        </h3>
+
+
+                        <!-- QUOTA DA PAGARE -->
+
+                        <div class="quota-box">
+
+                            <label for="quota">
+                                Quota da pagare
+                            </label>
+
+                            <input
+                                type="number"
+                                id="quota"
+                                name="quota"
+                                class="quota-input"
+                                placeholder="50.00 €"
+                                min="0"
+                                step="0.01"
+                                required
+                            >
+
+                        </div>
+
+
+                        <label>
+                            Accettiamo carte
+                        </label>
+
+                        <div class="icon-container">
+
+                            <i
+                                class="fa fa-cc-visa"
+                                style="color:navy;">
+                            </i>
+
+                            <i
+                                class="fa fa-cc-amex"
+                                style="color:blue;">
+                            </i>
+
+                            <i
+                                class="fa fa-cc-mastercard"
+                                style="color:red;">
+                            </i>
+
+                            <i
+                                class="fa fa-cc-discover"
+                                style="color:orange;">
+                            </i>
+
+                        </div>
+
+
+                        <label for="cname">
+                            Nome sulla carta
+                        </label>
+
+                        <input
+                            type="text"
+                            id="cname"
+                            name="cardname"
+                            placeholder="Mario Rossi"
+                            required
+                        >
+
+
+                        <label for="ccnum">
+                            Numero di carta
+                        </label>
+
+                        <input
+                            type="text"
+                            id="ccnum"
+                            name="cardnumber"
+                            placeholder="1111 2222 3333 4444"
+                            maxlength="15"
+                            required
+                        >
+
+
+                        <label for="expmonth">
+                            Mese di scadenza
+                        </label>
+
+                        <input
+                            type="text"
+                            id="expmonth"
+                            name="expmonth"
+                            placeholder="09"
+                            maxlength="2"
+                            required
+                        >
+
+
+                        <div class="row">
+
+                            <div class="col-50">
+
+                                <label for="expyear">
+                                    Anno di scadenza
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="expyear"
+                                    name="expyear"
+                                    placeholder="2026"
+                                    maxlength="4"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="col-50">
+
+                                <label for="cvv">
+                                    CVV
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="cvv"
+                                    name="cvv"
+                                    placeholder="123"
+                                    maxlength="4"
+                                    required
+                                >
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PULSANTE -->
+
+                <input
+                    type="submit"
+                    value="Conferma Pagamento"
+                    class="btn"
+                >
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+```

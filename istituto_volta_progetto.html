@@ -1,0 +1,1238 @@
+<!DOCTYPE html >
+<html lang="it en de fr es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+* {
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: arial, sans-serif;
+	margin:0;
+	padding:0;
+    }
+.color{
+	    background-color: rgb(7, 7, 7);
+	    height:120px;
+	    width: 20%;
+	    position:absolute;
+	    z-index: -1;
+	    margin:-60px;
+	    padding:0px;
+    }
+ul{
+	margin-left:50%;
+}
+li {
+	list-style-type: none;
+	display: inline;
+	position:relative;
+	top: 20px;
+    }
+li a {
+	text-decoration: none;
+	text-transform:Capitalize;
+   
+	color:black;
+	margin: 10px;
+    }
+li a:hover {
+	color:orange;
+   text-decoration: underline;
+    }
+.logo p{
+	font-size: 30px;
+	color: rgb(240, 235, 235);
+	position:absolute;
+	margin-left:2%;
+	margin-top:-2%;
+	border:2px solid rgb(240, 235, 235);
+	width: 50px;
+	height: 50px;
+    }
+.b{
+	font-size: 30px;
+	color: rgb(240, 235, 235);
+	position:absolute;
+	margin-left:3%;
+	margin-top:-3.4%;
+    }
+.SCRIVERE p{
+	font-size: 30px;
+	color: rgb(240, 235, 235);
+	position:absolute;
+	margin-left:7%;
+	FONT-WEIGHT: BOLDER;
+	margin-top:-1.1%;
+    }
+.contenitore {
+	        display: grid;
+	        grid-template-columns: repeat(3, 1fr);
+	        grid-template-rows: repeat(1, 1fr);
+	        gap: 3px;
+            }
+.img{
+    background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(122, 121, 121, 0.5)),url("https://i.ibb.co/NnJCtRjZ/Programmazione-allenamento-001.jpg");
+    background-size: cover;
+    background-size:120% 627px;
+    background-repeat:no-repeat;
+    width:120%;
+    height:627px;
+    margin-top:8.1%;
+    margin-left:-13%;
+    }
+
+.img2{
+	background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(48, 48, 48, 0.5)),url("https://i.ibb.co/V0ddzZfp/full-body-workout-orig.jpg");
+	background-size:105% 627px;
+	background-repeat:no-repeat;
+	width:105%;
+	height:627px;
+	margin-top:8.1%;
+	margin-left:-7%;
+    }
+
+.img3{
+	background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(122, 121, 121, 0.5)),url("https://i.ibb.co/9HNbwxYD/Come-scegliere-il-giusto-programma-di-allenamento-in-base-ai-tuoi-obiettivi-min-800x0-c-default.jpg");
+	background-size:103% 627px;
+	background-repeat:no-repeat;
+	width:103%;
+	height:627px;
+	margin-top:8.1%;
+	margin-left:-3%;
+    }
+.paragrafo{
+            position:absolute;
+            margin-top:-30%;
+            margin-left: 20%;
+            color:white;
+            font-size: 40px;
+            font-weight:bolder;
+            text-transform:uppercase;
+            }
+.p{
+	position:absolute;
+	margin-top:-20%;
+	text-transform:capitalize;
+	margin-left:17%;
+	color:white;
+	font-size:25px;
+	font-weight:bolder;
+    }
+.bottone button{
+                position:absolute;
+                margin-top:-10%;
+                margin-left:35.5%;
+                width: 177px;
+                height: 50px;
+                background-color: rgb(247, 246, 246);
+                color:rgb(9, 9, 9);
+                font-size:20px;
+                cursor:pointer;
+                border-style:black;    
+                }
+.bottone button:hover{
+                    background-color: rgb(5, 5, 5);
+                    color:rgb(255, 254, 254);
+                    font-size:20px;
+                    border-style:black;
+                    box-shadow: 0 0 10px #fff;
+                    }
+.bottone2 button{
+                position:absolute;
+                margin-top:-10%;
+                margin-left:50%;
+                width: 180px;
+                height: 50px;
+                background-color: rgb(13, 13, 13);
+                color:white;
+                font-size:20px;
+                cursor:pointer;
+                border-style:black;
+                }
+.bottone2 button:hover{
+                    color:rgb(14, 14, 14);
+                    background-color:rgb(249, 245, 245);
+                    font-size:20px;
+                    border-style:rgb(245, 239, 239);
+                        }
+.paragrafo1{
+            position:absolute;
+            margin-top:2%;
+            text-transform:capitalize;
+            text-align:center;
+            text-transform:uppercase;
+            margin-left: 33%;
+            color:rgb(5, 5, 5);
+            font-size:45px;
+            font-weight:bolder;
+            }
+ .paragrafo2{
+            position:absolute;
+            color:rgb(7, 7, 7);
+            margin-top:12%;
+            text-transform:capitalize;
+            text-align:center;
+            text-transform:uppercase;
+            margin-left:43%;
+            font-size:20px;
+            }
+.bottone3 button{
+                position: absolute;
+                border-style:black;
+                font-size:20px;
+                width: 200px;
+                height:50px;
+                background-color:white;
+                color:black;
+                cursor:pointer;
+                text-transform:capitalize;
+                margin-top:17%;
+                margin-left:45%;
+                }
+.bottone3 button:hover{
+                    background-color:rgb(5, 5, 5);
+                    color:white;
+                    box-shadow: 0 0 10px #fff;
+                    font-size:20px;
+                    border-style:black;
+                    }
+.imgarancione{
+                background-image:url("https://i.ibb.co/cVgWJHs/arancione.jpg");
+                background-size:cover;
+                background-repeat:no-repeat;
+                position:absolute;
+                margin-top:27%;
+                margin-left:45%;
+                width:40%;
+                height:570px;
+                }
+.imgdonna{
+            background-image:url("https://i.ibb.co/Qjf1gp03/2102-AA-PROJECT21-1054-960x540.jpg");
+            background-size:75% 500px;
+            background-repeat:no-repeat;
+            position:absolute;
+            margin-top:32%;
+            margin-left:20%;
+            width:75%;
+            height:450px;
+            }
+.imgrigio{
+            background-image:url("https://i.ibb.co/rK8B5ds1/556807.jpg");
+            position: absolute;
+            margin-top:50%;
+            margin-left:8%;
+            width:50%;
+            height:500px;
+            background-repeat:no-repeat;
+            background-size:75% 500px;
+            }
+.risultati p {
+                font-size:50px;
+                color:orange;
+                position:absolute;
+                margin-top:53%;
+                margin-left:16%;
+                font-weight:bolder;
+                text-transform:capitalize;
+                text-align:center;
+                }
+.descrizione p{
+                font-size:20px;
+                color:rgb(255, 254, 251);
+                position:absolute;
+                margin-top:65%;
+                margin-left:10.5%;
+                text-align:center;
+                    }
+.bottone4 button {
+                    background-color:transparent;
+                    color:white;
+                    border-color:white;
+                    margin-top:75%;
+                    margin-left:20.9%;
+                    border-style:solid;
+                    width:200px;
+                    height:50px;
+                    font-size:20px;
+                    position: absolute;
+                    cursor: pointer;
+                  
+
+                    }
+.bottone4 :hover{
+                color:black;
+                background-color: white;
+              
+                    }
+
+     .bottone4 button a{
+        text-decoration:none;
+        color:white;
+        text-transform:capitalize;
+        font-size:20px;
+        }               
+.impianto{color:black;
+          position:absolute;
+            margin-top:95%;
+            margin-left:28%;
+            text-transform:uppercase;
+              font-size:50px;
+              font-weight:bolder;
+              text-align:center;
+
+                    }     
+                    
+                    
+.contenitore1{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap:3px;
+}
+ .img4{   
+ grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    background-image:url("https://i.ibb.co/PsVQnz5B/palestra-genova-centro.jpg");
+    background-size:100% 400px;
+    background-repeat:no-repeat;
+    width:70%;
+    margin-top:255%;
+    height:400px;
+margin-left:22%;
+transition-property: width, height;
+  transition-duration: 2s;
+}
+.img5{
+  grid-column: span 3 / span 3;
+    grid-row: span 4 / span 4;
+    grid-column-start: 3;
+   
+     background-image:url("https://i.ibb.co/d4kLrNMQ/articolo.webp");
+    background-size:100% 400px;
+    background-repeat:no-repeat;
+    width:90%;
+    margin-top:169.8%;
+    height:400px;
+    gap:3px;
+    margin-left:-5%;
+  transition-property: width, height;
+  transition-duration: 2s;
+     
+    }
+    
+     
+    
+
+.img4:hover{opacity: 0.9;}
+.img5:hover{opacity: 0.9;}
+    
+  
+    
+.contenitore2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap:8px;
+}
+    
+.img6 {
+    grid-column: span 3 / span 3;
+    grid-row: span 4 / span 4;
+    background-repeat:no-repeat;
+    background-size:100% 400px;
+    width:70%;
+    margin-top:-53.5%;
+    height:400px;
+margin-left:14.8%;
+background-image:url("https://i.ibb.co/20jrSbX7/iniziare-palestra-900x760.jpg");
+
+
+     
+}
+
+
+.img7 {
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start: 4;
+    background-repeat:no-repeat;
+    background-image:url("https://i.ibb.co/Ldf17fqT/allenamenti-in-palestra-per-dimagrire.jpg");
+  background-size:100% 400px;
+    width:100%;
+    margin-top:-80.5%;
+    height:400px;
+    margin-left:-23%;
+
+    
+}
+
+ 
+    
+.img7:hover{opacity: 0.9;}
+.img6:hover{opacity: 0.9;}
+      
+
+
+
+
+.img8, .img9, .img10, .img11 { position: relative; }
+
+ .metodo{align-items:center;
+    font-size:37px;
+    text-transform:uppercase;
+    margin-left:32%;
+
+}
+
+
+
+.imaggine{background:rgb(42, 41, 41);
+          width:80%;
+          height:300px;}
+                                            
+ 
+.contenitore3{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 8px;
+}
+    
+.img8 {
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    background-image: url("https://i.ibb.co/S4Crg5zX/norbert-buduczki-t-M-AOYw-CK-Y-unsplash-scaled.jpg");
+     background-size:100% 300px;
+      background-repeat:no-repeat;
+      width:90%;
+      height:300px;
+      margin-top:-65%;
+margin-left:25%;
+}
+
+.img9 {
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+     background-image: url("https://i.ibb.co/HL9BLBBm/Whats-App-Image-2026-02-02-at-20-08-14.jpg");
+    grid-column-start: 3;
+     background-size:100% 330px;
+      background-repeat:no-repeat;
+      width:90%;
+      height:300px;
+      margin-top:-65%;
+margin-left:15%;
+}
+
+.img10 {
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start: 5;
+     background-size:100% 330px;
+      background-repeat:no-repeat;
+      width:90%;
+      height:300px;
+      margin-top:-65%;
+margin-left:5%;
+  background-image: url("https://i.ibb.co/1Gnxdt3c/fisico-perfetto-in-5-mosse.jpg");
+}
+
+.img11{
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start: 7;
+      background-size:100% 330px;
+      background-repeat:no-repeat;
+      width:90%;
+      height:300px;
+      margin-top:-65%;
+margin-left:-5%;
+  background-image: url("https://i.ibb.co/tTkkWD0Z/72523657-young-fitness-woman-in-gym-on-brick-background-vertical-photo.jpg");
+}
+                                                   
+.contenitore4{ display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 8px;
+    
+}  
+
+
+.paragrafo3{grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start: 7;
+    color:rgb(5, 5, 5);
+font-size:30px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-top:1%;
+margin-left:14%;
+text-transform:capitalize;
+}
+                                            
+                                            
+.paragrafo4{grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start: 5;
+color:rgb(5, 5, 5);
+font-size:30px;
+text-transform:capitalize;
+margin-top:-16%;
+margin-left:37%;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }          
+    
+.paragrafo5{grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start: 3;
+color:rgb(5, 5, 5);
+font-size:30px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-transform:capitalize;
+margin-top:-33%;
+margin-left:33%;
+}
+
+    .paragrafo6{grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start:7;
+    color:rgb(5, 5, 5);
+     font-size:30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin-top:-66%;
+     margin-left:-246%;
+     text-transform:capitalize;
+     }
+
+            .paragrafo3 .brucia{
+                font-size:20px;
+                color:rgb(5, 5, 5);
+             
+                margin-top:-10px;
+                margin-left:-19%;
+                  text-align:center;
+                
+            }                                  
+                        
+            
+            
+            .estremo{ 
+                font-size:20px;
+                color:rgb(5, 5, 5);
+                margin-top:-9px;
+                margin-left:-47%;
+     text-align:center;
+    
+            }  
+             .tonico{
+                font-size:20px;
+                color:rgb(5, 5, 5);
+                margin-top:-8px;
+                margin-left:-27%;
+                  text-align:center;
+             } 
+
+              
+
+
+              .hiit{ 
+                font-size:20px;
+                color:rgb(5, 5, 5);
+                margin-top:-8px;
+                margin-left:-95%;
+                  text-align:center;
+
+              }
+
+              .bottone5 button{
+                position: absolute;
+                border-style:black;
+                font-size:20px;
+                width: 200px;
+                height:50px;
+                background-color:white;
+                color:black;
+                cursor:pointer;
+                text-transform:capitalize;
+                margin-top:5%;
+                margin-left:45%;
+                }
+.bottone5 button:hover{
+                    background-color:rgb(5, 5, 5);
+                    color:white;
+                    box-shadow: 0 0 10px #fff;
+                    font-size:20px;
+                    border-style:black;
+                    }
+                    
+            .scrittura1 p{ 
+                font-size:50px;
+                color:rgba(6, 6, 6, 0.911);
+                margin-top:20%;
+                margin-left:34%;
+                font-weight:bolder;
+                text-transform:capitalize;
+             
+                
+
+            }
+  
+             .form{background-color:rgb(17, 17, 17);
+                     width:40%;
+                    height:700px;
+      border-radius: 12px;
+      border-color:orangered;
+      border-style: solid;
+      margin-left:50%;
+
+                       }       
+
+
+
+
+
+
+  
+
+.AB{ 
+    color:rgb(246, 241, 241);
+    font-size:20px;
+    margin-left:7%;
+    margin-top:7%;
+font-style:italic;
+position:absolute;
+
+}
+    
+    
+    .AC{ 
+    margin-left:70%;
+    position:absolute;
+    margin-top:9%;
+    margin-left:1%;
+    width: 250px;
+    height: 40px;
+   border-bottom: 2px solid orange;
+   border-top: 2px solid transparent;
+   border-left: 2px solid transparent;
+   border-right: 2px solid transparent;
+   color:white;
+   background-color:transparent;
+    
+    
+}
+
+
+
+.AD{ color:rgb(244, 244, 247);
+    font-size:20px;
+    margin-left:27%;
+    margin-top:7%;
+font-style:italic;
+position:absolute;
+ 
+  
+}
+
+.AF{
+    margin-left:70%;
+    position:absolute;
+    margin-top:9%;
+    margin-left:21%;
+    width: 250px;
+    
+    background-color:transparent;
+    color:white;
+    border-bottom: 2px solid orange;
+   border-top: 2px solid transparent;
+   border-left: 2px solid transparent;
+   border-right: 2px solid transparent;
+    height: 40px;}
+
+
+
+.AH{ color:rgb(249, 249, 251);
+    font-size:20px;
+    margin-left:7%;
+    POSITION:absolute;
+    margin-top:15%;
+    }
+
+    
+    .AL{
+    position:absolute;
+    margin-top:17%;
+    margin-left:1%;
+    width: 250px;
+    
+    background-color:TRANSPARENT;
+    color:white;
+    border-bottom: 2px solid orange;
+   border-top: 2px solid transparent;
+   border-left: 2px solid transparent;
+   border-right: 2px solid transparent;
+    height: 40px;
+
+    }
+
+    
+    
+    .AI { color:white;
+        font-size:20px;
+        position:absolute;
+        margin-top:15%;
+        margin-left:27%;
+
+    } 
+
+    
+    .AM{
+    position:absolute;
+        margin-top:17%;
+        margin-left:21%;
+        width: 250px;
+        border-bottom: 2px solid orange;
+   border-top: 2px solid transparent;
+   border-left: 2px solid transparent;
+   border-right: 2px solid transparent;
+        background-color:transparent;
+        color:white;
+       
+        height: 40px;
+    }
+    
+
+    .AN{ color:white;
+        font-size:20px;
+        position:absolute;
+        margin-top:23%;
+        margin-left:17%;
+    }
+
+    .AO{
+        position:absolute;
+        margin-top:25%;
+        margin-left:6.6%;
+        width: 400px;
+         border-radius:10px;
+        background-color:transparent;
+        color:white;
+       
+        height: 200px;
+    }
+
+
+
+.bottone6{
+    position:absolute;
+    margin-top:41%;
+    margin-left:3%;
+    width: 500px;
+    height:50px;
+    background-color:transparent;
+    color:rgb(247, 241, 241);
+    font-size:20px;
+    cursor:pointer;
+    
+    
+    
+    border-style:rgb(242, 239, 239);}
+
+
+
+   .bottone6:hover{
+    background-color:rgb(247, 241, 241);
+    color:rgb(5, 5, 5);
+    font-size:20px;
+    cursor:pointer;
+    border-style:rgb(242, 239, 239);
+    }
+
+
+.conttatti2 h3{
+    position:absolute;
+    margin-top:3%;
+    margin-left:63%;
+    color:rgb(243, 241, 241);
+    font-size:30px;
+    text-transform:uppercase;
+    
+    }
+
+
+.imgpalestra{
+    background-image:url("https://i.ibb.co/DP16QXTx/depositphotos-271488802-stock-photo-sporty-sexy-couple-showing-muscle.webp");
+    background-size:100% 500px;
+    background-repeat:no-repeat;
+    position:absolute;
+    margin-top:-40%;
+    margin-left:3%;
+    width:40%;
+    
+    height:500px;
+
+    }
+
+
+.imgpalestra:hover{opacity: 0.9;}
+   
+/* Stile base e reset interno per il footer */
+.site-footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 70px 0 0 0;
+  font-family: sans-serif;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+/* Griglia flessibile responsive per PC e Tablet */
+.footer-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 0 20px 50px 20px;
+  box-sizing: border-box;
+}
+
+/* Layout singole colonne */
+.footer-column {
+  flex: 1;
+  min-width: 220px;
+  box-sizing: border-box;
+}
+
+/* Intestazioni delle sezioni */
+.footer-column h3 {
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-bottom: 2px solid orange;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Paragrafi di testo */
+.footer-column p {
+  margin: 0 0 10px 0;
+  line-height: 1.6;
+  color: #dddddd;
+}
+
+/* Link di testo */
+.footer-column a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+/* Contenitore bottoni per App Store / Google Play */
+.download-badges {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-column .badge {
+  display: block;
+  max-width: 200px;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 12px 16px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  text-align: center;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-column .badge:hover {
+  background-color: #ff6600;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+/* Canali Social */
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-links a {
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+}
+
+.social-links a::before {
+  display: inline-block;
+  width: 20px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.social-links a.facebook::before { content: "ƒ"; font-weight: bold; color: #1877f2; }
+.social-links a.instagram::before { content: "◉"; color: #e1306c; }
+.social-links a.youtube::before { content: "▶"; color: #ff0000; }
+
+/* Blocco inferiore nero */
+.footer-bottom {
+  border-top: 1px solid #333333;
+  background-color: #111111;
+  width: 100%;
+  padding: 30px ;
+  box-sizing: border-box;
+}
+
+/* Layout interno del blocco legale */
+.footer-bottom-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+/* Sezione dei link legali */
+.footer-legal-menu h4 {
+  margin: 0 0 12px 0;
+  font-size: 0.95rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.footer-legal-menu ul {
+  list-style: none;
+ margin:0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-legal-menu li a {
+  color: #aaaaaa;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.3s ease;
+}
+
+.footer-legal-menu li a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+/* Testo copyright a destra */
+.copyright-text {
+  margin: 0;
+  color: #777777;
+  font-size: 0.85rem;
+   margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+    </style> 
+
+
+<body>
+   
+      
+<ul>
+                <li><a href="#impianto">Impianto</a></li>
+  
+                <li><a href="#metodi">metodi</a></li>
+                <li><a href="#programmi">programmi</a></li>
+                   <li><a href="#abbonamenti">abbonamenti</a></li>
+                     <li><a href="#contatti">contatti</a></li>
+                        <li><a href="#accedi">accedi</a></li>
+          </ul>
+
+         <div class="color">
+
+         </div>       
+         <div class="logo">
+            <p></p>
+         </div>
+         <div CLASS="b">
+            <p>F</p>
+         </div>
+
+          <div CLASS="SCRIVERE">
+            <p>STUDIO</p>
+         </div>
+
+         <div>
+            
+         </div>
+       
+<div class="contenitore">
+    <div class="img"></div>
+    <div class="img2"></div>
+    <div class="img3"></div>
+</div>
+    <div class="paragrafo"> 
+        <h1>verso i tuoi obiettivi</h1>
+          </div>
+        <div class="p">
+          <p>Il nostro obiettivo è quello di aiutarti a raggiungere i tuoi obiettivi di fitness.e benessere
+        </p>
+       </div>
+  <div class="bottone">
+    <button id="btn1"onclick="primobutton()">Iscriviti</button>
+  </div>
+<div class="bottone2">
+    <button id="btn2" onclick="secondobutton()">Prenota</button>
+  </div>
+
+  <div class="paragrafo1">
+       <p>"Niente è impossibile<br>per chi ci prova."<p>
+ </div>
+   
+   
+    <div class="paragrafo2">
+        <p>Alexander the Great </p>
+    </div>
+
+     <div class="bottone3">
+        <button id="btn3"onclick="terzobutton()">allenati con noi</button> 
+
+        </div>
+   
+
+     <div class="imgarancione">
+
+     </div>
+        
+    <div class="imgdonna">
+
+    </div>
+     
+   <div class="imgrigio">
+
+   </div>
+
+  
+    <div class="risultati">
+        <p class="">100% Risultati<br>
+garantiti</p>
+</div>
+<div class="descrizione">
+    <p>Offriamo una comunità semplice e orientata ai risultati,<br>
+         che investe nei tuoi obiettivi e nel tuo successo.<br>
+          Metti il tuo ego alla porta e preparati a sudare!</p>
+</div>
+
+<div class="bottone4">
+    <button><a href="#scopri-di-piu">scopri di piu'</a></button>
+</div>
+
+<h2 id="impianto" class="impianto"> impianto di allenamennto</h2>
+
+<div class="contenitore1">
+
+    <div class="img4"></div>
+  <div class="img5"></div>
+</div>
+ 
+<div class="contenitore2">
+    <div class="img6"></div>
+    <div class="img7"></div>
+</div>
+
+<div>
+  <section id="scopri-di-piu"></section>
+<div class="metodo" id="metodi">
+    <h2>il nostro metodo</h2>
+</div>
+
+<div class="imaggine">
+
+</div>
+
+<div class="contenitore3" id="programmi">
+    <div class="img8"></div>
+    <div class="img9"></div>
+    <div class="img10"></div>
+    <div class="img11"></div>
+</div>
+<div class="contenitore4">
+    <div class="paragrafo3">
+        <p>brucia calorie</p>
+        <p class="brucia">
+            Allenamento brucia calorie unisce esercizi dinamici e intensi,
+             aumentando consumo energetico, resistenza e forma fisica generale.
+</p>
+           
+    </div>
+    <div class="paragrafo4">
+        <p>Extreme</p>
+        <p class="estremo">Allenamento estremo combina esercizi ad alta intensità, 
+            sfidando forza, resistenza, velocità, determinazione e limiti personali.</p>
+    </div>
+    <div class="paragrafo5">
+        <p>Corpo tonico</p>
+        <p class="tonico">Allenamento tonico migliora forza resistenza postura definizione
+             muscolare equilibrio flessibilità attraverso esercizi costanti
+              progressivi funzionali.
+
+        </p>
+    </div>
+    <div class="paragrafo6">
+        <p>Hiit</p>
+        <p class="hiit">Allenamento HIIT alternai<br> intervall ad alta intensità<br> e recupero,
+             migliorando<br> resistenza, potenza,<br> metabolismo e forma fisica.
+
+</p>
+        
+</div>    
+</div>
+<div class="bottone5" id="abbonamenti">
+    <button id="btn5"onclick="quintobutton()">le lezioni</button>
+</div>
+
+    <div class="scrittura1">
+        <p>Noi siamo pronti, e tu?</p>
+     </div>
+
+<div class="conttatti2">
+    <h3>Contattaci</h3>
+  </div>
+
+</div>
+ <form class="form" id="contatti" action="palestra.php"method="post">
+     <label class="AB" for="name">nome</label>
+     <input class="AC" type="text" name="name" id="name1" value="" placeholder="inserisci il tuo nome" required>
+     <label class="AD" for="cognome">cognome</label>
+     <input class="AF" type="text" name="cognome" id="cognome1" value="" placeholder="inserisci il tuo cognome" required>
+     <label class="AH" for="email">email</label>
+    <input class="AL" type="email" name="email" id="email1" value="" placeholder="mariorossi@gmail.com" required>
+    <label class="AI" for="telefono">telefono</label>
+    <input class="AM" type="tel" name="telefono" id="telefono1" value="" placeholder="inserisci il tuo numero di telefono" required>
+     <label class="AN" for="textarea">messaggio</label>
+    <textarea class="AO" name="textarea" id="textarea1" cols="30" rows="10" placeholder="inserisci il tuo messaggio"></textarea>
+    <button class="bottone6" type="submit" value="invia">invia</button>
+</form>
+
+<div class="imgpalestra">
+
+</div>
+
+<footer class="site-footer" id="accedi">
+  <div class="footer-container">
+
+    <!-- Colonna 1: Contattaci -->
+    <div class="footer-column">
+      <h3>Contattaci</h3>
+      <p>Via Genova<br>7100 Bari (BA)</p>
+      <p>Email: <a href="mailto:info@ilmiosito.com">info@ilmiosito.com</a></p>
+      <p>Tel: <a href="tel:243456798">243 456798</a></p>
+    </div>
+
+    <!-- Colonna 2: Download -->
+    <div class="footer-column">
+      <h3>Download</h3>
+      <div class="download-badges">
+        <a class="badge" href="#" target="_blank">Download on the App Store</a>
+        <a class="badge" href="#" target="_blank">Get it on Google Play</a>
+      </div>
+    </div>
+
+    <!-- Colonna 3: Orari di apertura -->
+    <div class="footer-column">
+      <h3>Orari di apertura</h3>
+      <p>lun - ven: 9:00 - 22:00</p>
+      <p>sabato: 10:00 - 23:00</p>
+    </div>
+
+    <!-- Colonna 4: Seguici (Social) -->
+    <div class="footer-column">
+      <h3>Seguici</h3>
+      <div class="social-links">
+        <a class="facebook" href="#">Facebook</a>
+        <a class="instagram" href="#">Instagram</a>
+        <a class="youtube" href="#">YouTube</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Barra inferiore: Pagine legali e Copyright -->
+  <div class="footer-bottom">
+    <div class="footer-bottom-inner">
+      <div class="footer-legal-menu">
+       
+        <ul>
+          <li><a href="#privacy">Informativa sulla privacy</a></li>
+          <li><a href="#termini">Termini e Condizioni</a></li>
+          <li><a href="#cookie">Informativa sui cookie</a></li>
+          <li><a href="#accessibilita">Dichiarazione di accessibilità</a></li>
+        </ul>
+      </div>
+      <p class="copyright-text">&copy; 2026 Il Mio Sito. Tutti i diritti riservati.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+      
+     
+
+    
+    
+ 
+
+
+
+
+  
+
+
+
+
+<script>
+    
+    
+    function primobutton() 
+      
+ {window.location.assign("progetto-volta.html")
+      
+        } 
+       
+        
+      
+    </script>
+   
+    
+</body>
+      
+
+</html>
